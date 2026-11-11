@@ -1,5 +1,5 @@
 [![CodeRabbit](./coderabbit.jpg)](https://www.coderabbit.ai/?ref=app-ideias)
-Obrigado [CodeRabbit](https://www.coderabbit.ai/?ref=app-ideias) por patrocinar este repositório! 🙏
+Obrigado [CodeRabbit](https://www.coderabbit.ai/?ref=app-ideias) por patrocinar este repositório! 🙏 (o repositório o qual fiz o fork!)
 
 # :ledger: Coleção de Ideias de Apps
 
