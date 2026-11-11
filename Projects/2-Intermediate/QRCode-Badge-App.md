@@ -1,70 +1,45 @@
-# QRCode Badge Generator
+# Gerador de Badge com QRCode
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-At some point in your career you will probably find yourself involved helping
-to coordinate a company-sponsored event or a local technical Meetup. It's not
-uncommon in these types of gatherings for attendees to want to exchange contact
-information between themselves. 
+Em algum momento da sua carreira, você provavelmente se verá envolvido ajudando a coordenar um evento patrocinado por uma empresa ou um Meetup técnico local. Não é incomum nesses tipos de encontros que os participantes queiram trocar informações de contato entre si.
 
-But how to do that? Attendees could always exchange business cards or write
-down each others email or social media account names, but that can be slow and
-error prone. Wouldn't it be nice to be able to scan a each others badges to
-capture this type of information quickly and more dependably? 
+Mas como fazer isso? Os participantes poderiam sempre trocar cartões de visita ou anotar o e-mail ou nomes de contas de mídia social uns dos outros, mas isso pode ser lento e propenso a erros. Não seria legal poder escanear os badges uns dos outros para capturar esse tipo de informação rapidamente e de forma mais confiável?
 
-If you answered 'Yes!" to this question then QRCode Badge Generator is an
-app you will be interested in creating. The objective of this application is
-to collect a meeting attendee's name, email address, Twitter, and GitHub 
-account names and print a name badge with a QRcode that can be scanned using
-a smartphone.
+Se você respondeu "Sim!" a esta pergunta, o Gerador de Badge com QRCode é um app no qual você se interessará em criar. O objetivo desta aplicação é coletar o nome de um participante do encontro, endereço de e-mail, Twitter e nomes de contas do GitHub e imprimir um crachá com um QRcode que pode ser escaneado usando um smartphone.
 
-### Requirements & Constraints
+### Requisitos e Restrições
 
-- For this app you'll want to use the NPM package 
-[QRCode Generator](https://www.npmjs.com/package/qrcode-generator) to encode
-the information you collect from the attendee in a QR code.
+- Para este app, você vai querer usar o pacote NPM [Gerador de QRCode](https://www.npmjs.com/package/qrcode-generator) para codificar as informações que você coleta do participante em um QR code.
 
-- To test your implementation you'll need to download a QR code reader onto
-your smartphone or tablet. There are many such readers that are free of charge.
-Check the app store for your device to find the one that best suites your needs.
+- Para testar sua implementação, você precisará baixar um leitor de QR code no seu smartphone ou tablet. Existem muitos desses leitores que são gratuitos. Verifique a loja de aplicativos do seu dispositivo para encontrar o que melhor atende às suas necessidades.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see an input panel containing input fields for the attendee
-name, email address, Twitter account name, GitHub account name, and 'Cancel'
-and 'Create' buttons.
--   [ ] User can enter data into these input fields. Note that attendee name
-and email address are required, but the Twitter and GitHub account names are
-optional fields.
--   [ ] User can click the 'Cancel' button to clear all input fields as well as
-the badge panel (see below) if it has been created.
--   [ ] User can click the 'Create' button to generated an image of the 
-attendees name badge.
--   [ ] User can see an error message if any of the following are true:
-    - Required fields are empty
-    - A first name and last name have not been entered
-    - Email input field isn't a properly formatted email address
-    - Twitter account name doesn't start with '@'
--   [ ] User can see an badge panel displayed on screen containing this 
-information, plus a QR code encoded with this information.
+-   [ ] O usuário pode ver um painel de entrada contendo campos de entrada para o nome do participante, endereço de e-mail, nome da conta do Twitter, nome da conta do GitHub, e botões 'Cancelar' e 'Criar'.
+-   [ ] O usuário pode inserir dados nestes campos de entrada. Note que o nome do participante e o endereço de e-mail são obrigatórios, mas os nomes das contas do Twitter e GitHub são campos opcionais.
+-   [ ] O usuário pode clicar no botão 'Cancelar' para limpar todos os campos de entrada, bem como o painel do badge (veja abaixo) se ele tiver sido criado.
+-   [ ] O usuário pode clicar no botão 'Criar' para gerar uma imagem do crachá do participante.
+-   [ ] O usuário pode ver uma mensagem de erro se qualquer um dos seguintes for verdadeiro:
+    - Campos obrigatórios estão vazios
+    - Nome e sobrenome não foram inseridos
+    - O campo de e-mail não é um endereço de e-mail formatado corretamente
+    - O nome da conta do Twitter não começa com '@'
+-   [ ] O usuário pode ver um painel de badge exibido na tela contendo estas informações, mais um QR code codificado com estas informações.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see a 'Print' button below the badge panel.
--   [ ] User can see the 'Print' button enabled only after the input fields
-have been validated and the badge is displayed in the badge panel.
--   [ ] User can make corrections to the input fields and click 'Create' to
-update the contents of the badge panel.
--   [ ] User can click the 'Print' button to reproduce the badge panel on a
-label or hardcopy.
--   [ ] User can see the '@' symbol automatically prepended to the Twitter
-account name so it doesn't have to be manually entered.
+-   [ ] O usuário pode ver um botão 'Imprimir' abaixo do painel do badge.
+-   [ ] O usuário pode ver o botão 'Imprimir' habilitado apenas após os campos de entrada terem sido validados e o badge exibido no painel do badge.
+-   [ ] O usuário pode fazer correções nos campos de entrada e clicar em 'Criar' para atualizar o conteúdo do painel do badge.
+-   [ ] O usuário pode clicar no botão 'Imprimir' para reproduzir o painel do badge em uma etiqueta ou impressão física.
+-   [ ] O usuário pode ver o símbolo '@' adicionado automaticamente ao nome da conta do Twitter para que não precise ser inserido manualmente.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 - [QR code (Wikipedia)](https://en.wikipedia.org/wiki/QR_code)
-- [QRCode Generator](https://www.npmjs.com/package/qrcode-generator)
+- [Gerador de QRCode](https://www.npmjs.com/package/qrcode-generator)
 
-## Example projects
+## Projetos de Exemplo
 
-[QRCode Generator](https://kazuhikoarase.github.io/qrcode-generator/js/demo/)
+[Gerador de QRCode](https://kazuhikoarase.github.io/qrcode-generator/js/demo/)

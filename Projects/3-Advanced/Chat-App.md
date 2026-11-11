@@ -1,35 +1,35 @@
-# Chat App
+# App de Chat
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-Real-time chat interface where multiple users can interact with each other by sending messages.
+Interface de chat em tempo real onde múltiplos usuários podem interagir uns com os outros enviando mensagens.
 
-As a MVP(Minimum Viable Product) you can focus on building the Chat interface. Real-time functionality can be added later (the bonus features).
+Como MVP (Produto Mínimo Viável), você pode focar em construir a interface do Chat. Funcionalidade em tempo real pode ser adicionada depois (as funcionalidades bônus).
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User is prompted to enter a username when he visits the chat app. The username will be stored in the application
--   [ ] User can see an `input field` where he can type a new message
--   [ ] By pressing the `enter` key or by clicking on the `send` button the text will be displayed in the `chat box` alongside his username (e.g. `John Doe: Hello World!`)
+-   [ ] O usuário é solicitado a inserir um nome de usuário quando visita o app de chat. O nome de usuário será armazenado na aplicação
+-   [ ] O usuário pode ver um `campo de entrada` onde pode digitar uma nova mensagem
+-   [ ] Ao pressionar a tecla `enter` ou clicar no botão `enviar`, o texto será exibido na `caixa de chat` junto com seu nome de usuário (ex: `João Silva: Olá Mundo!`)
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] The messages will be visible to all the Users that are in the chat app (using WebSockets)
--   [ ] When a new User joins the chat, a message is displayed to all the existing Users
--   [ ] Messages are saved in a database
--   [ ] User can send images, videos and links which will be displayed properly
--   [ ] User can select and send an emoji
--   [ ] Users can chat in private
--   [ ] Users can join `channels` on specific topics
+-   [ ] As mensagens serão visíveis para todos os Usuários que estão no app de chat (usando WebSockets)
+-   [ ] Quando um novo Usuário entra no chat, uma mensagem é exibida para todos os Usuários existentes
+-   [ ] Mensagens são salvas em um banco de dados
+-   [ ] O usuário pode enviar imagens, vídeos e links que serão exibidos corretamente
+-   [ ] O usuário pode selecionar e enviar um emoji
+-   [ ] Usuários podem conversar em particular
+-   [ ] Usuários podem entrar em `canais` sobre tópicos específicos
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 -   [Socket.io](https://socket.io)
--   [How to build a React.js chat app in 10 minutes - article](https://medium.freecodecamp.org/how-to-build-a-react-js-chat-app-in-10-minutes-c9233794642b)
--   [Build a chat application like Slack - React / JavaScript Tutorial - Youtube](https://www.youtube.com/watch?v=a-JKj7m2LIo)
--   [Socket.io Chat App Using Websockets - Youtube Tutorial](https://www.youtube.com/watch?v=tHbCkikFfDE)
+-   [Como construir um app de chat React.js em 10 minutos - artigo](https://medium.freecodecamp.org/how-to-build-a-react-js-chat-app-in-10-minutes-c9233794642b)
+-   [Construa um aplicativo de chat como o Slack - Tutorial React / JavaScript - Youtube](https://www.youtube.com/watch?v=a-JKj7m2LIo)
+-   [App de Chat Socket.io Usando Websockets - Tutorial Youtube](https://www.youtube.com/watch?v=tHbCkikFfDE)
 
-## Example projects
+## Projetos de Exemplo
 
 -   [Chatty2](https://web-chatty.herokuapp.com/)
--   [Simple TCP Socket based Chat application](https://github.com/dularish/Simple-TCP-Socket-based-Chat-App)
+-   [Aplicativo de Chat simples baseado em TCP Socket](https://github.com/dularish/Simple-TCP-Socket-based-Chat-App)

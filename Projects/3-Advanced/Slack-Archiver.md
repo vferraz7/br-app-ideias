@@ -1,45 +1,31 @@
-# Slack Archiver
+# Arquivador do Slack
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-Slack is a tool many teams rely on for collaboration not only between
-developers, but also between developers and their users. It's especially
-attractive to Open Source Software (OSS) teams since it supports a highly
-functional free tier.
+O Slack é uma ferramenta na qual muitas equipes confiam para colaboração não apenas entre desenvolvedores, mas também entre desenvolvedores e seus usuários. É especialmente atraente para equipes de Software de Código Aberto (OSS) já que suporta um nível gratuito altamente funcional.
 
-One problem is the free tier is limited to a maximum of 10K messages. When
-this limit is reached older messages become unavailable since they are
-purged. This is very impactful to active Slack teams and communities since
-older messages quite often hold a great deal of "institutional knowledge"
-that's lost when the message limit is reached.
+Um problema é que o nível gratuito é limitado a um máximo de 10K mensagens. Quando este limite é atingido, mensagens mais antigas tornam-se indisponíveis, pois são expurgadas. Isso é muito impactante para equipes e comunidades ativas do Slack, já que mensagens mais antigas frequentemente contêm uma grande quantidade de "conhecimento institucional" que é perdido quando o limite de mensagens é atingido.
 
-The Slack Archiver seeks to remedy this situation by extracting the history
-for specific channels to an database or file. Messages could be extracted up to
-the maximum allowed limit of 50 messages per minute for the `channels.history`
-API method. At this rate (tier 4) 86.4K messages could be theoretically
-retrieved per day.
+O Arquivador do Slack busca remediar esta situação extraindo o histórico de canais específicos para um banco de dados ou arquivo. Mensagens podem ser extraídas até o limite máximo permitido de 50 mensagens por minuto para o método API `channels.history`. Nesta taxa (nível 4) 86,4K mensagens poderiam ser teoricamente recuperadas por dia.
 
-Implementers are cautioned that further research will be required to
-determine the best extraction method to use prior to attempting any
-development of this application.
+Implementadores são alertados que mais pesquisa será necessária para determinar o melhor método de extração a usar antes de tentar qualquer desenvolvimento desta aplicação.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] Allow the user to specify the channels to be archived. This includes both adding and removing channels from the list
--   [ ] Only the owners of the Slack Team should be allowed to archive messages
--   [ ] For each channel to be archived periodically extract messages starting from the last message retrieved in the last extract and write them to a database
--   [ ] Allow the user to copy and extracted channel to a file
--   [ ] Archiving should be an automatic process. Unlike a Slack 'bot, no manual intervention should be required to start or stop and archive operation
+-   [ ] Permitir que o usuário especifique os canais a serem arquivados. Isso inclui adicionar e remover canais da lista
+-   [ ] Apenas os proprietários da Equipe do Slack devem ser autorizados a arquivar mensagens
+-   [ ] Para cada canal a ser arquivado, extrair periodicamente mensagens começando da última mensagem recuperada na última extração e gravá-las em um banco de dados
+-   [ ] Permitir que o usuário copie um canal extraído para um arquivo
+-   [ ] O arquivamento deve ser um processo automático. Ao contrário de um 'bot do Slack, nenhuma intervenção manual deve ser necessária para iniciar ou parar uma operação de arquivamento
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] Implement an API that allows an application to extract archived messages from the archive database
+-   [ ] Implementar uma API que permita a uma aplicação extrair mensagens arquivadas do banco de dados de arquivamento
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-Details of the Slack API can be found [here](https://api.slack.com/).
+Detalhes da API do Slack podem ser encontrados [aqui](https://api.slack.com/).
 
-## Example projects
+## Projetos de Exemplo
 
-For an example of a commercial archiving application for Slack see
-[Chronicle](https://chingu-prework.slack.com/apps/A47KWM6Q4-chronicle)
+Para um exemplo de uma aplicação de arquivamento comercial para Slack veja [Chronicle](https://chingu-prework.slack.com/apps/A47KWM6Q4-chronicle)

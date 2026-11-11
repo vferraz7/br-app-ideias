@@ -1,30 +1,30 @@
-# Meme Generator App
+# App Gerador de Memes
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-Allow users to generate custom memes by adding text over an image.
+Permita que os usuários gerem memes personalizados adicionando texto sobre uma imagem.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can upload an image that will appear in a canvas
--   [ ] User can add text in the top part of the image
--   [ ] User can add text in the bottom part of the image
--   [ ] User can select the color of the text
--   [ ] User can select the size of the text
--   [ ] User can save the resulting meme
+-   [ ] O usuário pode fazer upload de uma imagem que aparecerá em um canvas
+-   [ ] O usuário pode adicionar texto na parte superior da imagem
+-   [ ] O usuário pode adicionar texto na parte inferior da imagem
+-   [ ] O usuário pode selecionar a cor do texto
+-   [ ] O usuário pode selecionar o tamanho do texto
+-   [ ] O usuário pode salvar o meme resultante
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can select the font-family for the text
--   [ ] User can share the meme on social media (twitter, reddit, facebook, etc)
--   [ ] User can drag the text around and place it wherever he wants on top of the image
--   [ ] User can draw shapes on top of the image (circles, rectangles, or free drawing with the mouse)
+-   [ ] O usuário pode selecionar a família da fonte para o texto
+-   [ ] O usuário pode compartilhar o meme nas redes sociais (twitter, reddit, facebook, etc)
+-   [ ] O usuário pode arrastar o texto e colocá-lo onde quiser sobre a imagem
+-   [ ] O usuário pode desenhar formas sobre a imagem (círculos, retângulos, ou desenho livre com o mouse)
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-Working with canvas is made very easy by the [p5js](http://p5js.org/) library.
+Trabalhar com canvas é facilitado pela biblioteca [p5js](http://p5js.org/).
 
-## Example projects
+## Projetos de Exemplo
 
--   [Meme Generator by imgflip](https://imgflip.com/memegenerator)
--   [Meme Generator by Niels Vadot](https://codepen.io/ninivert/pen/BpLKRx)
+-   [Gerador de Memes por imgflip](https://imgflip.com/memegenerator)
+-   [Gerador de Memes por Niels Vadot](https://codepen.io/ninivert/pen/BpLKRx)

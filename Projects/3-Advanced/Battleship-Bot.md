@@ -1,32 +1,29 @@
-# Battleship Bot
+# Bot de Batalha Naval
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-Battleship Bot takes the [Battleship Game Engine](./Battleship-Game-Engine.md)
-to the next level. This challenge uses your Battleship Game Engine to create a
-presentation layer using Discord's bot API to allow you to play the game
-via a Discord chat.
+O Bot de Batalha Naval leva o [Engine de Jogo de Batalha Naval](./Battleship-Game-Engine.md) para o próximo nível. Este desafio usa seu Engine de Jogo de Batalha Naval para criar uma camada de apresentação usando a API de bot do Discord para permitir que você jogue via chat do Discord.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can display game rules by entering `bb help` into the chat window.
--   [ ] User can start a game by entering `bb start` into the chat
--   [ ] User can target a cell by entering `bb shoot r,c` into the chat window, where `r` and `c` are the row and column coordinates of the cell to be targeted.
--   [ ] User can see the game board showing hits and misses displayed by the bot after each shot is taken
--   [ ] User can see a congratulations message after the shot that sinks the last remaining ship.
+-   [ ] O usuário pode exibir as regras do jogo digitando `bb help` na janela do chat.
+-   [ ] O usuário pode iniciar um jogo digitando `bb start` no chat
+-   [ ] O usuário pode alvejar uma célula digitando `bb shoot r,c` na janela do chat, onde `r` e `c` são as coordenadas de linha e coluna da célula a ser alvejada.
+-   [ ] O usuário pode ver o tabuleiro do jogo mostrando acertos e erros exibidos pelo bot após cada tiro
+-   [ ] O usuário pode ver uma mensagem de parabéns após o tiro que afunda o último navio restante.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can surrender a game by entering `bb surrender` in the chat window.
--   [ ] User can see a card containing a graphical representation of the hits and misses rather than a simple 2D table of characters.
+-   [ ] O usuário pode se render em um jogo digitando `bb surrender` na janela do chat.
+-   [ ] O usuário pode ver um card contendo uma representação gráfica dos acertos e erros em vez de uma simples tabela 2D de caracteres.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-- [Battleship Game Engine](./Battleship-Game-Engine.md)
-- [How to Create a Discord Bot Under 15 Minutes](https://medium.freecodecamp.org/how-to-create-a-discord-bot-under-15-minutes-fb2fd0083844)
-- [Using Embeds in Messages](https://anidiots.guide/first-bot/using-embeds-in-messages)
-- [Discord Developer Portal](https://discordapp.com/developers/docs/intro)
+- [Engine de Jogo de Batalha Naval](./Battleship-Game-Engine.md)
+- [Como Criar um Bot do Discord em Menos de 15 Minutos](https://medium.freecodecamp.org/how-to-create-a-discord-bot-under-15-minutes-fb2fd0083844)
+- [Usando Embeds em Mensagens](https://anidiots.guide/first-bot/using-embeds-in-messages)
+- [Portal de Desenvolvedores do Discord](https://discordapp.com/developers/docs/intro)
 
-## Example projects
+## Projetos de Exemplo
 
-- [Gamebot(Battleship)](https://repl.it/talk/challenge/GameBot-Battleship/8813)
+- [Gamebot(Batalha Naval)](https://repl.it/talk/challenge/GameBot-Battleship/8813)

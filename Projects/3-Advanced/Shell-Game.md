@@ -1,53 +1,36 @@
-# Shell Game
+# Jogo dos Copos
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-A Shell game is a classic gambling game that dates back to ancient Greece.
-Playing it requires three shells, a pea, hand dexterity by the operator, and 
-keen observation skills on the part of the player. It's also a classic con
-game since its easy for the operator to swindle the player. Thank goodness
-the latter isn't our intent with this app.
+Um jogo dos copos é um jogo de azar clássico que remonta à Grécia antiga. Jogá-lo requer três copos, uma ervilha, destreza manual por parte do operador, e aguçadas habilidades de observação por parte do jogador. Também é um jogo de golpe clássico, já que é fácil para o operador enganar o jogador. Ainda bem que este não é nosso objetivo com este app.
 
-This Shell game is intended to provide a graphical interface to the classical
-shell game and to provide the player with an honest game to play. Our game
-draws three shells on the canvas along with the pea, moves the pea under one,
-of the shells, and shuffles the shells for a specific interval of time. The
-user must then click on the shell she thinks the pea is hidden under. The user
-is allowed to continue guessing until the pea is located.
+Este jogo dos copos visa fornecer uma interface gráfica para o jogo clássico dos copos e fornecer ao jogador um jogo honesto para jogar. Nosso jogo desenha três copos no canvas junto com a ervilha, move a ervilha sob um dos copos, e embaralha os copos por um intervalo de tempo específico. O usuário deve então clicar no copo que ela acha que a ervilha está escondida. O usuário pode continuar adivinhando até que a ervilha seja localizada.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see the canvas with three shells and the pea.
--   [ ] User can click the shell the pea is to be hidden under.
--   [ ] User can see the pea move under the shell that's been clicked.
--   [ ] User can click on a 'Shuffle' button to start an animated shuffling of
-the shells for 5 seconds.
--   [ ] User can click on the shell she believes the pea is hidden under when
-the animation stops.
--   [ ] User can see the shell that has been clicked rise to reveal if the pea
-is hidden under it. 
--   [ ] User can continue clicking shells until the pea is found.
--   [ ] User can see a congratulations message when the pea is located
--   [ ] User can start a new game by clicking a shell the pea is to be hidden
-under (step #2 above). The steps above are then repeated.
+-   [ ] O usuário pode ver o canvas com três copos e a ervilha.
+-   [ ] O usuário pode clicar no copo sob o qual a ervilha será escondida.
+-   [ ] O usuário pode ver a ervilha mover-se sob o copo que foi clicado.
+-   [ ] O usuário pode clicar no botão 'Embaralhar' para iniciar uma embaralhada animada dos copos por 5 segundos.
+-   [ ] O usuário pode clicar no copo que ela acredita que a ervilha está escondida quando a animação para.
+-   [ ] O usuário pode ver o copo que foi clicado levantar para revelar se a ervilha está escondida sob ele.
+-   [ ] O usuário pode continuar clicando nos copos até que a ervilha seja encontrada.
+-   [ ] O usuário pode ver uma mensagem de parabéns quando a ervilha é localizada
+-   [ ] O usuário pode iniciar um novo jogo clicando em um copo sob o qual a ervilha será escondida (passo #2 acima). Os passos acima são então repetidos.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see a score panel containing the number of wins and the
-number of games played.
--   [ ] User can see the number of games played increase when the pea is hidden
-under a shell
--   [ ] User can see the number of wins incremented when the pea is found on 
-the first guess.
--   [ ] User can see the shell hiding the pea to animate (color, size, or 
-some other effect) when it is clicked (a correct guess).
+-   [ ] O usuário pode ver um painel de pontuação contendo o número de vitórias e o número de jogos jogados.
+-   [ ] O usuário pode ver o número de jogos jogados aumentar quando a ervilha é escondida sob um copo
+-   [ ] O usuário pode ver o número de vitórias incrementado quando a ervilha é encontrada na primeira tentativa.
+-   [ ] O usuário pode ver o copo escondendo a ervilha animar (cor, tamanho, ou algum outro efeito) quando é clicado (um palpite correto).
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-- [Shell Game (Wikipedia)](https://en.wikipedia.org/wiki/Shell_game)
-- [Javascript HTML DOM Animation](https://www.w3schools.com/js/js_htmldom_animate.asp)
-- [p5js Animation Library](https://p5js.org/)
+- [Jogo dos Copos (Wikipedia)](https://en.wikipedia.org/wiki/Shell_game)
+- [Animação Javascript HTML DOM](https://www.w3schools.com/js/js_htmldom_animate.asp)
+- [Biblioteca de Animação p5js](https://p5js.org/)
 
-## Example projects
+## Projetos de Exemplo
 
-[Shell Game](https://codepen.io/RedCactus/pen/dwEjXy)
+[Jogo dos Copos](https://codepen.io/RedCactus/pen/dwEjXy)

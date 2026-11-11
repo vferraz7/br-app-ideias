@@ -1,82 +1,56 @@
-# Fast Food Simulator App
+# App Simulador de Fast Food
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-Fast Food simulates the operation of a simple take-away restaurant and is
-designed to help the developer put his or her knowledge of Promises and SOLID
-design principles to work.
+Fast Food simula a operação de um simples restaurante de take-away e é projetado para ajudar o desenvolvedor a colocar seu conhecimento de Promises e princípios de design SOLID em prática.
 
-This app simulates customers of a take-away restaurant placing orders and
-and waiting for them to be prepared and delivered to a pickup counter. After
-placing the order the customer waits on the order to be announced before
-picking it up and proceeding to the dining area.
+Este app simula clientes de um restaurante de take-away fazendo pedidos e esperando que eles sejam preparados e entregues a um balcão de retirada. Após fazer o pedido, o cliente espera o pedido ser anunciado antes de pegá-lo e ir para a área de refeições.
 
-The user stories that make up this app center around four distinct roles:
+As histórias de usuário que compõem este app giram em torno de quatro papéis distintos:
 
-- User - the end user using the application
-- Customer - the simulated Customer
-- Order Taker - the simulated Order Taker
-- Cook - the simulated Cook
-- Server - the simulated Server
+- Usuário - o usuário final usando a aplicação
+- Cliente - o Cliente simulado
+- Atendente de Pedidos - o Atendente de Pedidos simulado
+- Cozinheiro - o Cozinheiro simulado
+- Atendente - o Atendente simulado
 
-This app has quite a few User Stories. Don't be overwhelmed though. Take the 
-time to sketch out not just the UI, but how the different actors (roles) 
-interact and incrementally build the app following Agile principles.
+Este app tem várias Histórias de Usuário. Não se assuste. Reserve tempo para esboçar não apenas a UI, mas como os diferentes atores (papéis) interagem e construa o app incrementalmente seguindo princípios Ágeis.
 
-### Constraints
+### Restrições
 
-- Order tickets can be represented as two different types of Promises - one
-the Server waits on while the Cook prepares the order and another the Customer
-waits on while in the serving line.
-- Use the native equivalent of JS Promises in whichever language you choose
-to develop in. JS developers should use native Promises and not `async/await`.
-- Create this app using native language features. You may NOT use a simulation
-package or library.
-- New customers arrive in the order line at a fixed interval of time. In other
-words, new customers arrive at a constant rate.
-- Order tickets are fulfilled at a fixed interval of time as well. They are
-completed at a constant rate.
+- Tíquetes de pedido podem ser representados como dois tipos diferentes de Promises - um que o Atendente espera enquanto o Cozinheiro prepara o pedido e outro que o Cliente espera enquanto na fila de atendimento.
+- Use o equivalente nativo de JS Promises na linguagem que você escolher para desenvolver. Desenvolvedores JS devem usar Promises nativas e não `async/await`.
+- Crie este app usando recursos nativos da linguagem. Você NÃO pode usar um pacote ou biblioteca de simulação.
+- Novos clientes chegam na fila de pedidos em um intervalo de tempo fixo. Em outras palavras, novos clientes chegam a uma taxa constante.
+- Tíquetes de pedido são atendidos em um intervalo de tempo fixo também. Eles são completados a uma taxa constante.
 
-## User Stories
+## Histórias de Usuário
 
-### Application Operation
--   [ ] User can see an input area that allows the entry of the time interval
-for customer arrival and a time interval for the fulfilment of an 
-_order ticket_ by the cook.
--   [ ] User can see a customized warning message if the customer arrival
-interval or the order fulfilment interval is incorrectly entered.
--   [ ] User can start the simulation by clicking on a Start button.  
--   [ ] User can see an order line area containing a text box showing the 
-number of customers waiting to place orders.
--   [ ] User can see an order area containing text boxes showing the
-_order number_ currently being taken. 
--   [ ] User can see a kitchen area containing a text box showing the 
-_order number_ that's being prepared and a text box listing the waiting 
-orders in sequence, along with a count of the number of waiting orders.
--   [ ] User can see a Pickup area containing a text box showing the 
-_order number_ that's currently available for pickup by the Customer and a
-text box showing the number of Customers waiting in the serving line.
--   [ ] User can stop the simulation at any time by clicking a Stop button. 
+### Operação da Aplicação
+-   [ ] O usuário pode ver uma área de entrada que permite a inserção do intervalo de tempo para chegada de clientes e um intervalo de tempo para o atendimento de um _tíquete de pedido_ pelo cozinheiro.
+-   [ ] O usuário pode ver uma mensagem de aviso personalizada se o intervalo de chegada do cliente ou o intervalo de atendimento do pedido for inserido incorretamente.
+-   [ ] O usuário pode iniciar a simulação clicando em um botão Iniciar.
+-   [ ] O usuário pode ver uma área de fila de pedidos contendo uma caixa de texto mostrando o número de clientes esperando para fazer pedidos.
+-   [ ] O usuário pode ver uma área de pedidos contendo caixas de texto mostrando o _número do pedido_ sendo atendido no momento.
+-   [ ] O usuário pode ver uma área de cozinha contendo uma caixa de texto mostrando o _número do pedido_ sendo preparado e uma caixa de texto listando os pedidos em espera em sequência, junto com uma contagem do número de pedidos em espera.
+-   [ ] O usuário pode ver uma área de Retirada contendo uma caixa de texto mostrando o _número do pedido_ atualmente disponível para retirada pelo Cliente e uma caixa de texto mostrando o número de Clientes esperando na fila de atendimento.
+-   [ ] O usuário pode parar a simulação a qualquer momento clicando em um botão Parar.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can specify how long it takes for an Order Taker to create an
-_order ticket_.
--   [ ] User can specify how long it takes for the Server to deliver an order
-to the customer.
--   [ ] User can specify the total amount of time the simulation is to run
-once the Start button has been clicked. 
--   [ ] User can see an animated view of Customers and orders as they move
-through the workflow.
+-   [ ] O usuário pode especificar quanto tempo leva para um Atendente de Pedidos criar um _tíquete de pedido_.
+-   [ ] O usuário pode especificar quanto tempo leva para o Atendente entregar um pedido ao cliente.
+-   [ ] O usuário pode especificar a quantidade total de tempo que a simulação deve rodar uma vez que o botão Iniciar foi clicado.
+-   [ ] O usuário pode ver uma visualização animada de Clientes e pedidos enquanto eles se movem pelo fluxo de trabalho.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-- [Fast Food Simulator - Logical Workflow](https://drive.google.com/file/d/1Thfm5cFDm1OjTg_0LsIt2j1uPL5fv-Dh/view?usp=sharing)
-- [Agile Manifesto & 12 Principles of Agile Software](http://agilemanifesto.org/)
-- [SOLID Principles Every Developer Should Know](https://blog.bitsrc.io/solid-principles-every-developer-should-know-b3bfa96bb688)
-- [Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
+- [Fast Food Simulator - Fluxo de Trabalho Lógico](https://drive.google.com/file/d/1Thfm5cFDm1OjTg_0LsIt2j1uPL5fv-Dh/view?usp=sharing)
+- [Manifesto Ágil e 12 Princípios de Software Ágil](http://agilemanifesto.org/)
+- [Princípios SOLID que Todo Desenvolvedor Deve Conhecer](https://blog.bitsrc.io/solid-principles-every-developer-should-know-b3bfa96bb688)
+- [Usando Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
 - [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
-## Example projects
+## Projetos de Exemplo
 
 - N/a

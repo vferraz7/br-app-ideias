@@ -1,36 +1,36 @@
-# Instagram Clone
+# Clone do Instagram
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-A clone of Facebook's Instagram app where you can login/register, create new posts, follow other users and see other people you follows posts
+Um clone do app Instagram do Facebook onde você pode fazer login/registrar, criar novos posts, seguir outros usuários e ver posts de pessoas que você segue
 
-You should create a MVP (Minimum Viable Product) using a Full stack approach such as the MEAN, MERN or VENM Stack to store images to the server and display them to the client.
+Você deve criar um MVP (Produto Mínimo Viável) usando uma abordagem Full stack como as stacks MEAN, MERN ou VENM para armazenar imagens no servidor e exibi-las ao cliente.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can register for an account storing their name, email/username and password then login to the app using their credentials
--   [ ] User can create a post and store images to the server (Preferably in a database)
--   [ ] User has a profile that displays all the images they have uploaded
--   [ ] User can follow other users
--   [ ] User can see other users posts (people who the user follows)
+-   [ ] O usuário pode registrar uma conta armazenando seu nome, e-mail/nome de usuário e senha e depois fazer login no app usando suas credenciais
+-   [ ] O usuário pode criar um post e armazenar imagens no servidor (Preferencialmente em um banco de dados)
+-   [ ] O usuário tem um perfil que exibe todas as imagens que ele carregou
+-   [ ] O usuário pode seguir outros usuários
+-   [ ] O usuário pode ver posts de outros usuários (pessoas que o usuário segue)
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see a global feed of images
--   [ ] The feed auth refreshes when a new post is added (You can use Web Sockets)
--   [ ] User can send messages to other users
--   [ ] User can create a story for followers
+-   [ ] O usuário pode ver um feed global de imagens
+-   [ ] O feed se atualiza automaticamente quando um novo post é adicionado (Você pode usar Web Sockets)
+-   [ ] O usuário pode enviar mensagens para outros usuários
+-   [ ] O usuário pode criar um story para seguidores
 
-## Useful links and resources
+## Links e Recursos Úteis
 
--   [How to make an Instagram clone](https://www.youtube.com/watch?v=9dRSNQe7PWw)
--   [Node & Mongo Basic CRUD Operations](https://codeburst.io/writing-a-crud-app-with-node-js-and-mongodb-e0827cbbdafb)
+-   [Como fazer um clone do Instagram](https://www.youtube.com/watch?v=9dRSNQe7PWw)
+-   [Operações CRUD Básicas com Node & Mongo](https://codeburst.io/writing-a-crud-app-with-node-js-and-mongodb-e0827cbbdafb)
 -   [Socket.io](https://socket.io)
 -   [MERN Stack](http://mern.io/)
 -   [MEAN Stack](http://mean.io/)
--   [User Authentication with Node](https://medium.com/silibrain/using-passport-bcrypt-for-full-stack-app-user-authentication-fe30a013604e)
--   [Express File Uploads with Multer](https://scotch.io/tutorials/express-file-uploads-with-multer)
+-   [Autenticação de Usuário com Node](https://medium.com/silibrain/using-passport-bcrypt-for-full-stack-app-user-authentication-fe30a013604e)
+-   [Upload de Arquivos com Express e Multer](https://scotch.io/tutorials/express-file-uploads-with-multer)
 
-## Example projects
+## Projetos de Exemplo
 
 -   [Instagram](https://www.instagram.com/)

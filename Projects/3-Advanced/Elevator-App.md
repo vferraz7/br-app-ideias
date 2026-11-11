@@ -1,64 +1,38 @@
-# Elevator
+# Elevador
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-It's tough to think of a world without elevators. Especially if you have to
-walk up and down 20 flights of stairs each day. But, if you think about it 
-elevators were one of the original implementations of events and event handlers
-long before web applications came on the scene.
+É difícil imaginar um mundo sem elevadores. Especialmente se você tem que subir e descer 20 andares de escada todos os dias. Mas, se você pensar sobre isso, elevadores foram uma das implementações originais de eventos e manipuladores de eventos muito antes de aplicações web entrarem em cena.
 
-The objective of the Elevator app is to simulate the operation of an elevator
-and more importantly, how to handle the events generated when the buildings
-occupants use it. This app simulates occupants calling for an elevator from
-any floor and pressing the buttons inside the elevator to indicate the floor
-they wish to go to. 
+O objetivo do app Elevador é simular a operação de um elevador e, mais importante, como lidar com os eventos gerados quando os ocupantes do prédio o usam. Este app simula ocupantes chamando um elevador de qualquer andar e pressionando os botões dentro do elevador para indicar o andar para o qual desejam ir.
 
-### Constraints
+### Restrições
 
-- You must implement a single event handler for the up and down buttons on
-each floor. For example, if there are 4 floors a single event handler should
-be implemented rather than 8 (two buttons per floor).
-- Similarly, a single event handler should be implemented for all buttons on
-the control panel in the elevator rather than a unique event handler for each
-button.
+- Você deve implementar um único manipulador de eventos para os botões de subir e descer em cada andar. Por exemplo, se houver 4 andares, um único manipulador de eventos deve ser implementado em vez de 8 (dois botões por andar).
+- Da mesma forma, um único manipulador de eventos deve ser implementado para todos os botões no painel de controle no elevador em vez de um manipulador de eventos único para cada botão.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see a cross section diagram of a building with four floors,
-an elevator shaft, the elevator, and an up button on the first floor, up and 
-down buttons on the second and third floors, and a down button on the fourth
-floor.
--   [ ] User can see the elevator control panel with a button for each of the
-floors to the side of the diagram.
--   [ ] User can click the up and down button on any floor to call the 
-elevator.
--   [ ] User can expect that clicking the up and down buttons on any floor
-to request the elevator will be queued and serviced in the sequence they were
-clicked.
--   [ ] User can see the elevator move up and down the shaft to the floor it
-was called to.
--   [ ] User can click the elevator control panel to select the floor it
-should travel to.
--   [ ] User can expect the elevator to pause for 5 seconds waiting for a
-floor button on the control panel to be clicked. If a floor button isn't
-clicked within that time the elevator will process the next call request.
--   [ ] User can expect the elevator to return to the first floor when there
-are no requests to process.
+-   [ ] O usuário pode ver um diagrama de seção transversal de um prédio com quatro andares, um poço de elevador, o elevador, e um botão de subir no primeiro andar, botões de subir e descer no segundo e terceiro andares, e um botão de descer no quarto andar.
+-   [ ] O usuário pode ver o painel de controle do elevador com um botão para cada um dos andares ao lado do diagrama.
+-   [ ] O usuário pode clicar nos botões de subir e descer em qualquer andar para chamar o elevador.
+-   [ ] O usuário pode esperar que clicar nos botões de subir e descer em qualquer andar para solicitar o elevador será enfileirado e atendido na sequência em que foram clicados.
+-   [ ] O usuário pode ver o elevador mover-se para cima e para baixo no poço até o andar para o qual foi chamado.
+-   [ ] O usuário pode clicar no painel de controle do elevador para selecionar o andar para o qual ele deve viajar.
+-   [ ] O usuário pode esperar que o elevador pause por 5 segundos esperando que um botão de andar no painel de controle seja clicado. Se um botão de andar não for clicado dentro desse tempo, o elevador processará a próxima solicitação de chamada.
+-   [ ] O usuário pode esperar que o elevador retorne ao primeiro andar quando não houver solicitações para processar.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see a warning sound if the number of elevator requests
-exceeds the maximum number allowed. This limit is left to the developer.
--   [ ] User can hear a sound when the elevator arrives at a floor.
--   [ ] User can see an occupant randomly arrive at a floor to indicate when
-the user should click the up or down elevator call button on that floor.
--   [ ] User can specify the time interval between new occupants arriving to
-call an elevator.
+-   [ ] O usuário pode ouvir um som de aviso se o número de solicitações do elevador exceder o máximo permitido. Este limite fica a cargo do desenvolvedor.
+-   [ ] O usuário pode ouvir um som quando o elevador chega a um andar.
+-   [ ] O usuário pode ver um ocupante chegar aleatoriamente a um andar para indicar quando o usuário deve clicar no botão de chamada do elevador para subir ou descer naquele andar.
+-   [ ] O usuário pode especificar o intervalo de tempo entre novos ocupantes chegando para chamar um elevador.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-[First-in, first out queue (Wikipedia)](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics))
+[Fila First-in, first out (Wikipedia)](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics))
 
-## Example projects
+## Projetos de Exemplo
 
-[Elevator](https://codepen.io/nibalAn/pen/prWdjq)
+[Elevador](https://codepen.io/nibalAn/pen/prWdjq)

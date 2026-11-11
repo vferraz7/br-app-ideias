@@ -1,29 +1,29 @@
-# Markdown Table Generator
+# Gerador de Tabela Markdown
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-Create an application that will convert a regular table with data provided by the User (optionally) into a Markdown formatted table.
+Crie uma aplicação que converterá uma tabela regular com dados fornecidos pelo Usuário (opcionalmente) em uma tabela formatada em Markdown.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can create an `HTML table` with a given number of **Rows** and **Columns**
--   [ ] User can insert text in each cell of the `HTML table`
--   [ ] User can generate a `Markdown formatted table` that will contain the data from the `HTML table`
--   [ ] User can preview the `Markdown formatted table`
+-   [ ] O usuário pode criar uma `tabela HTML` com um determinado número de **Linhas** e **Colunas**
+-   [ ] O usuário pode inserir texto em cada célula da `tabela HTML`
+-   [ ] O usuário pode gerar uma `tabela formatada em Markdown` que conterá os dados da `tabela HTML`
+-   [ ] O usuário pode visualizar a `tabela formatada em Markdown`
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can copy the `Markdown formatter table` to the clipboard by pressing a button
--   [ ] User can insert a new **Row** or **Column** to a specified location
--   [ ] User can delete a **Row** or a **Column** entirely
--   [ ] User can align (to the _left_, _right_ or _center_) a **cell**, a **column**, a **row**, or the entire **table**
+-   [ ] O usuário pode copiar a `tabela formatada em Markdown` para a área de transferência pressionando um botão
+-   [ ] O usuário pode inserir uma nova **Linha** ou **Coluna** em um local especificado
+-   [ ] O usuário pode excluir uma **Linha** ou **Coluna** inteiramente
+-   [ ] O usuário pode alinhar (à _esquerda_, _direita_ ou _centro_) uma **célula**, uma **coluna**, uma **linha**, ou a **tabela** inteira
 
-## Useful links and resources
+## Links e Recursos Úteis
 
--   [Markdown Guide](https://www.markdownguide.org/)
--   [Marked - A markdown parser](https://github.com/markedjs/marked)
--   [How to Copy to Clipboard](https://www.w3schools.com/howto/howto_js_copy_clipboard.asp)
+-   [Guia de Markdown](https://www.markdownguide.org/)
+-   [Marked - Um parser de markdown](https://github.com/markedjs/marked)
+-   [Como Copiar para a Área de Transferência](https://www.w3schools.com/howto/howto_js_copy_clipboard.asp)
 
-## Example project
+## Projetos de Exemplo
 
--   [Tables Generator / Markdown Tables](https://www.tablesgenerator.com/markdown_tables)
+-   [Gerador de Tabelas / Tabelas Markdown](https://www.tablesgenerator.com/markdown_tables)

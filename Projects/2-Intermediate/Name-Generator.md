@@ -1,17 +1,17 @@
-# Name generation using Recurrent Neural Networks
+# Geração de Nomes usando Redes Neurais Recorrentes
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-Name Generation is nothing more than a sequence of letters that follow certain patterns to create a certain probability density for choosing the next letter in a name.
-This App should utilize a RNN model with LSTM/GRUs to ensure highly likeable naming patterns
+Geração de nomes nada mais é do que uma sequência de letras que seguem certos padrões para criar uma certa densidade de probabilidade para escolher a próxima letra em um nome.
+Este App deve utilizar um modelo RNN com LSTM/GRUs para garantir padrões de nomenclatura altamente agradáveis.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can specify the first 2 to 3 letters to be used for the initial name
--   [ ] Use can see the generated name and use it accordingly
+-   [ ] O usuário pode especificar as primeiras 2 a 3 letras a serem usadas para o nome inicial
+-   [ ] O usuário pode ver o nome gerado e usá-lo conforme necessário
 
 
-## Useful links and resources
+## Links e Recursos Úteis
 
--	[RNN for Pokemon names](https://towardsdatascience.com/generating-pok%C3%A9mon-names-using-rnns-f41003143333)
--	[RNN for Dinosaur names](https://datascience-enthusiast.com/DL/Dinosaurus_Island_Character_level_language_model.html)
+-	[RNN para nomes de Pokemon](https://towardsdatascience.com/generating-pok%C3%A9mon-names-using-rnns-f41003143333)
+-	[RNN para nomes de Dinossauros](https://datascience-enthusiast.com/DL/Dinosaurus_Island_Character_level_language_model.html)

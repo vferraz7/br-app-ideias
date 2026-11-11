@@ -1,55 +1,44 @@
-# GitHub Timeline
+# Linha do Tempo do GitHub
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-API's and graphical representation of information are hallmarks of modern
-web applications. GitHub Timeline combines the two to create a visual history
-of a users GitHub activity.
+APIs e representação gráfica de informações são marcas registradas de aplicações web modernas. Linha do Tempo do GitHub combina as duas para criar um histórico visual da atividade de um usuário no GitHub.
 
-The goal of GitHup Timeline is accept a GitHub user name and produce a
-timeline containing each repo and annotated with the repo names, the date
-they were created, and their descriptions. The timeline should be one that
-could be shared with a prospective employer. It should be easy to read and
-make effective use of color and typography.
+O objetivo da Linha do Tempo do GitHub é aceitar um nome de usuário do GitHub e produzir uma linha do tempo contendo cada repo e anotado com os nomes dos repos, a data em que foram criados, e suas descrições. A linha do tempo deve ser uma que pudesse ser compartilhada com um empregador em potencial. Deve ser fácil de ler e fazer uso eficaz de cor e tipografia.
 
-Only public GitHub repos should be displayed.
+Apenas repos públicos do GitHub devem ser exibidos.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can enter a GitHub user name
--   [ ] User can click a 'Generate' button to create and display the named
-        users repo timeline
--   [ ] User can see a warning message if the GitHub user name is not a valid
-        GitHub user name.
+-   [ ] O usuário pode inserir um nome de usuário do GitHub
+-   [ ] O usuário pode clicar no botão 'Gerar' para criar e exibir a linha do tempo dos repos do usuário nomeado
+-   [ ] O usuário pode ver uma mensagem de aviso se o nome de usuário do GitHub não for um nome de usuário válido do GitHub.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see a summary of the number of repos tallied by the year they
-        were created
+-   [ ] O usuário pode ver um resumo do número de repos contabilizados pelo ano em que foram criados
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-GitHub offers two API's you may use to access repo data. You may also choose
-to use an NPM package to access the GitHub API.
+O GitHub oferece duas APIs que você pode usar para acessar dados de repos. Você também pode optar por usar um pacote NPM para acessar a API do GitHub.
 
-Documentation for the GitHub API can be found at:
+A documentação para a API do GitHub pode ser encontrada em:
 
 -   [GitHub REST API V3](https://developer.github.com/v3/)
 -   [GitHub GraphQL API V4](https://developer.github.com/v4/)
 
-Sample code showing how to use the GitHub API's are:
+Exemplos de código mostrando como usar as APIs do GitHub:
 
--   [GitHub REST API client for JavaScript ](https://github.com/octokit/rest.js/)
--   [GitHub GraphQL API client for browsers and Node](https://github.com/octokit/graphql.js)
+-   [Cliente GitHub REST API para JavaScript ](https://github.com/octokit/rest.js/)
+-   [Cliente GitHub GraphQL API para navegadores e Node](https://github.com/octokit/graphql.js)
 
-You can use this CURL command to see the JSON returned by the V3 REST API for
-your repos:
+Você pode usar este comando CURL para ver o JSON retornado pela V3 REST API para seus repos:
 
 ```
 curl -u "user-id" https://api.github.com/users/user-id/repos
 ```
 
-## Example projects
+## Projetos de Exemplo
 
--   [CSS Timeline](https://codepen.io/NilsWe/pen/FemfK)
--   [Building a Vertical Timeline With CSS and a Touch of JavaScript](https://codepen.io/tutsplus/pen/QNeJgR)
+-   [Linha do Tempo CSS](https://codepen.io/NilsWe/pen/FemfK)
+-   [Construindo uma Linha do Tempo Vertical com CSS e um Toque de JavaScript](https://codepen.io/tutsplus/pen/QNeJgR)

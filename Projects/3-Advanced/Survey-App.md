@@ -1,98 +1,70 @@
-# Survey App
+# App de Pesquisa
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-Surveys are a valuable part of any developers toolbox. They are useful for
-getting feedback from your users on a variety of topics including application
-satisfaction, requirements, upcoming needs, issues, priorities, and just plain
-aggravations to name a few.
+Pesquisas são uma parte valiosa da caixa de ferramentas de qualquer desenvolvedor. Elas são úteis para obter feedback de seus usuários sobre uma variedade de tópicos, incluindo satisfação com a aplicação, requisitos, necessidades futuras, problemas, prioridades, e simples aborrecimentos, para citar alguns.
 
-The Survey app gives you the opportunity to learn by developing a full-featured
-app that will you can add to your toolbox. It provides the ability to define a
-survey, allow users to respond within a predefined timeframe, and tabulate
-and present results.
+O app de Pesquisa dá a você a oportunidade de aprender desenvolvendo um app completo que você pode adicionar à sua caixa de ferramentas. Ele fornece a capacidade de definir uma pesquisa, permitir que usuários respondam dentro de um período predefinido, e tabular e apresentar resultados.
 
-Users of this app are divided into two distinct roles, each having different
-requirements:
+Usuários deste app são divididos em dois papéis distintos, cada um com requisitos diferentes:
 
--   _Survey Coordinators_ define and conduct surveys. This is an administrative
-    function not available to normal users.
--   _Survey Respondents_ Complete surveys and view results. They have no
-    administrative privileges within the app.
+-   _Coordenadores de Pesquisa_ definem e conduzem pesquisas. Esta é uma função administrativa não disponível para usuários normais.
+-   _Respondentes de Pesquisa_ Completam pesquisas e visualizam resultados. Eles não têm privilégios administrativos dentro do app.
 
-Commercial survey tools include distribution functionality that mass emails
-surveys to Survey Respondents. For simplicity, this app assumes that surveys
-open for responses will be accessed from the app's web page.
+Ferramentas comerciais de pesquisa incluem funcionalidade de distribuição que envia pesquisas em massa por e-mail para Respondentes de Pesquisa. Por simplicidade, este app assume que pesquisas abertas para respostas serão acessadas a partir da página web do app.
 
-## User Stories
+## Histórias de Usuário
 
-### General
+### Geral
 
--   [ ] Survey Coordinators and Survey Respondents can define, conduct, and
-        view surveys and survey results from a common website
--   [ ] Survey Coordinators can login to the app to access administrative
-        functions, like defining a survey.
+-   [ ] Coordenadores de Pesquisa e Respondentes de Pesquisa podem definir, conduzir, e visualizar pesquisas e resultados de pesquisas a partir de um site comum
+-   [ ] Coordenadores de Pesquisa podem fazer login no app para acessar funções administrativas, como definir uma pesquisa.
 
-### Defining a Survey
+### Definindo uma Pesquisa
 
--   [ ] Survey Coordinator can define a survey containing 1-10 multiple choice
-        questions.
--   [ ] Survey Coordinator can define 1-5 mutually exclusive selections to each
-        question.
--   [ ] Survey Coordinator can enter a title for the survey.
--   [ ] Survey Coordinator can click a 'Cancel' button to return to the home
-        page without saving the survey.
--   [ ] Survey Coordinator can click a 'Save' button save a survey.
+-   [ ] Coordenador de Pesquisa pode definir uma pesquisa contendo 1-10 perguntas de múltipla escolha.
+-   [ ] Coordenador de Pesquisa pode definir 1-5 seleções mutuamente exclusivas para cada pergunta.
+-   [ ] Coordenador de Pesquisa pode inserir um título para a pesquisa.
+-   [ ] Coordenador de Pesquisa pode clicar no botão 'Cancelar' para retornar à página inicial sem salvar a pesquisa.
+-   [ ] Coordenador de Pesquisa pode clicar no botão 'Salvar' para salvar uma pesquisa.
 
-### Conducting a Survey
+### Conduzindo uma Pesquisa
 
--   [ ] Survey Coordinator can open a survey by selecting a survey from a
-        list of previously defined surveys
--   [ ] Survey Coordinators can close a survey by selecting it from a list of
-        open surveys
--   [ ] Survey Respondent can complete a survey by selecting it from a list of
-        open surveys
--   [ ] Survey Respondent can select responses to survey questions by clicking
-        on a checkbox
--   [ ] Survey Respondents can see that a previously selected response will
-        automatically be unchecked if a different response is clicked.
--   [ ] Survey Respondents can click a 'Cancel' button to return to the home
-        page without submitting the survey.
--   [ ] Survey Respondents can click a 'Submit' button submit their responses
-        to the survey.
--   [ ] Survey Respondents can see an error message if 'Submit' is clicked,
-        but not all questions have been responded to.
+-   [ ] Coordenador de Pesquisa pode abrir uma pesquisa selecionando uma pesquisa de uma lista de pesquisas definidas anteriormente
+-   [ ] Coordenadores de Pesquisa podem fechar uma pesquisa selecionando-a de uma lista de pesquisas abertas
+-   [ ] Respondente de Pesquisa pode completar uma pesquisa selecionando-a de uma lista de pesquisas abertas
+-   [ ] Respondente de Pesquisa pode selecionar respostas para perguntas da pesquisa clicando em uma caixa de seleção
+-   [ ] Respondentes de Pesquisa podem ver que uma resposta selecionada anteriormente será automaticamente desmarcada se uma resposta diferente for clicada.
+-   [ ] Respondentes de Pesquisa podem clicar no botão 'Cancelar' para retornar à página inicial sem enviar a pesquisa.
+-   [ ] Respondentes de Pesquisa podem clicar no botão 'Enviar' para submeter suas respostas à pesquisa.
+-   [ ] Respondentes de Pesquisa podem ver uma mensagem de erro se 'Enviar' for clicado, mas nem todas as perguntas foram respondidas.
 
-### Viewing Survey Results
+### Visualizando Resultados da Pesquisa
 
--   [ ] Survey Coordinators and Survey Respondents can select the survey to
-        display from a list of closed surveys
--   [ ] Survey Coordinators and Survey Respondents can view survey results as
-        in tabular format showing the number of responses for each of the possible
-        selections to the questions.
+-   [ ] Coordenadores de Pesquisa e Respondentes de Pesquisa podem selecionar a pesquisa a ser exibida a partir de uma lista de pesquisas fechadas
+-   [ ] Coordenadores de Pesquisa e Respondentes de Pesquisa podem visualizar resultados da pesquisa em formato tabular mostrando o número de respostas para cada uma das possíveis seleções para as perguntas.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] Survey Respondents can create a unique account in the app
--   [ ] Survey Respondents can login to the app
--   [ ] Survey Respondents cannot complete the same survey more than once
--   [ ] Survey Coordinators and Survey Respondents can view graphical
-        representations of survey results (e.g. pie, bar, column, etc. charts)
+-   [ ] Respondentes de Pesquisa podem criar uma conta única no app
+-   [ ] Respondentes de Pesquisa podem fazer login no app
+-   [ ] Respondentes de Pesquisa não podem completar a mesma pesquisa mais de uma vez
+-   [ ] Coordenadores de Pesquisa e Respondentes de Pesquisa podem visualizar representações gráficas dos resultados da pesquisa (ex: gráficos de pizza, barras, colunas, etc.)
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-Libraries for building surveys:
+Bibliotecas para construir pesquisas:
 
 -   [SurveyJS](https://surveyjs.io/Overview/Library/)
 
-Some commercial survey services include:
+Alguns serviços comerciais de pesquisa incluem:
 
 -   [Survey Monkey](https://www.surveymonkey.com/)
 -   [Traversy](https://youtu.be/SSDED3XKz-0)
 -   [Typeform](https://www.typeform.com/)
 
-## Example projects
+## Projetos de Exemplo
 
-[Javascript Questionnaire](https://codepen.io/amyfu/pen/oLChg)
+[Questionário JavaScript](https://codepen.io/amyfu/pen/oLChg)
 
-[React Survey App](https://chamatt.github.io/survey-web-app/#/) ([Code](https://github.com/chamatt/survey-web-app))
+[App de Pesquisa React](https://chamatt.github.io/survey-web-app/#/) ([Código](https://github.com/chamatt/survey-web-app))

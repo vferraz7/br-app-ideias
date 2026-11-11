@@ -1,62 +1,42 @@
-# NASA Exoplanet Query
+# Consulta de Exoplanetas da NASA
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-Since 1992 over 4,000 exoplanets have been discovered outside our solar
-system. The United States National Aeronautics and Space Administration (NASA)
-maintains a publicly accessible archive of the data collected on these in
-comma separated value (CSV) format.
+Desde 1992 mais de 4.000 exoplanetas foram descobertos fora do nosso sistema solar. A Administração Nacional de Aeronáutica e Espaço dos Estados Unidos (NASA) mantém um arquivo publicamente acessível dos dados coletados sobre eles em formato de valores separados por vírgula (CSV).
 
-The objective of the NASA Exoplanet Query app is to make this data available 
-for simple queries by its users. 
+O objetivo do app Consulta de Exoplanetas da NASA é disponibilizar esses dados para consultas simples por seus usuários.
 
-### Requirements & Constraints
+### Requisitos e Restrições
 
-- The Developer should implement a means of efficiently loading the exoplanet
-CSV data obtained from NASA to minimize any delays when the application starts.
-- Similarly, the Developer should utilize a data structure and search mechanism
-that minimizes the time required to query the exoplanet data and display the
-results.
-- The Developer will need to review the Exoplanet Archive documentation to
-understand the format of the data fields.
+- O Desenvolvedor deve implementar um meio de carregar eficientemente os dados CSV de exoplanetas obtidos da NASA para minimizar quaisquer atrasos quando a aplicação inicia.
+- Da mesma forma, o Desenvolvedor deve utilizar uma estrutura de dados e mecanismo de busca que minimize o tempo necessário para consultar os dados de exoplanetas e exibir os resultados.
+- O Desenvolvedor precisará revisar a documentação do Arquivo de Exoplanetas para entender o formato dos campos de dados.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see an query input panel containing dropdowns allowing the
-user to query on year of discovery, discovery method, host name, and discovery
-facility.
--   [ ] User can also see 'Clear' and 'Search' buttons in the query input panel.
--   [ ] User can select a single value from any one or all of the query
-dropdowns.
--   [ ] User can click the 'Search' button to search for exoplanets matching
-all of the selected query values.
--   [ ] User can see an error message if the 'Search' button was clicked, but
-no query values were selected.
--   [ ] User can see the matching exoplanet data displayed in tabular format 
-in an results panel below the query panel. Only the queriable fields should
-be displayed.
--   [ ] User can click the 'Clear' button to reset the query selections and
-clear any data displayed in the results panel, if a search had been performed.
+-   [ ] O usuário pode ver um painel de entrada de consulta contendo listas suspensas permitindo ao usuário consultar por ano de descoberta, método de descoberta, nome do hospedeiro, e instalação de descoberta.
+-   [ ] O usuário também pode ver botões 'Limpar' e 'Buscar' no painel de entrada de consulta.
+-   [ ] O usuário pode selecionar um único valor de qualquer uma ou todas as listas suspensas de consulta.
+-   [ ] O usuário pode clicar no botão 'Buscar' para buscar exoplanetas correspondentes a todos os valores de consulta selecionados.
+-   [ ] O usuário pode ver uma mensagem de erro se o botão 'Buscar' foi clicado, mas nenhum valor de consulta foi selecionado.
+-   [ ] O usuário pode ver os dados de exoplanetas correspondentes exibidos em formato tabular em um painel de resultados abaixo do painel de consulta. Apenas os campos consultáveis devem ser exibidos.
+-   [ ] O usuário pode clicar no botão 'Limpar' para resetar as seleções de consulta e limpar quaisquer dados exibidos no painel de resultados, se uma busca foi realizada.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see the host name as a hyperlink to NASA's Confirmed Planet
-Overview Page for that planet
--   [ ] User can click on the host name to display the Confirmed Planet Overview
-Page in a new browser tab. 
--   [ ] User can see icons (such as up and down symbols) in the column headers
--   [ ] User can click on the up symbol to sort the rows in the results panel
-in ascending order on the values in that column.
--   [ ] User can click on the down symbol to sort the rows in the results panel
-in descending order on the values in the column. 
+-   [ ] O usuário pode ver o nome do hospedeiro como um hiperlink para a Página de Visão Geral do Planeta Confirmado da NASA para aquele planeta
+-   [ ] O usuário pode clicar no nome do hospedeiro para exibir a Página de Visão Geral do Planeta Confirmado em uma nova aba do navegador.
+-   [ ] O usuário pode ver ícones (como símbolos de cima e baixo) nos cabeçalhos das colunas
+-   [ ] O usuário pode clicar no símbolo de cima para ordenar as linhas no painel de resultados em ordem crescente nos valores daquela coluna.
+-   [ ] O usuário pode clicar no símbolo de baixo para ordenar as linhas no painel de resultados em ordem decrescente nos valores da coluna.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-- [Big O Notation (Wikipedia)](https://en.wikipedia.org/wiki/Big_O_notation)
+- [Notação Big O (Wikipedia)](https://en.wikipedia.org/wiki/Big_O_notation)
 - [CSV2JSON](../1-Beginner/CSV2JSON-App.md)
-- [Exoplanet (Wikipedia)](https://en.wikipedia.org/wiki/Exoplanet)
-- [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=planets)
+- [Exoplaneta (Wikipedia)](https://en.wikipedia.org/wiki/Exoplanet)
+- [Arquivo de Exoplanetas da NASA](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=planets)
 
-## Example projects
+## Projetos de Exemplo
 
 N/a

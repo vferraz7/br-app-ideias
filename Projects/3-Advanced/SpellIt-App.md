@@ -1,43 +1,34 @@
-# Spell-It
+# Soletrando
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-Knowing how to spell is a fundamental part of being fluent in any language.
-Whether you are a youngster learning how to spell or an individual learning a
-new language being able to practice helps to solidify your language skills.
+Saber soletrar é uma parte fundamental de ser fluente em qualquer idioma. Seja você uma criança aprendendo a soletrar ou um indivíduo aprendendo um novo idioma, ser capaz de praticar ajuda a solidificar suas habilidades linguísticas.
 
-The Spell-It app helps users practice their spelling by playing the audio
-recording of a word the user must then spell using the computer keyboard.
+O app Soletrando ajuda os usuários a praticar sua soletração reproduzindo a gravação de áudio de uma palavra que o usuário deve então soletrar usando o teclado do computador.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can click the 'Play' button to hear the word that's to be entered
--   [ ] User can see letters displayed in the word input text box as they are
-        entered on the keyboard
--   [ ] User can click the 'Enter' button to submit the word that has been
-        typed in the word input text box
--   [ ] User can see a confirmation message when the correct word is typed
--   [ ] User can see a message requesting the word be typed again when it is
-        spelled incorrectly
--   [ ] User can see a tally of the number of correct spellings, total number
-        of words attempted, and a percentage of successful entries.
+-   [ ] O usuário pode clicar no botão 'Reproduzir' para ouvir a palavra que deve ser inserida
+-   [ ] O usuário pode ver as letras exibidas na caixa de texto de entrada da palavra conforme são digitadas no teclado
+-   [ ] O usuário pode clicar no botão 'Confirmar' para enviar a palavra que foi digitada na caixa de texto de entrada da palavra
+-   [ ] O usuário pode ver uma mensagem de confirmação quando a palavra correta é digitada
+-   [ ] O usuário pode ver uma mensagem solicitando que a palavra seja digitada novamente quando é soletrada incorretamente
+-   [ ] O usuário pode ver uma contagem do número de soletrações corretas, número total de palavras tentadas, e uma porcentagem de entradas bem-sucedidas.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can hear an confirmation sound when the word is correctly spelled
--   [ ] User can hear a warning sound when the word is incorrectly spelled
--   [ ] User can click the 'Hint' button to highlight the incorrect letters
-        in the word input text box
--   [ ] User can press the 'Enter' key on the keyboard to submit a typed word
-        or click the 'Enter' button in the app window
+-   [ ] O usuário pode ouvir um som de confirmação quando a palavra é soletrada corretamente
+-   [ ] O usuário pode ouvir um som de aviso quando a palavra é soletrada incorretamente
+-   [ ] O usuário pode clicar no botão 'Dica' para destacar as letras incorretas na caixa de texto de entrada da palavra
+-   [ ] O usuário pode pressionar a tecla 'Enter' no teclado para enviar uma palavra digitada ou clicar no botão 'Confirmar' na janela do app
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 -   [Texas Instruments Speak and Spell](<https://en.wikipedia.org/wiki/Speak_%26_Spell_(toy)>)
 -   [Web Audio API](https://codepen.io/2kool2/pen/RgKeyp)
--   [Click and Speak](https://codepen.io/shangle/pen/Wvqqzq)
+-   [Clique e Fale](https://codepen.io/shangle/pen/Wvqqzq)
 
-## Example projects
+## Projetos de Exemplo
 
--   [Speak N Spell on Google Play](https://play.google.com/store/apps/details?id=au.id.weston.scott.SpeakAndSpell&hl=en_US)
--   [Word Wizard for iOS](https://itunes.apple.com/app/id447312716)
+-   [Speak N Spell no Google Play](https://play.google.com/store/apps/details?id=au.id.weston.scott.SpeakAndSpell&hl=en_US)
+-   [Word Wizard para iOS](https://itunes.apple.com/app/id447312716)

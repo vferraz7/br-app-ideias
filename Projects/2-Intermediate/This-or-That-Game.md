@@ -1,27 +1,27 @@
-# This or That Game
+# Jogo This or That
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-A game in which the user can select their favorite image between two choices.
+Um jogo no qual o usuário pode selecionar sua imagem favorita entre duas opções.
 
-**Note**: `image`s - might be dogs (as in the example below), cats, cars, houses, pretty much anything.
+**Nota**: `imagens` - podem ser cachorros (como no exemplo abaixo), gatos, carros, casas, praticamente qualquer coisa.
 
-## User Stories
+## Histórias de Usuário
 
-- [ ] User can see two images
-- [ ] User can select it's favorite from the two images
-- [ ] After a selection is made, other 2 images are displayed
+- [ ] O usuário pode ver duas imagens
+- [ ] O usuário pode selecionar sua favorita das duas imagens
+- [ ] Após uma seleção ser feita, outras 2 imagens são exibidas
 
-## Bonus features
+## Funcionalidades Bônus
 
-- [ ] Add a smooth animation when switching between images
-- [ ] Save the votes in a database
-- [ ] Add a leaderboard in which the user can see the top 10 voted images
+- [ ] Adicionar uma animação suave ao alternar entre imagens
+- [ ] Salvar os votos em um banco de dados
+- [ ] Adicionar um ranking no qual o usuário pode ver as 10 imagens mais votadas
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-- [Public APIs](https://github.com/public-apis/public-apis) - access to a lot of Public APIs
+- [APIs Públicas](https://github.com/public-apis/public-apis) - acesso a muitas APIs Públicas
 
-## Example projects
+## Projetos de Exemplo
 
-- [This or That (w/ dogs) by Florin Pop on Codepen](https://codepen.io/FlorinPop17/full/rNBRYKZ)
+- [This or That (com cachorros) por Florin Pop no Codepen](https://codepen.io/FlorinPop17/full/rNBRYKZ)

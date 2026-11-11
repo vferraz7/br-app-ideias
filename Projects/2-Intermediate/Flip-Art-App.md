@@ -1,86 +1,61 @@
-# Flip Art
+# Arte de Virar
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-Many developers have found that adding animation to an application is a
-useful technique that adds impact to the UI, to make it more appealing to its users,
-and to explain complex subject matter. But, as a developer how do you create 
-these and how do you know what images make effective animations?
+Muitos desenvolvedores descobriram que adicionar animação a uma aplicação é uma técnica útil que adiciona impacto à UI, para torná-la mais atraente para seus usuários, e para explicar assuntos complexos. Mas, como desenvolvedor, como você cria essas animações e como sabe quais imagens fazem animações eficazes?
 
-The objective of the Flip Art app is to address both of these needs by 
-providing a simple way to collect and arrange a set of images into an
-animated sequence that can be replayed and adjusted to achieve the desired
-impact and effect.
+O objetivo do app Arte de Virar é atender a ambas as necessidades fornecendo uma maneira simples de coletar e organizar um conjunto de imagens em uma sequência animada que pode ser reproduzida e ajustada para alcançar o impacto e efeito desejados.
 
-### Requirements & Constraints
+### Requisitos e Restrições
 
-Developers should not rely on animation or graphics libraries to implement
-this app. Instead, try using vanilla Javascript, CSS, and HTML.
+Os desenvolvedores não devem depender de bibliotecas de animação ou gráficos para implementar este app. Em vez disso, tente usar JavaScript, CSS e HTML puros.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see the following primary components in the app window:
-    - Configuration panel containing elements used to tailor the animation
-    process.
-    - Operation buttons
-    - Animation display panel animations will be presented in
+-   [ ] O usuário pode ver os seguintes componentes principais na janela do app:
+    - Painel de configuração contendo elementos usados para personalizar o processo de animação.
+    - Botões de operação
+    - Painel de exibição de animação onde as animações serão apresentadas
 
-### Configuration Panel
--   [ ] User can see eight thumbnails that will contain individual animation 
-frames
--   [ ] User can see a button under each thumbnail - '+'
--   [ ] User can click the '+' button to add a new image to an empty thumbnail
--   [ ] User can see a file open dialog when the '+' button is clicked to 
-allow an `.jpg` image to be loaded into the thumbnail. 
--   [ ] User can see the '+' button label change to '-' after a thumbnail is
-loaded.
--   [ ] User can click the '-' button to remove or replace a thumbnail.
--   [ ] User can see an 'Transition Speed' slider control. 
--   [ ] User can adjust the 'Transition Speed' slider from slow to fast to
-adjust the transition time between thumbnails in the Animation Display.
+### Painel de Configuração
+-   [ ] O usuário pode ver oito miniaturas que conterão frames individuais de animação
+-   [ ] O usuário pode ver um botão sob cada miniatura - '+'
+-   [ ] O usuário pode clicar no botão '+' para adicionar uma nova imagem a uma miniatura vazia
+-   [ ] O usuário pode ver uma caixa de diálogo de abertura de arquivo quando o botão '+' é clicado para permitir que uma imagem `.jpg` seja carregada na miniatura.
+-   [ ] O usuário pode ver o rótulo do botão '+' mudar para '-' após uma miniatura ser carregada.
+-   [ ] O usuário pode clicar no botão '-' para remover ou substituir uma miniatura.
+-   [ ] O usuário pode ver um controle deslizante 'Velocidade de Transição'.
+-   [ ] O usuário pode ajustar o controle deslizante 'Velocidade de Transição' de lento para rápido para ajustar o tempo de transição entre miniaturas na Exibição de Animação.
 
-### Operation Buttons
--   [ ] User can see two buttons - 'Clear Configuration' and 'Start Animation'
--   [ ] User can see the 'Start Animation' button disabled until at least one
-thumbnail has been added via the Configuration Panel.
--   [ ] User can click the 'Clear Configuration' button to clear all thumbnails
-from the configuration panel.
--   [ ] User can click the 'Start Animation' button to begin the Animation 
-Display panel
--   [ ] User can see the 'Start Animation' button label change to 'Stop
-Animation' once an animation has been started.
--   [ ] User can click the 'Stop Animation' button to halt the animation in
-the animation display
--   [ ] User can see the 'Stop Animation' button label change to 'Start
-Animation' when an animation has been stopped.
+### Botões de Operação
+-   [ ] O usuário pode ver dois botões - 'Limpar Configuração' e 'Iniciar Animação'
+-   [ ] O usuário pode ver o botão 'Iniciar Animação' desabilitado até que pelo menos uma miniatura tenha sido adicionada via Painel de Configuração.
+-   [ ] O usuário pode clicar no botão 'Limpar Configuração' para limpar todas as miniaturas do painel de configuração.
+-   [ ] O usuário pode clicar no botão 'Iniciar Animação' para começar o painel de Exibição de Animação
+-   [ ] O usuário pode ver o rótulo do botão 'Iniciar Animação' mudar para 'Parar Animação' uma vez que uma animação tenha sido iniciada.
+-   [ ] O usuário pode clicar no botão 'Parar Animação' para interromper a animação na exibição de animação
+-   [ ] O usuário pode ver o rótulo do botão 'Parar Animação' mudar para 'Iniciar Animação' quando uma animação foi parada.
 
-### Animation Display Panel
--   [ ] User can see thumbnails added in the Configuration panel displayed
-when theh 'Start Animation' button is clicked. 
--   [ ] User can see thumbnails transtion from one to the next at the rate
-defined by the 'Transition Speed' slider.
+### Painel de Exibição de Animação
+-   [ ] O usuário pode ver miniaturas adicionadas no painel de Configuração exibidas quando o botão 'Iniciar Animação' é clicado.
+-   [ ] O usuário pode ver miniaturas fazerem transição de uma para a próxima na taxa definida pelo controle deslizante 'Velocidade de Transição'.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see the border around the thumbnail in the Configuration Panel
-highlighted when that thumbnail is displayed in the Animation Display panel.
--   [ ] User can dynamically add any number of thumbnails rather than being
-restricted to just eight.
--   [ ] User can hear unique sounds associated with modifying thumbnails in the 
-Configuration Panel.
--   [ ] User can see a transition type dropdown in the Configuration Panel to
-define the transition effect between thumbnails in the Animation Display - 
-ease, ease-in, ease-out, ease-in-out
--   [ ] User can drag and drop thumbnails to reorder them
--   [ ] User can save the animation as a `.gif` file.
+-   [ ] O usuário pode ver a borda ao redor da miniatura no Painel de Configuração destacada quando essa miniatura é exibida no painel de Exibição de Animação.
+-   [ ] O usuário pode adicionar dinamicamente qualquer número de miniaturas em vez de ser restrito a apenas oito.
+-   [ ] O usuário pode ouvir sons únicos associados à modificação de miniaturas no Painel de Configuração.
+-   [ ] O usuário pode ver uma lista suspensa de tipo de transição no Painel de Configuração para definir o efeito de transição entre miniaturas na Exibição de Animação - ease, ease-in, ease-out, ease-in-out
+-   [ ] O usuário pode arrastar e soltar miniaturas para reordená-las
+-   [ ] O usuário pode salvar a animação como um arquivo `.gif`.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-- [How to Make Flip Book Animation](https://www.youtube.com/watch?v=Njl-uqnmBGA)
-- [CSS Animation (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
-- [Using CSS Transitions (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
-- [CSS Transition (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+- [Como Fazer Animação de Flip Book](https://www.youtube.com/watch?v=Njl-uqnmBGA)
+- [Animação CSS (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
+- [Usando Transições CSS (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
+- [Transição CSS (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
 
-## Example projects
+## Projetos de Exemplo
 
 [FlipAnim](http://flipanim.com/)

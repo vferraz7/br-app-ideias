@@ -1,38 +1,33 @@
 # StringArt
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-The purpose of String Art is to provide the developer with practice creating a
-simple animated graphic, using geometry in the animation algorithm, and
-creating something that's visually pleasant to watch.
+O propósito da String Art é fornecer ao desenvolvedor prática na criação de um gráfico animado simples, usando geometria no algoritmo de animação, e criando algo visualmente agradável de assistir.
 
-String Art draws a single multicolored line which smoothly moves until one
-end touches a side of the enclosing window. At the point it touches a "bounce"
-effect is applied to change it's direction.
+A String Art desenha uma única linha multicolorida que se move suavemente até que uma extremidade toque o lado da janela envolvente. No ponto em que toca, um efeito de "rebote" é aplicado para mudar sua direção.
 
-A ripple effect is created by only retaining 10-20 images of the line as it
-moves. Older images are progressively faded until they disappear.
+Um efeito de ondulação é criado retendo apenas 10-20 imagens da linha enquanto ela se move. Imagens mais antigas são progressivamente desbotadas até desaparecerem.
 
-Animation libraries are not allowed. Use only Vanilla HTML/CSS/JavaScript.
+Bibliotecas de animação não são permitidas. Use apenas HTML/CSS/JavaScript puros.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] Start by drawing a multicolored line at a random position within the boundary of it's enclosing window
--   [ ] Each 20ms draw a new copy of the line at a new position based on a trajectory - the incremental distance from the previous line based on the endpoints
--   [ ] When either endpoint of the line touches the boundary of the enclosing window change it's direction and randomly alter its angle
--   [ ] Progressively fade the intensity of old lines so that only the most recent 10-20 lines are visible to create the sense of movement or "ripple"
+-   [ ] Comece desenhando uma linha multicolorida em uma posição aleatória dentro do limite de sua janela envolvente
+-   [ ] A cada 20ms desenhe uma nova cópia da linha em uma nova posição baseada em uma trajetória - a distância incremental da linha anterior baseada nos pontos finais
+-   [ ] Quando qualquer ponto final da linha tocar o limite da janela envolvente, mude sua direção e altere aleatoriamente seu ângulo
+-   [ ] Desbote progressivamente a intensidade das linhas antigas para que apenas as 10-20 linhas mais recentes sejam visíveis para criar a sensação de movimento ou "ondulação"
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can specify the length of the line and it's velocity
--   [ ] User can specify the multiple lines within the window, all moving along different trajectories and velocities
+-   [ ] O usuário pode especificar o comprimento da linha e sua velocidade
+-   [ ] O usuário pode especificar múltiplas linhas dentro da janela, todas se movendo ao longo de diferentes trajetórias e velocidades
 
-## Useful links and resources
+## Links e Recursos Úteis
 
--   [Using Multistep Animations & Transitions](https://css-tricks.com/using-multi-step-animations-transitions/)
--   [Animation Basics](https://www.khanacademy.org/computing/computer-programming/programming/animation-basics/a/what-are-animations)
+-   [Usando Animações e Transições Multietapas](https://css-tricks.com/using-multi-step-animations-transitions/)
+-   [Noções Básicas de Animação](https://www.khanacademy.org/computing/computer-programming/programming/animation-basics/a/what-are-animations)
 
-## Example projects
+## Projetos de Exemplo
 
-This project is very close, but has a small enclosing window and is monochromatic.
+Este projeto é muito próximo, mas tem uma janela envolvente pequena e é monocromático.
 [Daniel Cortes](https://codepen.io/dgca/pen/dpxreO)

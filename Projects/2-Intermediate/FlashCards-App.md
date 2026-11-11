@@ -1,51 +1,38 @@
 # FlashCards
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-FlashCards are a time tested technique used by students to review and test
-their knowledge on a particular subject.
+FlashCards são uma técnica testada pelo tempo usada por estudantes para revisar e testar seus conhecimentos sobre um assunto específico.
 
-This app is based on a knowledge base of questions and answers about a
-particular subject and randomly displays a card with the question and multiple
-answers. The objective is for the user to select the correct answer(s).
+Este app é baseado em uma base de conhecimento de perguntas e respostas sobre um assunto específico e exibe aleatoriamente um card com a pergunta e múltiplas respostas. O objetivo é que o usuário selecione a resposta(s) correta(s).
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see a single card, randomly picked from the "deck" displayed
-        at any point in time
--   [ ] User can see a question on the card and a list of four possible answers,
-        each of which is identified by a letter.
--   [ ] User can select an answer by clicking on it
--   [ ] User can see an error displayed when the wrong answer is selected
--   [ ] User can see a congratulations message when the correct answer is
-        selected.
--   [ ] User can click a 'Next Question' button to display the next flash card.
+-   [ ] O usuário pode ver um único card, escolhido aleatoriamente do "baralho" exibido a qualquer momento
+-   [ ] O usuário pode ver uma pergunta no card e uma lista de quatro respostas possíveis, cada uma identificada por uma letra.
+-   [ ] O usuário pode selecionar uma resposta clicando nela
+-   [ ] O usuário pode ver um erro exibido quando a resposta errada é selecionada
+-   [ ] O usuário pode ver uma mensagem de parabéns quando a resposta correta é selecionada.
+-   [ ] O usuário pode clicar no botão 'Próxima Pergunta' para exibir o próximo flash card.
 
-### Additional Info for the Developer
+### Informações Adicionais para o Desenvolvedor
 
--   For this app the knowledge base of questions and answers should be encoded in
-    a JavaScript object.
--   The possible answers display on each card should be randomly chosen from
-    other flashcards.
+-   Para este app, a base de conhecimento de perguntas e respostas deve ser codificada em um objeto JavaScript.
+-   As respostas possíveis exibidas em cada card devem ser escolhidas aleatoriamente de outros flashcards.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can click a 'Results' button to display the tallies of
-        correct and incorrect answers.
--   [ ] User can click a 'Reset' button to reset the tallies of correct
-        and incorrect answers.
--   [ ] User can click a 'Shuffle' button to re-randomize the "deck"
--   [ ] User can click a 'More Info' button to flip the flash card to see
-        additional information. For example, detailed information about the subject
-        of the question on the front of the card.
+-   [ ] O usuário pode clicar no botão 'Resultados' para exibir a contagem de respostas corretas e incorretas.
+-   [ ] O usuário pode clicar no botão 'Resetar' para zerar a contagem de respostas corretas e incorretas.
+-   [ ] O usuário pode clicar no botão 'Embaralhar' para re-aleatorizar o "baralho"
+-   [ ] O usuário pode clicar no botão 'Mais Info' para virar o flash card e ver informações adicionais. Por exemplo, informações detalhadas sobre o assunto da pergunta na frente do card.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-The definitive source for HTML/CSS/Javascript is [MDN](https://developer.mozilla.org/en-US/)
+A fonte definitiva para HTML/CSS/JavaScript é o [MDN](https://developer.mozilla.org/en-US/)
 
-Example Javascript questions and answers can be found at
-[Brainscape](https://www.brainscape.com/subjects/javascript).
+Exemplos de perguntas e respostas em JavaScript podem ser encontrados no [Brainscape](https://www.brainscape.com/subjects/javascript).
 
-## Example projects
+## Projetos de Exemplo
 
-[Vintage Multiplication Flash Cards](https://codepen.io/NinoLopezTech/pen/vJBMpZ)
+[Flash Cards de Multiplicação Vintage](https://codepen.io/NinoLopezTech/pen/vJBMpZ)

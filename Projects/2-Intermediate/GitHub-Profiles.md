@@ -1,32 +1,35 @@
-# GitHub Profiles
-**Tier:** 2-Intermediate
+# Perfis do GitHub
 
-APIs allow you to use the real world data that drives platforms like GitHub. You can communicate with the remote servers and get data that you can use to build an app.
+**Nível:** 2-Intermediário
 
-In this project you create a search app that uses GitHub API to retrieve user information when a valid username is input. It should display avatar, username, followers count, repository count, top 4 repositories based on forks and stars.
+APIs permitem que você use os dados do mundo real que impulsionam plataformas como o GitHub. Você pode se comunicar com servidores remotos e obter dados que pode usar para construir um app.
 
-## User Stories
+Neste projeto você cria um app de busca que usa a API do GitHub para recuperar informações do usuário quando um nome de usuário válido é inserido. Ele deve exibir avatar, nome de usuário, contagem de seguidores, contagem de repositórios, top 4 repositórios baseados em forks e estrelas.
 
--   [ ] User can enter a username
--   [ ] User can click on search button to retrieve information
--   [ ] User can see the avatar, username, followers and repository count of searched user
--   [ ] User can see the top 4 repositories of searched user
--   [ ] User should get an alert if the username is not valid
+## Histórias de Usuário
 
-## Bonus features
--  [ ] User can toggle dark/light mode
--  [ ] Selected mode should persist when user comes back to the app again
+-   [ ] O usuário pode inserir um nome de usuário
+-   [ ] O usuário pode clicar no botão de busca para recuperar informações
+-   [ ] O usuário pode ver o avatar, nome de usuário, seguidores e contagem de repositórios do usuário buscado
+-   [ ] O usuário pode ver o top 4 repositórios do usuário buscado
+-   [ ] O usuário deve receber um alerta se o nome de usuário não for válido
 
-## Useful links and resources
-To get the data you need to communicate with GitHub API. you can either
+## Funcionalidades Bônus
 
-- [Read Docs](https://developer.github.com/v3/)
-- [Check API directly](https://api.github.com/users/chaharshivam)
+-  [ ] O usuário pode alternar modo escuro/claro
+-  [ ] O modo selecionado deve persistir quando o usuário voltar ao app novamente
 
-To get data from API you can check [fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) in javascript
+## Links e Recursos Úteis
 
-## Example projects
+Para obter os dados, você precisa se comunicar com a API do GitHub. Você pode:
 
-- [GitHub profiles](https://github-profiles.netlify.app/) ([repo](https://github.com/GabrielNBDS/GitHub-Profiles))
+- [Ler Documentação](https://developer.github.com/v3/)
+- [Verificar API diretamente](https://api.github.com/users/chaharshivam)
+
+Para obter dados da API, você pode conferir a [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) em JavaScript
+
+## Projetos de Exemplo
+
+- [Perfis do GitHub](https://github-profiles.netlify.app/) ([repo](https://github.com/GabrielNBDS/GitHub-Profiles))
 
 - [github-profile-search](https://github-profile-search-272901.web.app/) ([repo](https://github.com/guerra08/github-profile-search))

@@ -1,56 +1,39 @@
-# Typing Practice
+# Prática de Digitação
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-Some things are so obvious they can be easily overlooked. As a developer 
-your ability to type quickly and accurately is one factor that influences 
-your development productivity. The objective of the Typing Practice app is
-to provide you with typing practice along with metrics to allow you to
-measure your progress.
+Algumas coisas são tão óbvias que podem ser facilmente negligenciadas. Como desenvolvedor, sua capacidade de digitar rápida e precisamente é um fator que influencia sua produtividade no desenvolvimento. O objetivo do app Prática de Digitação é fornecer prática de digitação junto com métricas para permitir que você meça seu progresso.
 
-Typing practice displays a word which you must then type within a specific
-interval of time. If the word is incorrectly typed it stays on
-screen and the time interval remains the same. But when the word is correctly 
-typed a new word is displayed and the time interval is slightly reduced.
+A prática de digitação exibe uma palavra que você deve digitar dentro de um intervalo de tempo específico. Se a palavra for digitada incorretamente, ela permanece na tela e o intervalo de tempo permanece o mesmo. Mas quando a palavra é digitada corretamente, uma nova palavra é exibida e o intervalo de tempo é ligeiramente reduzido.
 
-Hopefully, this repetitive practice will help you improve both your typing
-speed and accuracy.
+Espera-se que esta prática repetitiva ajude a melhorar tanto sua velocidade quanto sua precisão na digitação.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see the time interval words must be typed in displayed in 
-the app window.
--   [ ] User can see the number of successful attempts and the number of total
-attempts in a score box.
--   [ ] User can click a 'Start Practice' button to start the practice session.
--   [ ] User can see the prompt word displayed in a text box.
--   [ ] User can begin typing the word in a text input box.
--   [ ] User can see the letters that have been typed flash if an incorrect
-letter is entered and the text input box will be cleared.
--   [ ] User can see the a message adjacent to the text input box indicating
-the user should try again if an incorrect letter is entered.
--   [ ] User can see the number of total attempts incremented in the score box.
--   [ ] User can see a congratulations message if the word is correctly typed.
--   [ ] User can see the time interval words must be typed decremented by a
-small amount if the word is correctly typed.
--   [ ] User can see the number of successful attempts incremented in the score
-box if the word was correctly typed.
--   [ ] User can click a 'Stop Practice' button to stop the practice session.
+-   [ ] O usuário pode ver o intervalo de tempo em que as palavras devem ser digitadas exibido na janela do app.
+-   [ ] O usuário pode ver o número de tentativas bem-sucedidas e o número total de tentativas em uma caixa de pontuação.
+-   [ ] O usuário pode clicar no botão 'Iniciar Prática' para iniciar a sessão de prática.
+-   [ ] O usuário pode ver a palavra solicitada exibida em uma caixa de texto.
+-   [ ] O usuário pode começar a digitar a palavra em uma caixa de entrada de texto.
+-   [ ] O usuário pode ver as letras que foram digitadas piscarem se uma letra incorreta for inserida e a caixa de entrada de texto será limpa.
+-   [ ] O usuário pode ver uma mensagem adjacente à caixa de entrada de texto indicando que o usuário deve tentar novamente se uma letra incorreta for inserida.
+-   [ ] O usuário pode ver o número de tentativas totais incrementado na caixa de pontuação.
+-   [ ] O usuário pode ver uma mensagem de parabéns se a palavra for digitada corretamente.
+-   [ ] O usuário pode ver o intervalo de tempo em que as palavras devem ser digitadas decrementado em uma pequena quantidade se a palavra for digitada corretamente.
+-   [ ] O usuário pode ver o número de tentativas bem-sucedidas incrementado na caixa de pontuação se a palavra foi digitada corretamente.
+-   [ ] O usuário pode clicar no botão 'Parar Prática' para parar a sessão de prática.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can hear a unique audible tone signalling when a new word is 
-displayed, a word is correctly entered, or an incorrect letter is typed in
-the word.
--   [ ] User can login to the app
--   [ ] User can see cumulative performance statistics across all of his/her
-practice sessions.
+-   [ ] O usuário pode ouvir um tom audível único sinalizando quando uma nova palavra é exibida, uma palavra é digitada corretamente, ou uma letra incorreta é digitada na palavra.
+-   [ ] O usuário pode fazer login no app
+-   [ ] O usuário pode ver estatísticas de desempenho cumulativas em todas as suas sessões de prática.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 - [keydown](https://developer.mozilla.org/en-US/docs/Web/Events/keydown)
 - [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
 
-## Example projects
+## Projetos de Exemplo
 
-[Twiddler Typing Tutor](http://twiddler.tekgear.com/tutor/twiddler.html)
+[Tutor de Digitação Twiddler](http://twiddler.tekgear.com/tutor/twiddler.html)

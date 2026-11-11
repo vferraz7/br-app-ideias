@@ -1,74 +1,42 @@
-# Simple Online Store
+# Loja Online Simples
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-In the [Product Landing Page](../1-Beginner/Product-Landing-Page.md) project you implemented
-a landing page to provide your users with information about a product and to
-hopefully increase your sites conversion rate.
+No projeto [Página de Destino do Produto](../1-Beginner/Product-Landing-Page.md) você implementou uma página de destino para fornecer aos seus usuários informações sobre um produto e, esperançosamente, aumentar a taxa de conversão do seu site.
 
-The goal of the Simple Online Store is to give your users the capability of 
-selecting a product to purchase, viewing purchase information, adding it to
-an online shopping cart, and finally, actually purchasing the products in the
-shopping cart.
+O objetivo da Loja Online Simples é dar aos seus usuários a capacidade de selecionar um produto para comprar, visualizar informações de compra, adicioná-lo a um carrinho de compras online e, finalmente, efetivamente comprar os produtos no carrinho de compras.
 
-### Constraints
+### Restrições
 
-- Starting out you may implement your product inventory as an array of 
-Javascript objects if you are developing in Javascript. For other languages
-feel free to choose the in memory solution of your choice.
+- Inicialmente, você pode implementar seu inventário de produtos como um array de objetos JavaScript se estiver desenvolvendo em JavaScript. Para outras linguagens, sinta-se à vontade para escolher a solução em memória de sua escolha.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can click on a `View Products` button on the Landing Page to 
-display the Products Page.
--   [ ] User can see a card on the Products Page for each
-Product showing the product thumbnail, name, price, a short description,
-and a `Select` button.
--   [ ] User can see a Product Details page displayed when the `Select` button
-is clicked showing the same information from the product card, but also a 
-unique product id, a long description, `Add to Cart` button, and a 
-`See More Products` button.
--   [ ] User can see a confirmation message when the product is added to the
-shopping cart.
--   [ ] User can click on the `See More Products` page to return to the 
-Products Page. 
--   [ ] User can see a `Shopping Cart` button on both the Landing
-Page or the Products Page. Hint:  a top bar might be a good common location
-for this button.
--   [ ] User can click on the `Shopping Cart` button to display the Shopping
-Cart page containing the product id, name, price, and quantity
-ordered input box for each product previously added to the Shopping Cart.
--   [ ] User can see a total purchase amount on the Shopping Card that is
-calculated as the sum of the quantities multiplied by the unit price for each
-product ordered.
--   [ ] User can adjust the quantity ordered for any product to adjust the
-total purchase amount. 
--   [ ] User can click a `Place Order` button on the Shopping Cart Page to 
-complete the order. User will see a confirmation number when the order has been
-placed.
--   [ ] User can click a `Cancel Order` button on the Shopping Cart Page to 
-cancel the order. User will see the product quantities and the total purchase
-amount reset to zero.
--   [ ] User can click a `See More Products` button on the Shopping Cart Page
-to return to the Products Page. If the order hasn't been placed yet this will
-not clear the products that have already been added to the Products Page.
+-   [ ] O usuário pode clicar no botão `Ver Produtos` na Página de Destino para exibir a Página de Produtos.
+-   [ ] O usuário pode ver um card na Página de Produtos para cada Produto mostrando a miniatura do produto, nome, preço, uma descrição curta, e um botão `Selecionar`.
+-   [ ] O usuário pode ver uma Página de Detalhes do Produto exibida quando o botão `Selecionar` é clicado mostrando as mesmas informações do card do produto, mas também um ID único do produto, uma descrição longa, botão `Adicionar ao Carrinho`, e um botão `Ver Mais Produtos`.
+-   [ ] O usuário pode ver uma mensagem de confirmação quando o produto é adicionado ao carrinho de compras.
+-   [ ] O usuário pode clicar na página `Ver Mais Produtos` para retornar à Página de Produtos.
+-   [ ] O usuário pode ver um botão `Carrinho de Compras` tanto na Página de Destino quanto na Página de Produtos. Dica: uma barra superior pode ser um bom local comum para este botão.
+-   [ ] O usuário pode clicar no botão `Carrinho de Compras` para exibir a página do Carrinho de Compras contendo o ID do produto, nome, preço, e caixa de entrada de quantidade ordenada para cada produto adicionado anteriormente ao Carrinho de Compras.
+-   [ ] O usuário pode ver um valor total de compra no Carrinho que é calculado como a soma das quantidades multiplicadas pelo preço unitário para cada produto ordenado.
+-   [ ] O usuário pode ajustar a quantidade ordenada para qualquer produto para ajustar o valor total da compra.
+-   [ ] O usuário pode clicar no botão `Fazer Pedido` na Página do Carrinho de Compras para completar o pedido. O usuário verá um número de confirmação quando o pedido tiver sido feito.
+-   [ ] O usuário pode clicar no botão `Cancelar Pedido` na Página do Carrinho de Compras para cancelar o pedido. O usuário verá as quantidades dos produtos e o valor total da compra resetados para zero.
+-   [ ] O usuário pode clicar no botão `Ver Mais Produtos` na Página do Carrinho de Compras para retornar à Página de Produtos. Se o pedido não tiver sido feito ainda, isso não limpará os produtos que já foram adicionados à Página de Produtos.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see an error message if the quantity ordered exceeds the 
-"on hand" quantity of the product.
--   [ ] User can specify a bill to and ship to address when the order is
-placed from the Shopping Cart Page
--   [ ] User can see shipping charges added to the total purchase amount
--   [ ] User can see sales taxes added to the total purchase amount
--   [ ] Developer will implement the product inventory in an external file or
-a database.
+-   [ ] O usuário pode ver uma mensagem de erro se a quantidade ordenada exceder a quantidade "em estoque" do produto.
+-   [ ] O usuário pode especificar endereços de cobrança e entrega quando o pedido é feito na Página do Carrinho de Compras
+-   [ ] O usuário pode ver taxas de envio adicionadas ao valor total da compra
+-   [ ] O usuário pode ver impostos de venda adicionados ao valor total da compra
+-   [ ] O desenvolvedor implementará o inventário de produtos em um arquivo externo ou banco de dados.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-There are plenty of eCommerce Site Pages out there. You can use [Dribbble](https://www.dribbble.com) and [Behance](https://www.behance.net) for inspiration.
+Existem muitas Páginas de Sites de eCommerce por aí. Você pode usar o [Dribbble](https://www.dribbble.com) e [Behance](https://www.behance.net) para inspiração.
 
-## Example projects
+## Projetos de Exemplo
 
--   [eCommerce Animations](https://codepen.io/RSH87/pen/RagqEv)
-
+-   [Animações de eCommerce](https://codepen.io/RSH87/pen/RagqEv)

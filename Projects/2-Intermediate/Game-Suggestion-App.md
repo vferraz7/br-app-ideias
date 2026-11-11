@@ -1,25 +1,24 @@
+# App de Sugestão de Jogos
 
-# Game suggestion app
+**Nível:** 2-Intermediário
 
-**Tier:** 2-Intermediate
+Um app onde os usuários podem criar enquetes onde os votantes podem sugerir quaisquer jogos disponíveis no [IGDB](https://www.igdb.com/) para jogar em uma stream ou encontro de jogos. O IGDB (Internet Game Data Base) tem uma [API](https://www.igdb.com/api) útil para obter jogos e implementar algum tipo de busca AJAX para isso seria necessário.
 
-An app where users can create polls where voters can suggest any games available on [IGDB](https://www.igdb.com/) to play on a stream or a gaming get-together. IGDB (Internet Game Data Base) has a handy [API](https://www.igdb.com/api) for getting games and implementing some kind of AJAX search for it would be necessary.
+## Histórias de Usuário
 
-## User Stories
+-   [ ] O usuário pode criar enquetes
+-   [ ] O usuário pode votar em enquetes (adicionar jogos)
+-   [ ] O usuário pode ver os resultados da enquete como uma lista top 10 ou 5 dos jogos mais votados
 
--   [ ] User can create polls
--   [ ] User can vote on polls (add games)
--   [ ] User can see the poll results as a top 10 or 5 list of the most voted games
+## Funcionalidades Bônus
 
-## Bonus features
+-   [ ] O admin da enquete pode restringir a votação a uma certa tag ou gênero
+-   [ ] O usuário pode fazer login e ver suas enquetes antigas
 
--   [ ] Poll admin can restrict the voting to a certain tag or genre
--   [ ] User can login and see their old polls
+## Links e Recursos Úteis
 
-## Useful links and resources
+-   [Documentação da API do IGDB](https://api-docs.igdb.com/)
 
--   [IGDB API documentation](https://api-docs.igdb.com/)
+## Projetos de Exemplo
 
-## Example projects
-
--   [Strawpoll, one of the most popular polling apps](https://www.strawpoll.me/)
+-   [Strawpoll, um dos apps de enquete mais populares](https://www.strawpoll.me/)

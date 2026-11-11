@@ -1,27 +1,28 @@
-# Currency Converter
+# Conversor de Moedas
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-A currency converter is used to convert an amount in one currency to its corresponding value in another currency using their current exchange rate, for example it can be used to calculate the value of 100 US Dollars in Euros. Current exchange rates are usually provided by banks and other financial service providers, they also (in some cases) offer free and paid APIs for developers to get current and historical exchange rates between two or more currencies.
+Um conversor de moedas é usado para converter um valor em uma moeda para seu valor correspondente em outra moeda usando a taxa de câmbio atual, por exemplo, pode ser usado para calcular o valor de 100 Dólares Americanos em Euros. Taxas de câmbio atuais geralmente são fornecidas por bancos e outros provedores de serviços financeiros, eles também (em alguns casos) oferecem APIs gratuitas e pagas para desenvolvedores obterem taxas de câmbio atuais e históricas entre duas ou mais moedas.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can enter up to 9 digits to represent the amount to convert in a source input field
--   [ ] User can view a sorted list of available currencies and select the currency to convert from in a source drop-down list
--   [ ] User can view a sorted list of available currencies and select the currency to convert to in a destination drop-down list
--   [ ] User views the value (rounded to two decimal places) of the source amount converted to the destination currency in a single output field as soon as either the input value, the source currency, or the destination currency is changed.
--   [ ] User must be alerted if the input is not a number
+-   [ ] O usuário pode inserir até 9 dígitos para representar o valor a converter em um campo de entrada de origem
+-   [ ] O usuário pode visualizar uma lista ordenada de moedas disponíveis e selecionar a moeda de origem em uma lista suspensa de origem
+-   [ ] O usuário pode visualizar uma lista ordenada de moedas disponíveis e selecionar a moeda de destino em uma lista suspensa de destino
+-   [ ] O usuário visualiza o valor (arredondado para duas casas decimais) do valor de origem convertido para a moeda de destino em um único campo de saída assim que o valor de entrada, a moeda de origem ou a moeda de destino é alterado.
+-   [ ] O usuário deve ser alertado se a entrada não for um número
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User should be able to swap the values of the source and destination drop-down lists on the click of a button
+-   [ ] O usuário deve poder trocar os valores das listas suspensas de origem e destino ao clicar em um botão
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-- [Free currency converter API](https://free.currencyconverterapi.com/)
-- [XE currency converter](https://www.xe.com/)
-- [How to use fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) to fetch data
+- [API gratuita de conversor de moedas](https://free.currencyconverterapi.com/)
+- [Conversor de moedas XE](https://www.xe.com/)
+- [Como usar a Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) para buscar dados
 
-## Example projects
-- [Currency Converter](https://acodedoer.github.io/currency-converter/)
-- [Currency converter code](https://github.com/acodedoer/currency-converter)
+## Projetos de Exemplo
+
+- [Conversor de Moedas](https://acodedoer.github.io/currency-converter/)
+- [Código do conversor de moedas](https://github.com/acodedoer/currency-converter)

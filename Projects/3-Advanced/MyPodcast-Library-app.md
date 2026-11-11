@@ -1,92 +1,60 @@
-# My Podcast Library
+# Minha Biblioteca de Podcasts
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-In the [GitHub Status](../1-Beginner/GitHub-Status-App.md) and [Podcast Directory](../2-Intermediate/Podcast-Directory-App.md) you learned what web scraping is and how you can
-use it as an alternative data source when API's and backend databases aren't
-available. The _My Podcast Library_ app merges your newfound knowledge of 
-web scraping with your frontend skills to extend the simple Podcast Directory
-app into something more complex and useful.
+No [GitHub Status](../1-Beginner/GitHub-Status-App.md) e [Diretório de Podcasts](../2-Intermediate/Podcast-Directory-App.md) você aprendeu o que é web scraping e como você pode usá-lo como uma fonte de dados alternativa quando APIs e bancos de dados backend não estão disponíveis. O app _Minha Biblioteca de Podcasts_ combina seu novo conhecimento de web scraping com suas habilidades de frontend para estender o simples app Diretório de Podcasts em algo mais complexo e útil.
 
-The goal of _My Podcast Library_ is to build a more personalized library of
-your favorite podcasts and episodes. In this app you'll use
-[Puppeteer](https://github.com/GoogleChrome/puppeteer) and
-[Podbean](https://www.podbean.com) to create an app to maintain your
-personal library of podcasts.
+O objetivo do _Minha Biblioteca de Podcasts_ é construir uma biblioteca mais personalizada dos seus podcasts e episódios favoritos. Neste app você usará [Puppeteer](https://github.com/GoogleChrome/puppeteer) e [Podbean](https://www.podbean.com) para criar um app para manter sua biblioteca pessoal de podcasts.
 
-This project is described in detail by the following user stories, but feel
-free to use your imagination.
+Este projeto é descrito em detalhes pelas seguintes histórias de usuário, mas sinta-se à vontade para usar sua imaginação.
 
-## User Stories
+## Histórias de Usuário
 
-### Favorite Podcast Display
+### Exibição de Podcasts Favoritos
 
--   [ ] User can see their favorite podcasts in a tabular display area
--   [ ] User can see the message 'No podcasts added yet' in watermark format
-in this area if no podcasts have been added.
--   [ ] User can see an overview of each favorite podcast that has been added
-in this area. This includes the podcast icon, it's name, and the number of 
-most recent episodes.
--   [ ] User can click on the podcast icon to display a page containing a list
-of the most recent episodes.
+-   [ ] O usuário pode ver seus podcasts favoritos em uma área de exibição tabular
+-   [ ] O usuário pode ver a mensagem 'Nenhum podcast adicionado ainda' em formato de marca d'água nesta área se nenhum podcast foi adicionado.
+-   [ ] O usuário pode ver uma visão geral de cada podcast favorito que foi adicionado nesta área. Isso inclui o ícone do podcast, seu nome, e o número de episódios mais recentes.
+-   [ ] O usuário pode clicar no ícone do podcast para exibir uma página contendo uma lista dos episódios mais recentes.
 
-### Favorite Podcast Entry
--   [ ] User can see a '+' button at the top of the favorite podcast area with
-the hover text 'Add a new podcast'
--   [ ] User can click the '+' button to display a popup panel to allow a new
-favorite podcast added. This panel contains an input area containing a text
-input box for the podcasts page on Podbean (e.g. 
-[Techpoint Charlie](https://www.podbean.com/podcast-detail/k76vd-8adc7/Techpoint-Charlie-Podcast)), a 'Save' button, and a 'Cancel' button.
--   [ ] User can click the 'Save' button to validate the URL and add the 
-podcast to the favorite podcast area.
--   [ ] User can see a warning message if the url doesn't start with 
-```https://www.podbean.com/podcast-detail/``` or if navigating to the page
-results in a 404 error.
--   [ ] User can see valid URLs for favorite podcasts retained across sessions.
--   [ ] User can click the 'Cancel' button to discard any data and dismiss the
-popup.
+### Entrada de Podcast Favorito
+-   [ ] O usuário pode ver um botão '+' no topo da área de podcasts favoritos com o texto de hover 'Adicionar um novo podcast'
+-   [ ] O usuário pode clicar no botão '+' para exibir um painel popup para permitir adicionar um novo podcast favorito. Este painel contém uma área de entrada contendo uma caixa de texto para a página do podcast no Podbean (ex: [Techpoint Charlie](https://www.podbean.com/podcast-detail/k76vd-8adc7/Techpoint-Charlie-Podcast)), um botão 'Salvar', e um botão 'Cancelar'.
+-   [ ] O usuário pode clicar no botão 'Salvar' para validar a URL e adicionar o podcast à área de podcasts favoritos.
+-   [ ] O usuário pode ver uma mensagem de aviso se a URL não começar com ```https://www.podbean.com/podcast-detail/``` ou se navegar para a página resultar em erro 404.
+-   [ ] O usuário pode ver URLs válidas para podcasts favoritos retidas entre sessões.
+-   [ ] O usuário pode clicar no botão 'Cancelar' para descartar quaisquer dados e fechar o popup.
 
-### Most Recent Episodes for a Podcast Page
--   [ ] User can see a table of podcast episodes
--   [ ] User can see rows in this table showing a clickable episode icon, the
-title of the episode, the date it was originally broadcast, and a heart icon
-button to mark it as a favorite.
--   [ ] User can scroll through the list
--   [ ] User can click on the episode icon to display that episodes page on
-the Podbean web site.
--   [ ] User can click on an episode's heart icon to mark it as a favorite.
--   [ ] User can click on an episode's heart icon to remove it as a favorite.
--   [ ] User can see the table sorted with most recent episodes at the top, 
-followed by those previously marked as favorites.
--   [ ] User can see favorite episodes persist across sessions.
+### Episódios Mais Recentes para uma Página de Podcast
+-   [ ] O usuário pode ver uma tabela de episódios de podcast
+-   [ ] O usuário pode ver linhas nesta tabela mostrando um ícone de episódio clicável, o título do episódio, a data em que foi transmitido originalmente, e um botão de ícone de coração para marcá-lo como favorito.
+-   [ ] O usuário pode rolar pela lista
+-   [ ] O usuário pode clicar no ícone do episódio para exibir a página desse episódio no site do Podbean.
+-   [ ] O usuário pode clicar no ícone de coração de um episódio para marcá-lo como favorito.
+-   [ ] O usuário pode clicar no ícone de coração de um episódio para removê-lo como favorito.
+-   [ ] O usuário pode ver a tabela ordenada com os episódios mais recentes no topo, seguidos pelos marcados anteriormente como favoritos.
+-   [ ] O usuário pode ver episódios favoritos persistirem entre sessões.
 
-## Bonus features
+## Funcionalidades Bônus
 
-### Episode Ratings
--   [ ] User can see 5 star icons with each episode that denotes how the user
-rates it. 
--   [ ] User may click stars from left-to-right to rate an episode. Stars are
-filled or changed to a new color when clicked.
--   [ ] User may change a rating by clicking on the stars from right-to-left
-to deselect them.
--   [ ] User can see the list of favorite episodes on the page sorted in
-descending rating sequence.
+### Avaliações de Episódios
+-   [ ] O usuário pode ver 5 ícones de estrela com cada episódio que denota como o usuário o avalia.
+-   [ ] O usuário pode clicar nas estrelas da esquerda para direita para avaliar um episódio. Estrelas são preenchidas ou mudam para uma nova cor quando clicadas.
+-   [ ] O usuário pode alterar uma avaliação clicando nas estrelas da direita para esquerda para desmarcá-las.
+-   [ ] O usuário pode ver a lista de episódios favoritos na página ordenada em sequência de avaliação decrescente.
 
-### Searching & Hashtags
--   [ ] User can enter a freeform hashtag with an episode on the most recent
-episodes page. This hashtag does not need to be predefined.
--   [ ] User can see a search box on the main page and a 'Search' button
--   [ ] User can enter hashtags in the search box to display a page of episodes
-from any podcast with the same format as the most recent episodes page.
--   [ ] User can click on a cancel button on the search results page to return
-to the main page.
- 
-## Useful links and resources
+### Busca e Hashtags
+-   [ ] O usuário pode inserir uma hashtag livre com um episódio na página de episódios mais recentes. Esta hashtag não precisa ser predefinida.
+-   [ ] O usuário pode ver uma caixa de busca na página principal e um botão 'Buscar'
+-   [ ] O usuário pode inserir hashtags na caixa de busca para exibir uma página de episódios de qualquer podcast com o mesmo formato da página de episódios mais recentes.
+-   [ ] O usuário pode clicar no botão cancelar na página de resultados da busca para retornar à página principal.
+
+## Links e Recursos Úteis
 
 - [Puppeteer](https://github.com/GoogleChrome/puppeteer)
-- [Web Scraping with a Headless Browser: A Puppeteer Tutorial](https://www.toptal.com/puppeteer/headless-browser-puppeteer-tutorial)
+- [Web Scraping com um Navegador Headless: Um Tutorial Puppeteer](https://www.toptal.com/puppeteer/headless-browser-puppeteer-tutorial)
 - [querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/querySelectorAll)
 
-## Example projects
+## Projetos de Exemplo
 
 N/a

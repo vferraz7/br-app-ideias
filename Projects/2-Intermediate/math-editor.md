@@ -1,29 +1,29 @@
-# Math Formula Editor
+# Editor de Fórmulas Matemáticas
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-An app (desktop or web) which you can use to edit different kinds of math formulas. The app will be particularry useful for doing your math homework digitally.
+Um app (desktop ou web) que você pode usar para editar diferentes tipos de fórmulas matemáticas. O app será particularmente útil para fazer sua lição de casa de matemática digitalmente.
 
-The app will probably use a math markup system such as LaTeX.
+O app provavelmente usará um sistema de marcação matemática como LaTeX.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can write to a text document
--   [ ] User can add a math formula to that text document
--   [ ] User can save the document either to a database or as a file locally
--   [ ] User can load the file and all the formulas should be still intact
+-   [ ] O usuário pode escrever em um documento de texto
+-   [ ] O usuário pode adicionar uma fórmula matemática a esse documento de texto
+-   [ ] O usuário pode salvar o documento seja em um banco de dados ou como um arquivo localmente
+-   [ ] O usuário pode carregar o arquivo e todas as fórmulas devem permanecer intactas
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can change the font size of text
--   [ ] User can change other attributes of text (color, bold, etc.)
--   [ ] User can add images to the document
+-   [ ] O usuário pode mudar o tamanho da fonte do texto
+-   [ ] O usuário pode mudar outros atributos do texto (cor, negrito, etc.)
+-   [ ] O usuário pode adicionar imagens ao documento
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 -   [Mathquill](http://mathquill.com/)
 
-## Example projects
+## Projetos de Exemplo
 
--   [L'math, a math editor for finnish high school students, change the language on the top left corner](https://www.lehtodigital.fi/lmath/?p=download)
--   [Online demo of a simple math editor](https://math-demo.abitti.fi)
+-   [L'math, um editor de matemática para estudantes do ensino médio finlandês, mude o idioma no canto superior esquerdo](https://www.lehtodigital.fi/lmath/?p=download)
+-   [Demo online de um editor de matemática simples](https://math-demo.abitti.fi)

@@ -1,41 +1,34 @@
-# Regular Expression Helper
+# Auxiliar de Expressão Regular
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-Regular Expressions should be a valuable part of any developers toolbox. They
-provide a concise way to describe a pattern that can be used to test, search, 
-match, replace, or split the contents of a 
-string. Regular Expressions provide functionality you might otherwise have to
-implement using loops and more lines of code.
+Expressões Regulares devem ser uma parte valiosa da caixa de ferramentas de qualquer desenvolvedor. Elas fornecem uma maneira concisa de descrever um padrão que pode ser usado para testar, buscar, corresponder, substituir ou dividir o conteúdo de uma string. Expressões Regulares fornecem funcionalidades que você teria que implementar usando loops e mais linhas de código.
 
-The Regular Expression Helper helps you learn more about Regular Expressions
-by building a useful tool you'll also be able to use to test expressions
-you use in your apps.
+O Auxiliar de Expressão Regular ajuda você a aprender mais sobre Expressões Regulares construindo uma ferramenta útil que você também poderá usar para testar expressões que usa em seus apps.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can enter a regular expression.
--   [ ] User can enter a string the regular expression can be run against.
--   [ ] User can click a 'Run' button to test
--   [ ] User can see a warning message if no regular expression was entered.
--   [ ] User can see a warning message if no string was entered.
--   [ ] User can see the matching text highlighted indicating if `test()` was able to locate the pattern in the string.
--   [ ] User can see a message if none of the text was matched.
+-   [ ] O usuário pode inserir uma expressão regular.
+-   [ ] O usuário pode inserir uma string na qual a expressão regular pode ser executada.
+-   [ ] O usuário pode clicar no botão 'Executar' para testar
+-   [ ] O usuário pode ver uma mensagem de aviso se nenhuma expressão regular foi inserida.
+-   [ ] O usuário pode ver uma mensagem de aviso se nenhuma string foi inserida.
+-   [ ] O usuário pode ver o texto correspondente destacado indicando se `test()` foi capaz de localizar o padrão na string.
+-   [ ] O usuário pode ver uma mensagem se nenhum dos textos foi correspondido.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can select the flags (like 'g') to be used in the regular expression from a dropdown - global, case insensitive, multiline, sticky.
--   [ ] User can select the RegExp function to be applied from a dropdown - test, search, or match
--   [ ] User can see a message indicating the result of the selected RegExp function.
--   [ ] Developer can run automated tests using a testing framework such as
-[Jest](https://jestjs.io/)
+-   [ ] O usuário pode selecionar as flags (como 'g') a serem usadas na expressão regular em uma lista suspensa - global, insensível a maiúsculas/minúsculas, multilinha, sticky.
+-   [ ] O usuário pode selecionar a função RegExp a ser aplicada em uma lista suspensa - test, search, ou match
+-   [ ] O usuário pode ver uma mensagem indicando o resultado da função RegExp selecionada.
+-   [ ] O desenvolvedor pode executar testes automatizados usando um framework de testes como [Jest](https://jestjs.io/)
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-- [Javascript RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
-- [Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+- [RegExp JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+- [Expressões Regulares](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 
-## Example projects
+## Projetos de Exemplo
 
 - [RegExr](https://regexr.com/)
-- [Regular Expressions 101](https://regex101.com/)
+- [Expressões Regulares 101](https://regex101.com/)

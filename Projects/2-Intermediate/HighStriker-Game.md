@@ -1,50 +1,36 @@
 # HighStriker
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-Carnivals and circuses have featured the HighStriker sideshow game since at
-least the 1930's. This game consists of a tower with a bell mounted at the top
-and a levered platform at the bottom. When the levered platform is struck with
-a mallet it causes a puck to travel up a track attached to the tower. 
+Parques de diversões e circos apresentam o jogo lateral HighStriker desde pelo menos a década de 1930. Este jogo consiste em uma torre com um sino montado no topo e uma plataforma alavancada na base. Quando a plataforma alavancada é atingida com um martelo, ela faz com que um disco viaje por um trilho anexado à torre.
 
-When the platform is struck the puck travels vertically up the track. If hit
-hard enough the puck will ring the bell, signifying a winner.
+Quando a plataforma é atingida, o disco viaja verticalmente pelo trilho. Se atingido com força suficiente, o disco tocará o sino, significando um vencedor.
 
-The objective of the Highstriker app is to simulate this carnival
-game. Instead of physical force to move the puck up the track use an algorithm 
-of your own design and a random number generator to determine the puck's
-speed and the distance it travels.
+O objetivo do app HighStriker é simular este jogo de parque de diversões. Em vez de força física para mover o disco pelo trilho, use um algoritmo de sua própria criação e um gerador de números aleatórios para determinar a velocidade do disco e a distância que ele percorre.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see an image of the High Striker tower with the bell at the
-top, the levered platform at the bottom and the track connecting the two.
--   [ ] User can click the 'Strike!' button under the levered platform to play
-the game.
--   [ ] User can see the puck travel up the rail.
--   [ ] User can hear the bell ring if the puck travels far enough to strike it.
--   [ ] User can see a score updated for each click of the 'Strike!' button -
-the number of times the bell was struck and the number of attempts.
--   [ ] User can click a 'Clear' button to clear the score.
--   [ ] User can see a congratulations message when a total of 10 points are
-reached.
+-   [ ] O usuário pode ver uma imagem da torre do High Striker com o sino no topo, a plataforma alavancada na base e o trilho conectando os dois.
+-   [ ] O usuário pode clicar no botão 'Golpear!' sob a plataforma alavancada para jogar.
+-   [ ] O usuário pode ver o disco viajar pelo trilho.
+-   [ ] O usuário pode ouvir o sino tocar se o disco viajar o suficiente para atingi-lo.
+-   [ ] O usuário pode ver uma pontuação atualizada para cada clique no botão 'Golpear!' - o número de vezes que o sino foi atingido e o número de tentativas.
+-   [ ] O usuário pode clicar no botão 'Limpar' para zerar a pontuação.
+-   [ ] O usuário pode ver uma mensagem de parabéns quando um total de 10 pontos é atingido.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see the bell vibrate when it is struck.
--   [ ] User can be awarded points on a scale based on the distance the puck
-travels up the track. For example, 1 point for 1/8 to 1/4 distance, 2 points
-for 1/4 to 1/2 distance, 3 points for 1/2 to 3/4 distance, 4 points for 3/4 to
-the bottom of the bell, and 5 points if the bell is struck.
--   [ ] User can hear a sound as the puck travels up the rail.
--   [ ] User can hear unique sounds when different points are awarded.
+-   [ ] O usuário pode ver o sino vibrar quando é atingido.
+-   [ ] O usuário pode receber pontos em uma escala baseada na distância que o disco percorre pelo trilho. Por exemplo, 1 ponto para 1/8 a 1/4 da distância, 2 pontos para 1/4 a 1/2 da distância, 3 pontos para 1/2 a 3/4 da distância, 4 pontos para 3/4 até a base do sino, e 5 pontos se o sino for atingido.
+-   [ ] O usuário pode ouvir um som enquanto o disco viaja pelo trilho.
+-   [ ] O usuário pode ouvir sons únicos quando diferentes pontos são concedidos.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-- [HighStriker Game (Wikipedia)](https://en.wikipedia.org/wiki/High_striker)
-- [HighStriker Video (YouTube)](https://www.youtube.com/watch?v=1W5jGH4xh1E)
-- [Implementing Velocity, Acceleration, and Friction on a Canvas](https://codepen.io/Tobsta/post/implementing-velocity-acceleration-and-friction-on-a-canvas)
+- [Jogo HighStriker (Wikipedia)](https://en.wikipedia.org/wiki/High_striker)
+- [Vídeo HighStriker (YouTube)](https://www.youtube.com/watch?v=1W5jGH4xh1E)
+- [Implementando Velocidade, Aceleração e Atrito em um Canvas](https://codepen.io/Tobsta/post/implementing-velocity-acceleration-and-friction-on-a-canvas)
 
-## Example projects
+## Projetos de Exemplo
 
 N/a

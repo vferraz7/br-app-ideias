@@ -1,42 +1,38 @@
 # Kudo's Slackbot
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-Have you ever recognized a team mate's contributions or assistance in a Slack
-channel only to find that it's lost after a few days? Let _*Kudo's*_ come to
-the rescue.
+Você já reconheceu a contribuição ou assistência de um colega em um canal do Slack apenas para descobrir que se perdeu após alguns dias? Deixe o _*Kudo's*_ vir ao resgate.
 
-Kudo's is a Slackbot that allows you to create a recognition of someone else's
-efforts and to make it available through a simple Slack command.
+Kudo's é um Slackbot que permite que você crie um reconhecimento pelos esforços de outra pessoa e o torne disponível através de um simples comando do Slack.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can create a kudu using the Slack command: `/kudo add <slack-id> <text>` where:
+-   [ ] O usuário pode criar um kudo usando o comando do Slack: `/kudo add <slack-id> <texto>` onde:
 
-    -   `<slack-id>` defines the individual receiving the recognition
-    -   `<text>` is your kudo for that person
+    -   `<slack-id>` define o indivíduo que receberá o reconhecimento
+    -   `<texto>` é seu kudo para essa pessoa
 
--   [ ] User can modify a kudu using the Slack command: `/kudo replace <kudo-id> <text>` where:
+-   [ ] O usuário pode modificar um kudo usando o comando do Slack: `/kudo replace <kudo-id> <texto>` onde:
 
-    -   `<action>` is 'replace' or 'delete'
-    -   `<kudo-id>` is the kudo identifier
-    -   `<text>` is your kudo for that person
+    -   `<ação>` é 'replace' ou 'delete'
+    -   `<kudo-id>` é o identificador do kudo
+    -   `<texto>` é seu kudo para essa pessoa
 
--   [ ] User can delete a kudu using the Slack command: `/kudo delete <kudo-id>`
+-   [ ] O usuário pode excluir um kudo usando o comando do Slack: `/kudo delete <kudo-id>`
 
--   [ ] User may display the most recent _n_ kudos using the Slack command: `/kudo list <n>` where `n` is an integer or `*` for all kudos
+-   [ ] O usuário pode exibir os _n_ kudos mais recentes usando o comando do Slack: `/kudo list <n>` onde `n` é um inteiro ou `*` para todos os kudos
 
--   [ ] User may display all kudos for an individual with the Slack command: `/kudo user <slack-id>`
+-   [ ] O usuário pode exibir todos os kudos de um indivíduo com o comando do Slack: `/kudo user <slack-id>`
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User may list the individual having the most kudos, in descending order, user the Slack command: `/kudo top <n>` where `n` is an integer or `*` for all individuals who have received a kudo
+-   [ ] O usuário pode listar o indivíduo com mais kudos, em ordem decrescente, usando o comando do Slack: `/kudo top <n>` onde `n` é um inteiro ou `*` para todos os indivíduos que receberam um kudo
 
-## Useful links and resources
+## Links e Recursos Úteis
 
--   [Slack API](https://api.slack.com/)
+-   [API do Slack](https://api.slack.com/)
 
-## Example project
+## Projeto de Exemplo
 
--   [Kudos Slackbot Example](https://cubic-quince.glitch.me/)
--    
+-   [Exemplo Kudos Slackbot](https://cubic-quince.glitch.me/)

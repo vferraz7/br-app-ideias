@@ -1,72 +1,50 @@
 # GitTweet
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-In the [GitHub Timeline](./GitHub-Timeline-App.md) app you used GitHub's API to
-create a timeline of your repos. What could be more powerful that using an API
-such as this? Why using two API's, of course.
+No app [Linha do Tempo do GitHub](./GitHub-Timeline-App.md) você usou a API do GitHub para criar uma linha do tempo dos seus repos. O que poderia ser mais poderoso do que usar uma API como esta? Usar duas APIs, é claro.
 
-The goal of GitTweet is to create a GitHub app to tweet when a pull request
-is created for one of your repos. 
+O objetivo do GitTweet é criar um app do GitHub para twittar quando um pull request é criado para um dos seus repos.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see an input area tabular display prepopulated with rows for 
-each of the GitHub repos she owns and a selection checkbox next to each repo 
-name, a single input date field, and a 'Scan' button.
--   [ ] User can click the checkboxes in the repo list to select or deselect
-repos for processing.
--   [ ] User can enter a date into the date field. This defines the point after
-which any new PR requests will be tweeted.
--   [ ] User can click the 'Scan' button to identify repos that have had a new
-PR created that has not been previously tweeted. In other words. Consecutively
-entering the same date to scan from should only generate tweets for PR's that
-have not yet been tweeted.
--   [ ] User can see an error message if no date was entered, if it is not a
-valid date, or if it is a future date.
--   [ ] User can see repos highlighted if a tweet will be generated for them
-and the 'Scan' button will change to 'Tweet'.
--   [ ] User may deselect a repo by clicking on its checkbox. Doing this will
-change the button back to 'Scan' and clicking it will repeat the search for
-repos that have had new PR's (not yet tweeted) created since the scan date 
-entered by the user.
--   [ ] User may enter an new scan date at this point which also changes the
-button back to 'Scan'.
--   [ ] User may click the 'Tweet' button to send a tweet bearing the following
-message - `Pull Requst #<pr-number> created for repo <repo name> - <repo description>`.
--   [ ] User can see this tweet send from her Twitter account.
+-   [ ] O usuário pode ver uma área de entrada com exibição tabular preenchida com linhas para cada um dos repos do GitHub que ela possui e uma caixa de seleção ao lado de cada nome do repo, um único campo de data de entrada, e um botão 'Escanear'.
+-   [ ] O usuário pode clicar nas caixas de seleção na lista de repos para selecionar ou deselecionar repos para processamento.
+-   [ ] O usuário pode inserir uma data no campo de data. Isso define o ponto após o qual quaisquer novas solicitações de PR serão tuitadas.
+-   [ ] O usuário pode clicar no botão 'Escanear' para identificar repos que tiveram um novo PR criado que não foi tuitado anteriormente. Em outras palavras. Inserir consecutivamente a mesma data para escanear deve gerar tuítes apenas para PRs que ainda não foram tuitados.
+-   [ ] O usuário pode ver uma mensagem de erro se nenhuma data foi inserida, se não é uma data válida, ou se é uma data futura.
+-   [ ] O usuário pode ver repos destacados se um tuíte será gerado para eles e o botão 'Escanear' mudará para 'Tuítar'.
+-   [ ] O usuário pode deselecionar um repo clicando em sua caixa de seleção. Fazer isso mudará o botão de volta para 'Escanear' e clicá-lo repetirá a busca por repos que tiveram novos PRs (ainda não tuitados) criados desde a data de escaneamento inserida pelo usuário.
+-   [ ] O usuário pode inserir uma nova data de escaneamento neste ponto, o que também muda o botão de volta para 'Escanear'.
+-   [ ] O usuário pode clicar no botão 'Tuítar' para enviar um tuíte com a seguinte mensagem - `Pull Requst #<pr-number> created for repo <repo name> - <repo description>`.
+-   [ ] O usuário pode ver este tuíte enviado de sua conta do Twitter.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User does not need to manually enter a scan date. If omitted the scan
-will resume from the last scan date which must persist across sessions.
--   [ ] User may enter a custom tweet message
--   [ ] User repo selections will persist across sessions so they do not have 
-to be reselected each time.
+-   [ ] O usuário não precisa inserir manualmente uma data de escaneamento. Se omitida, o escaneamento será retomado a partir da última data de escaneamento que deve persistir entre sessões.
+-   [ ] O usuário pode inserir uma mensagem de tuíte personalizada
+-   [ ] As seleções de repos do usuário persistirão entre sessões para que não precisem ser reselecionadas cada vez.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-- [Twitter Developer Docs](https://developer.twitter.com/en.html)
-- [GitHub Apps](https://developer.github.com/apps//)
-- GitHub offers two API's you may use to access repo data. You may also choose
-  to use an NPM package to access the GitHub API. Documentation for the GitHub 
-  API can be found at:
+- [Documentação de Desenvolvedores do Twitter](https://developer.twitter.com/en.html)
+- [Apps do GitHub](https://developer.github.com/apps//)
+- O GitHub oferece duas APIs que você pode usar para acessar dados de repos. Você também pode optar por usar um pacote NPM para acessar a API do GitHub. A documentação para a API do GitHub pode ser encontrada em:
 
   -   [GitHub REST API V3](https://developer.github.com/v3/)
   -   [GitHub GraphQL API V4](https://developer.github.com/v4/)
 
-  Sample code showing how to use the GitHub API's are:
+  Exemplos de código mostrando como usar as APIs do GitHub:
 
-  -   [GitHub REST API client for JavaScript ](https://github.com/octokit/rest.js/)
-  -   [GitHub GraphQL API client for browsers and Node](https://github.com/octokit/graphql.js)
+  -   [Cliente GitHub REST API para JavaScript ](https://github.com/octokit/rest.js/)
+  -   [Cliente GitHub GraphQL API para navegadores e Node](https://github.com/octokit/graphql.js)
 
-  You can use this CURL command to see the JSON returned by the V3 REST API for
-  your repos:
+  Você pode usar este comando CURL para ver o JSON retornado pela V3 REST API para seus repos:
 
   ```
   curl -u "user-id" https://api.github.com/users/user-id/repos
   ```
 
-## Example projects
+## Projetos de Exemplo
 
-[Zapier GitHub Integration](https://zapier.com/apps/github/integrations/twitter)
+[Integração GitHub do Zapier](https://zapier.com/apps/github/integrations/twitter)

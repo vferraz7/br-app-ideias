@@ -1,11 +1,8 @@
 # Timezone Slackbot - TZ
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-Team members often need to find out each others timezone as the first step
-in finding times for meetings and pair programming sessions. To help with this
-the Timezone Slack bot accepts as list of Slack user names and displays the
-the timezone for each user in a stacked format as follows:
+Membros de equipe frequentemente precisam descobrir o fuso horário uns dos outros como primeiro passo para encontrar horários para reuniões e sessões de programação em par. Para ajudar com isso, o Timezone Slack bot aceita uma lista de nomes de usuários do Slack e exibe o fuso horário para cada usuário em formato empilhado da seguinte forma:
 
 ```
       -12 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 0 +1 +2 +3 +4 +5 +6 +7 +8 +9 +10 +11 +12 +13 +14
@@ -17,22 +14,21 @@ Ming                                                              X
   .
 ```
 
-Note that this format is provided for descriptive purposes only. When
-implemented a more pleasing and user-friendly format may be used.
+Note que este formato é fornecido apenas para fins descritivos. Quando implementado, um formato mais agradável e amigável ao usuário pode ser usado.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can enter `/tz <user-name> <user-name>...<user-name>` to display tabular representation showing each users timezone
--   [ ] User can see information displayed using alternate row colors to increase clarity and readability
+-   [ ] O usuário pode digitar `/tz <nome-usuario> <nome-usuario>...<nome-usuario>` para exibir representação tabular mostrando o fuso horário de cada usuário
+-   [ ] O usuário pode ver informações exibidas usando cores alternadas nas linhas para aumentar a clareza e legibilidade
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see the persons timezone displayed next to their name. For example, 'IST' for India Standard Time
+-   [ ] O usuário pode ver o fuso horário da pessoa exibido ao lado do nome. Por exemplo, 'IST' para Horário Padrão da Índia
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-More information about timezones can be found [here](https://www.timeanddate.com/time/current-number-time-zones.html)
+Mais informações sobre fusos horários podem ser encontradas [aqui](https://www.timeanddate.com/time/current-number-time-zones.html)
 
-## Example projects
+## Projetos de Exemplo
 
-[Quickly Determine What Country and Time Zone Your Coworkers Are in This Week Using This Tool](https://lifehacker.com/quickly-determine-what-country-and-time-zone-your-cowor-1833011887)
+[Determine Rapidamente Em Que País e Fuso Horário Seus Colegas Estão Esta Semana Usando Esta Ferramenta](https://lifehacker.com/quickly-determine-what-country-and-time-zone-your-cowor-1833011887)

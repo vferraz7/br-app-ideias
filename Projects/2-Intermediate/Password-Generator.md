@@ -1,26 +1,26 @@
-# Password Generator
+# Gerador de Senhas
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-Generate passwords based on certain characteristics selected by the user.
+Gere senhas baseadas em certas características selecionadas pelo usuário.
 
-## User Stories
+## Histórias de Usuário
 
-- [ ] User can select the length of the generated password
-- [ ] User can select one or multiple of the following: `Include uppercase letters`, `Include lowercase letters`, `Include numbers`, `Include symbols`
-- [ ] By clicking the `Generate password` button, the user can see a password being generated
-- [ ] User can click a `Copy to clipboard` button which will save the password to the clipboard
+- [ ] O usuário pode selecionar o comprimento da senha gerada
+- [ ] O usuário pode selecionar uma ou várias das seguintes opções: `Incluir letras maiúsculas`, `Incluir letras minúsculas`, `Incluir números`, `Incluir símbolos`
+- [ ] Ao clicar no botão `Gerar senha`, o usuário pode ver uma senha sendo gerada
+- [ ] O usuário pode clicar no botão `Copiar para a área de transferência` que salvará a senha na área de transferência
 
-## Bonus features
+## Funcionalidades Bônus
 
-- [ ] User can see the password strength
+- [ ] O usuário pode ver a força da senha
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-- [Password strength checked - zxcvbn](https://github.com/dropbox/zxcvbn)
+- [Verificador de força de senha - zxcvbn](https://github.com/dropbox/zxcvbn)
 
-## Example projects
+## Projetos de Exemplo
 
-- [Password Generator by Florin Pop on Codepen](https://codepen.io/FlorinPop17/full/BaBePej)
+- [Gerador de Senhas por Florin Pop no Codepen](https://codepen.io/FlorinPop17/full/BaBePej)
 - [PasswordGenerator](https://passwordsgenerator.net)
-- [Enhanced Password Generator by Snehal Mahasagar](https://github.com/Snehalmahasagar/Random-Password_Generator)
+- [Gerador de Senha Aprimorado por Snehal Mahasagar](https://github.com/Snehalmahasagar/Random-Password_Generator)

@@ -1,96 +1,70 @@
-# Boole Bots Game
+# Jogo Boole Bots
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-Boole Bots is a game that is not only fun, but also an aid in helping to 
-understand basic Boolean logic. This game has an arena of 8x8 game tiles in
-which your bots move at random speeds and trajectories. The Bots are assigned
-boolean values of 0 or 1 and boolean operations - AND, OR, NOR, NOT. 
+Boole Bots é um jogo que não é apenas divertido, mas também um auxílio para ajudar a entender a lógica booleana básica. Este jogo tem uma arena de 8x8 ladrilhos de jogo nos quais seus bots se movem em velocidades e trajetórias aleatórias. Os Bots recebem valores booleanos 0 ou 1 e operações booleanas - AND, OR, NOR, NOT.
 
-When a bot collides with another bot its boolean operation is applied to both
-it and the other bots' boolean value to determine which one wins or looses, or
-if the collision results in a tie. Loosing bots disappear and winning bots 
-continue moving about the arena until only one remains.
+Quando um bot colide com outro bot, sua operação booleana é aplicada a ambos, seu valor booleano e o do outro bot, para determinar qual vence ou perde, ou se a colisão resulta em empate. Bots perdedores desaparecem e bots vencedores continuam se movendo pela arena até que apenas um reste.
 
-### Requirements & Constraints
+### Requisitos e Restrições
 
-- Developers may use graphics and game physics libraries to build the game.
+- Desenvolvedores podem usar bibliotecas de gráficos e física de jogos para construir o jogo.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see the game window with these components
-    - Game configuration input panel
-    - Leaderboard showing bots ranked by their scores
-    - Game controls
-    - Arena of 8x8 game tiles where the bots battle
+-   [ ] O usuário pode ver a janela do jogo com estes componentes
+    - Painel de entrada de configuração do jogo
+    - Ranking mostrando bots ordenados por suas pontuações
+    - Controles do jogo
+    - Arena de 8x8 ladrilhos de jogo onde os bots batalham
 
-### Game Configuration Panel
--   [ ] User can see a game configuration panel with these subcomponents:
-    - Four bot panels with controls to allow the user to input a unique bot 
-    name, select its Boolean value and operation, select the bots speed using a 
-    slider, and a dropdown to specify its starting direction - North, South, 
-    East, West
--   [ ] User can enter a unique name for each bot into an input text box
--   [ ] User can see an error message if the name entered is the same name
-assigned to another bot.
--   [ ] User can select the bots Boolean value (0 or 1) from a dropdown.
--   [ ] User can select a bots Boolean operation from a dropdown - AND, OR, XOR,
-or NOT.
--   [ ] User can move the speed slider to set a bots speed
--   [ ] User can select a bots starting direction from the direction dropdown.
--   [ ] User can see the bot randomly assigned to a tile in the arena once its
-name has been defined.
+### Painel de Configuração do Jogo
+-   [ ] O usuário pode ver um painel de configuração do jogo com estes subcomponentes:
+    - Quatro painéis de bot com controles para permitir que o usuário insira um nome único de bot, selecione seu valor e operação booleana, selecione a velocidade do bot usando um controle deslizante, e uma lista suspensa para especificar sua direção inicial - Norte, Sul, Leste, Oeste
+-   [ ] O usuário pode inserir um nome único para cada bot em uma caixa de texto
+-   [ ] O usuário pode ver uma mensagem de erro se o nome inserido for o mesmo nome atribuído a outro bot.
+-   [ ] O usuário pode selecionar o valor booleano do bot (0 ou 1) em uma lista suspensa.
+-   [ ] O usuário pode selecionar uma operação booleana do bot em uma lista suspensa - AND, OR, XOR, ou NOT.
+-   [ ] O usuário pode mover o controle deslizante de velocidade para definir a velocidade de um bot
+-   [ ] O usuário pode selecionar a direção inicial de um bot na lista suspensa de direção.
+-   [ ] O usuário pode ver o bot atribuído aleatoriamente a um ladrilho na arena uma vez que seu nome foi definido.
 
-### Game Controls
--   [ ] User can a button in the game control panel to 'Battle!'
--   [ ] User can click the 'Battle!' button to start the bot battle in the arena.
--   [ ] User can see bots move based on the speed and direction assigned to them.
--   [ ] User can see the 'Battle!' button text change to 'Stop!' once a battle
-is started.
--   [ ] User can click the 'Stop!' button to halt gameplay
--   [ ] User can see the 'Stop!' button text change back to 'Battle!' once a
-single bot wins the match.
+### Controles do Jogo
+-   [ ] O usuário pode ver um botão no painel de controle do jogo para 'Batalhar!'
+-   [ ] O usuário pode clicar no botão 'Batalhar!' para iniciar a batalha dos bots na arena.
+-   [ ] O usuário pode ver os bots se moverem com base na velocidade e direção atribuídas a eles.
+-   [ ] O usuário pode ver o texto do botão 'Batalhar!' mudar para 'Parar!' uma vez que uma batalha é iniciada.
+-   [ ] O usuário pode clicar no botão 'Parar!' para interromper o jogo
+-   [ ] O usuário pode ver o texto do botão 'Parar!' voltar para 'Batalhar!' uma vez que um único bot vence a partida.
 
 ### Arena
--   [ ] User can see bots bounce off the boundary walls of the arena in a new
-direction
--   [ ] User can see bots pause for an instant when they collide.
--   [ ] User can see a bot disappear after colliding if the result of it's 
-boolean operation appied to its boolean value and that of the bot is has 
-collided with result in 0.
--   [ ] User can see a bot that wins a collision resume its path at the same 
-speed and direction.
--   [ ] User can see both colliding bots resume their paths at the same speed
-and direction in the event of a tie. In other words, when the collision resulted
-in the same boolean result (0 or 1) for both.
--   [ ] User can see gameplay stop when only one bot remains.
+-   [ ] O usuário pode ver os bots ricochetearem nas paredes de fronteira da arena em uma nova direção
+-   [ ] O usuário pode ver os bots pausarem por um instante quando colidem.
+-   [ ] O usuário pode ver um bot desaparecer após colidir se o resultado de sua operação booleana aplicada ao seu valor booleano e ao do bot com o qual colidiu resultar em 0.
+-   [ ] O usuário pode ver um bot que vence uma colisão retomar seu caminho na mesma velocidade e direção.
+-   [ ] O usuário pode ver ambos os bots em colisão retomarem seus caminhos na mesma velocidade e direção no caso de empate. Em outras palavras, quando a colisão resultou no mesmo resultado booleano (0 ou 1) para ambos.
+-   [ ] O usuário pode ver o jogo parar quando apenas um bot resta.
 
-### Leaderboard
--   [ ] User can see the display of wins and losses for each bot on the
-leaderboard
--   [ ] User can see the tally of wins incremented for bots winning a collision.
--   [ ] User can see the tally of losses decremented for bots loosing a collision.
+### Ranking
+-   [ ] O usuário pode ver a exibição de vitórias e derrotas para cada bot no ranking
+-   [ ] O usuário pode ver a contagem de vitórias incrementada para bots que vencem uma colisão.
+-   [ ] O usuário pode ver a contagem de derrotas decrementada para bots que perdem uma colisão.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see a log panel displaying the details of game milestones.
-Hint: This may be useful to the Developer during development and debugging.
--   [ ] User can see a game clock displaying current elapsed game time that is
-updated every second.
--   [ ] User may choose a bots starting direction as North, Northeast, Southeast,
-South, Southwest, West, or Northwest.
--   [ ] User may specify the dimensions of the arena.
--   [ ] User may select an unique icon for a bot from a palette of icons. Icons
-in the palette are disabled once they are assigned.
--   [ ] User can see the bot with the most wins highlighted in some way in the
-Leaderboard.
+-   [ ] O usuário pode ver um painel de log exibindo os detalhes dos marcos do jogo. Dica: Isso pode ser útil para o Desenvolvedor durante o desenvolvimento e depuração.
+-   [ ] O usuário pode ver um relógio do jogo exibindo o tempo de jogo decorrido atual que é atualizado a cada segundo.
+-   [ ] O usuário pode escolher a direção inicial de um bot como Norte, Nordeste, Sudeste, Sul, Sudoeste, Oeste, ou Noroeste.
+-   [ ] O usuário pode especificar as dimensões da arena.
+-   [ ] O usuário pode selecionar um ícone único para um bot a partir de uma paleta de ícones. Ícones na paleta são desabilitados uma vez atribuídos.
+-   [ ] O usuário pode ver o bot com mais vitórias destacado de alguma forma no Ranking.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 - [George Boole (Wikipedia)](https://en.wikipedia.org/wiki/George_Boole)
-- [Boolean Algebra (Wikipedia)](https://en.wikipedia.org/wiki/Boolean_algebra)
-- [Video Game Physics Tutorial - Part I: An Introduction to Rigid Body Dynamics](https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics)
+- [Álgebra Booleana (Wikipedia)](https://en.wikipedia.org/wiki/Boolean_algebra)
+- [Tutorial de Física de Jogos - Parte I: Introdução à Dinâmica de Corpos Rígidos](https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics)
 
-## Example projects
+## Projetos de Exemplo
 
 - N/a

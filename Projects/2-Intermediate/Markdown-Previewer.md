@@ -1,27 +1,27 @@
-# Markdown Previewer
+# Visualizador de Markdown
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-Convert Github flavored markdown into HTML code.
+Converta markdown no estilo GitHub em código HTML.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can enter Github flavored markdown into a `textarea`
--   [ ] User can see the resulting `HTML` in another container/box by pressing on a button
+-   [ ] O usuário pode inserir markdown no estilo GitHub em uma `textarea`
+-   [ ] O usuário pode ver o `HTML` resultante em outro container/caixa ao pressionar um botão
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see the resulting `HTML` updated automatically when the markdown `textarea` is changed
--   [ ] When closing the browser window the markdown formatted text will be stored in `localStorage` and when the User returns, the data will be retrieved and displayed
--   [ ] User can click a button and the content of the box is saved to the `clipboard`
+-   [ ] O usuário pode ver o `HTML` resultante atualizado automaticamente quando a `textarea` de markdown é alterada
+-   [ ] Ao fechar a janela do navegador, o texto formatado em markdown será armazenado no `localStorage` e quando o usuário retornar, os dados serão recuperados e exibidos
+-   [ ] O usuário pode clicar em um botão e o conteúdo da caixa é salvo na `área de transferência`
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 -   [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
--   [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
--   [Marked - A markdown parser](https://github.com/markedjs/marked)
--   [How to Copy to Clipboard](https://www.w3schools.com/howto/howto_js_copy_clipboard.asp)
+-   [Guia de Markdown](https://www.markdownguide.org/basic-syntax/)
+-   [Marked - Um parser de markdown](https://github.com/markedjs/marked)
+-   [Como Copiar para a Área de Transferência](https://www.w3schools.com/howto/howto_js_copy_clipboard.asp)
 
-## Example projects
+## Projetos de Exemplo
 
--   [Markdown Live Preview](https://markdownlivepreview.com/)
+-   [Visualização ao Vivo de Markdown](https://markdownlivepreview.com/)

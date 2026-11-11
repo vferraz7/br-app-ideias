@@ -1,28 +1,28 @@
-# Image Scanner
+# Escâner de Imagem
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-Create an android and ios app to find phone numbers, email and website links available in a photo and then organise it in the app.
+Crie um app para Android e iOS para encontrar números de telefone, e-mails e links de sites disponíveis em uma foto e depois organizá-los no app.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can either click a photo or upload a photo from the gallery
--   [ ] Processing is done on the image.
--   [ ] If there are any phone numbers, email or web links present in the image then they are listed in the cards properly organized.
--   [ ] On tap on the details, an option is provided to save as contact.
--   [ ] History of search results are provided in the list view
+-   [ ] O usuário pode clicar uma foto ou fazer upload de uma foto da galeria
+-   [ ] O processamento é feito na imagem.
+-   [ ] Se houver números de telefone, e-mails ou links da web presentes na imagem, eles são listados nos cards devidamente organizados.
+-   [ ] Ao tocar nos detalhes, uma opção é fornecida para salvar como contato.
+-   [ ] Histórico de resultados de busca é fornecido na visualização de lista
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] Provide an option to add tags for each search results.
--   [ ] Add search funtionality based on tags
--   [ ] Add login and sync the results across multiple devices.
+-   [ ] Fornecer uma opção para adicionar tags para cada resultado de busca.
+-   [ ] Adicionar funcionalidade de busca baseada em tags
+-   [ ] Adicionar login e sincronizar resultados em múltiplos dispositivos.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
--   Use google OCR to read text from the image uploaded. https://cloud.google.com/vision/docs/ocr
--   Apply regex to identify the phone number , emails and website links on the text identified from the OCR. 
+-   Use OCR do Google para ler texto da imagem carregada. https://cloud.google.com/vision/docs/ocr
+-   Aplique regex para identificar o número de telefone, e-mails e links de sites no texto identificado pelo OCR.
 
-## Example projects
+## Projetos de Exemplo
 
-- Android App for text detection - https://github.com/alexzaitsev/ocr-google-vision
+- App Android para detecção de texto - https://github.com/alexzaitsev/ocr-google-vision

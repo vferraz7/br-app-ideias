@@ -1,58 +1,37 @@
-# Podcast Directory
+# Diretório de Podcasts
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-In the [GitHub Status](../1-Beginner/GitHub-Status-App.md) app you learned how to use the
-Request package to scrape information from a web page. The Podcast Directory
-continues this process and introduces you to another web scraping package - 
-[Puppeteer](https://github.com/GoogleChrome/puppeteer).
+No app [GitHub Status](../1-Beginner/GitHub-Status-App.md) você aprendeu como usar o pacote Request para extrair informações de uma página web. O Diretório de Podcasts continua este processo e apresenta a você outro pacote de web scraping - [Puppeteer](https://github.com/GoogleChrome/puppeteer).
 
-Although Request is a useful  package it isn't built specifically for web
-scraping like Puppeteer. As you gain experience with web scraping you'll find
-that there are web sites and applications where web scraping is made easier
-by using a tool like Puppeteer that is specifically built for scaping.
+Embora o Request seja um pacote útil, ele não foi construído especificamente para web scraping como o Puppeteer. À medida que você ganha experiência com web scraping, você descobrirá que existem sites e aplicações onde o web scraping é facilitado pelo uso de uma ferramenta como o Puppeteer, especificamente construída para scraping.
 
-It is important to note that while web scraping has its place, the use of
-an API or a data source such as a file or database is always preferable to 
-scraping information from a page. The reason being that even minor changes to
-page styling can render your web scraper inoperable. For example, the change
-of a CSS class name your scraping logic is dependent on.
+É importante notar que, embora o web scraping tenha seu lugar, o uso de uma API ou uma fonte de dados como um arquivo ou banco de dados é sempre preferível a raspar informações de uma página. A razão é que até mesmo pequenas mudanças no estilo da página podem tornar seu web scraper inoperante. Por exemplo, a mudança de um nome de classe CSS no qual sua lógica de scraping depende.
 
-The goal of the Podcast Directory app is to pull the most recent episodes of 
-the [Javascript Jabber](https://www.podbean.com/podcast-detail/d4un8-57595/JavaScript-Jabber-Podcast)
-and [Techpoint Charlie](https://www.podbean.com/podcast-detail/k76vd-8adc7/Techpoint-Charlie-Podcast)
-podcasts from [Podbean](https://www.podbean.com) and create a new page that
-creates a combined list of episodes, sorted by broadcast date.
+O objetivo do app Diretório de Podcasts é obter os episódios mais recentes dos podcasts [Javascript Jabber](https://www.podbean.com/podcast-detail/d4un8-57595/JavaScript-Jabber-Podcast) e [Techpoint Charlie](https://www.podbean.com/podcast-detail/k76vd-8adc7/Techpoint-Charlie-Podcast) do [Podbean](https://www.podbean.com) e criar uma nova página que cria uma lista combinada de episódios, ordenados por data de transmissão.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see a table of podcast episodes
--   [ ] User can see rows in this table showing a clickable episode icon, the
-title of the episode, and the date it was originally broadcast.
--   [ ] User can scroll through the list
--   [ ] User can click on the episode icon to display that episodes page on
-the Podbean web site.
+-   [ ] O usuário pode ver uma tabela de episódios de podcasts
+-   [ ] O usuário pode ver linhas nesta tabela mostrando um ícone de episódio clicável, o título do episódio e a data em que foi transmitido originalmente.
+-   [ ] O usuário pode rolar pela lista
+-   [ ] O usuário pode clicar no ícone do episódio para exibir a página desse episódio no site do Podbean.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see rows in the episode table have alternating background
-colors.
--   [ ] User can see a summary above the episode table showing the number
-of episodes for each podcast.
--   [ ] User can see a clickable checkbox next to each podcast name in the
-summary above the episode table.
--   [ ] User can click the radio button next to the podcast name to include
-episodes for that podcast in the episode table.
+-   [ ] O usuário pode ver linhas na tabela de episódios com cores de fundo alternadas.
+-   [ ] O usuário pode ver um resumo acima da tabela de episódios mostrando o número de episódios para cada podcast.
+-   [ ] O usuário pode ver uma caixa de seleção clicável ao lado de cada nome de podcast no resumo acima da tabela de episódios.
+-   [ ] O usuário pode clicar no botão de rádio ao lado do nome do podcast para incluir episódios desse podcast na tabela de episódios.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 - [Puppeteer](https://github.com/GoogleChrome/puppeteer)
-- [Web Scraping with a Headless Browser: A Puppeteer Tutorial](https://www.toptal.com/puppeteer/headless-browser-puppeteer-tutorial)
+- [Web Scraping com um Navegador Headless: Um Tutorial Puppeteer](https://www.toptal.com/puppeteer/headless-browser-puppeteer-tutorial)
 - [querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/querySelectorAll)
-- Hint! You can use the following code to help you get started with this
-project. You can execute this using the  command line command `node puptest`.
+- Dica! Você pode usar o seguinte código para ajudá-lo a começar com este projeto. Você pode executar isso usando o comando de linha de comando `node puptest`.
 ```
-// puptest.js
+puptest.js
 const puppeteer = require('puppeteer');
 
 const run = async () => {
@@ -80,9 +59,8 @@ run()
 .then(console.log)
 .catch(console.error);
 ```
-- When you have completed this project check out the advanced project
-[MyPodcast Library](../3-Advanced/MyPodcast-Library-app.md)
+- Quando você completar este projeto, confira o projeto avançado [MyPodcast Library](../3-Advanced/MyPodcast-Library-app.md)
 
-## Example projects
+## Projetos de Exemplo
 
 N/a

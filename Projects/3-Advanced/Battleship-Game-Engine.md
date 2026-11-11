@@ -1,74 +1,66 @@
-# Battleship Game Engine
+# Engine de Jogo de Batalha Naval
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-Battleship Game Engine (BGE) implements the classic turn-based board game as a
-package that's separated from any presentation layer. This is a type of
-architectural pattern that useful in many application since it allows
-any number of apps to utilize the same service.
+O Engine de Jogo de Batalha Naval (BGE) implementa o clássico jogo de tabuleiro baseado em turnos como um pacote separado de qualquer camada de apresentação. Este é um tipo de padrão arquitetural útil em muitas aplicações, pois permite que qualquer número de apps utilize o mesmo serviço.
 
-The BGE itself is invoked through a series of function calls rather than
-through directly coupled end user actions. In this respect using the BGE is
-is similar to using an API or a series of routes exposed by a web server.
+O BGE em si é invocado através de uma série de chamadas de função em vez de ações do usuário final diretamente acopladas. Neste aspecto, usar o BGE é semelhante a usar uma API ou uma série de rotas expostas por um servidor web.
 
-This challenge requires that you develop the BGE and a very thin, text-based
-presentation layer for testing that's separate from the engine itself. Due to
-this the User Stories below are divided two sets - one for the BGE and one
-for the text-based presentation layer.
+Este desafio requer que você desenvolva o BGE e uma camada de apresentação baseada em texto muito fina para testes, separada do próprio engine. Devido a isso, as Histórias de Usuário abaixo são divididas em dois conjuntos - um para o BGE e outro para a camada de apresentação baseada em texto.
 
-BGE is responsible for maintaining game state.
+O BGE é responsável por manter o estado do jogo.
 
-## User Stories
+## Histórias de Usuário
 
 ### BGE
 
--   [ ] Caller can invoke a `startGame()` function to begin a 1-player game. This function will generate an 8x8 game board consisting of 3 ships having a width of one square and a length of:
+-   [ ] O chamador pode invocar uma função `startGame()` para iniciar um jogo de 1 jogador. Esta função gerará um tabuleiro de jogo 8x8 consistindo de 3 navios com largura de um quadrado e comprimento de:
 
-    -   Destroyer: 2 squares
-    -   Cruiser: 3 squares
-    -   Battleship: 4 squares
+    -   Destroyer: 2 quadrados
+    -   Cruzador: 3 quadrados
+    -   Couraçado: 4 quadrados
 
-    `startGame()` will randomly place these ships on the board in any direction and will return an array representing ship placement.
+    `startGame()` colocará estes navios aleatoriamente no tabuleiro em qualquer direção e retornará um array representando a colocação dos navios.
 
--   [ ] Caller can invoke a `shoot()` function passing the target row and column coordinates of the targeted cell on the game board. `shoot()` will return indicators representing if the shot resulted in a hit or miss, the number of ships left (i.e. not yet sunk), the ship placement array, and an updated hits and misses array.
+-   [ ] O chamador pode invocar uma função `shoot()` passando as coordenadas de linha e coluna da célula alvo no tabuleiro de jogo. `shoot()` retornará indicadores representando se o tiro resultou em acerto ou erro, o número de navios restantes (ou seja, ainda não afundados), o array de colocação dos navios, e um array atualizado de acertos e erros.
 
-    Cells in the hits and misses array will contain a space if they have yet to be targeted, `O` if they were targeted but no part of a ship was at that location, or `X` if the cell was occupied by part of a ship.
+    Células no array de acertos e erros conterão um espaço se ainda não foram alvejadas, `O` se foram alvejadas mas nenhuma parte de um navio estava naquele local, ou `X` se a célula era ocupada por parte de um navio.
 
-### Text-based Presentation Layer
+### Camada de Apresentação Baseada em Texto
 
--   [ ] User can see the hits and misses array displayed as a 2 dimensional character representation of the game board returned by the `startGame()` function.
--   [ ] User can be prompted to enter the coordinates of a target square on the game board.
--   [ ] User can see an updated hits and misses array display after taking a shot.
--   [ ] User can see a message after each shot indicating whether the shot resulted in a hit or miss.
--   [ ] User can see an congratulations message after the shot that sinks the last remaining ship.
--   [ ] User can be prompted to play again at the end of each game. Declining to play again stops the game.
+-   [ ] O usuário pode ver o array de acertos e erros exibido como uma representação de caracteres 2-dimensional do tabuleiro de jogo retornado pela função `startGame()`.
+-   [ ] O usuário pode ser solicitado a inserir as coordenadas de um quadrado alvo no tabuleiro de jogo.
+-   [ ] O usuário pode ver um array de acertos e erros atualizado após fazer um tiro.
+-   [ ] O usuário pode ver uma mensagem após cada tiro indicando se o tiro resultou em acerto ou erro.
+-   [ ] O usuário pode ver uma mensagem de parabéns após o tiro que afunda o último navio restante.
+-   [ ] O usuário pode ser solicitado a jogar novamente ao final de cada jogo. Recusar a jogar novamente encerra o jogo.
 
-## Bonus features
+## Funcionalidades Bônus
 
 ### BGE
 
--   [ ] Caller can specify the number of rows and columns in the game board as a parameter to the `startGame()` function.
--   [ ] Caller can invoke a `gameStats()` function that returns a Javascript object containing metrics for the current game. For example, number of turns played, current number of hits and misses, etc.
--   [ ] Caller can specify the number of players (1 or 2) when calling `startGame()` which will generate one board for each player randomly populated with ships.
+-   [ ] O chamador pode especificar o número de linhas e colunas no tabuleiro de jogo como parâmetro para a função `startGame()`.
+-   [ ] O chamador pode invocar uma função `gameStats()` que retorna um objeto JavaScript contendo métricas do jogo atual. Por exemplo, número de turnos jogados, número atual de acertos e erros, etc.
+-   [ ] O chamador pode especificar o número de jogadores (1 ou 2) ao chamar `startGame()`, que gerará um tabuleiro para cada jogador populado aleatoriamente com navios.
 
-    `shoot()` will accept the player number the shot is being made for along with the coordinates of the shot. The data it returns will be for that player.
+    `shoot()` aceitará o número do jogador para o qual o tiro está sendo feito junto com as coordenadas do tiro. Os dados que ele retorna serão para aquele jogador.
 
-### Text-based Presentation Layer
+### Camada de Apresentação Baseada em Texto
 
--   [ ] User can see the current game statics at any point by entering the phrase `stats` in place of target coordinates. (Note that this requires the `gameStats()` function in the BGE)
--   [ ] User can specify a two player game is to be played, with each player alternating turns in the same terminal session (Note that this requires corresponding Bonus Features in the BGE)
--   [ ] User can see the player number in prompts associated with the inputs in each turn.
--   [ ] User can see both players boards at the end of each turn.
+-   [ ] O usuário pode ver as estatísticas atuais do jogo a qualquer momento digitando a palavra `stats` no lugar das coordenadas do alvo. (Note que isso requer a função `gameStats()` no BGE)
+-   [ ] O usuário pode especificar que um jogo de dois jogadores será jogado, com cada jogador alternando turnos na mesma sessão do terminal (Note que isso requer as Funcionalidades Bônus correspondentes no BGE)
+-   [ ] O usuário pode ver o número do jogador nos prompts associados às entradas em cada turno.
+-   [ ] O usuário pode ver os tabuleiros de ambos os jogadores ao final de cada turno.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
--   [Battleship Game (Wikipedia)](<https://en.wikipedia.org/wiki/Battleship_(game)>)
--   [Battleship Game Rules (Hasbro)](https://www.hasbro.com/common/instruct/battleship.pdf)
+-   [Jogo de Batalha Naval (Wikipedia)](<https://en.wikipedia.org/wiki/Battleship_(game)>)
+-   [Regras do Jogo de Batalha Naval (Hasbro)](https://www.hasbro.com/common/instruct/battleship.pdf)
 
-## Example projects
+## Projetos de Exemplo
 
-This YouTube video shows how a text-based [Battleship Game](https://www.youtube.com/watch?v=TKksu3JXTTM) is played.
+Este vídeo do YouTube mostra como um [Jogo de Batalha Naval](https://www.youtube.com/watch?v=TKksu3JXTTM) baseado em texto é jogado.
 
-The following example is provided as a demonstration of the Battleship game if it is unfamiliar to you. Remember you are to implement a text based presentation layer for testing.
+O exemplo a seguir é fornecido como demonstração do jogo de Batalha Naval caso você não esteja familiarizado com ele. Lembre-se que você deve implementar uma camada de apresentação baseada em texto para testes.
 
--   [Battleship Game by Chris Brody](https://codepen.io/CodifyAcademy/pen/ByBEOz)
+-   [Jogo de Batalha Naval por Chris Brody](https://codepen.io/CodifyAcademy/pen/ByBEOz)

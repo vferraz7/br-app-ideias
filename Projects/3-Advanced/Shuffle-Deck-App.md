@@ -1,60 +1,39 @@
-# Shuffle Card Deck
+# Embaralhar Baralho de Cartas
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-As a Web Developer you'll be asked to come up with innovative applications that
-solve real world problems for real people. But something you'll quickly learn
-is that no matter how many wonderful features you pack into an app users won't
-use it if it isn't performant. In other words, there is a direct link between
-how an app performs and whether users perceive it as usable.
+Como Desenvolvedor Web, você será solicitado a criar aplicações inovadoras que resolvem problemas do mundo real para pessoas reais. Mas algo que você aprenderá rapidamente é que não importa quantos recursos maravilhosos você coloque em um app, os usuários não o usarão se ele não tiver desempenho. Em outras palavras, existe uma ligação direta entre como um app performa e se os usuários o percebem como utilizável.
 
-The objective of the Shuffle Card Deck app is to find the fastest technique for
-shuffling a deck of cards you can use in game apps you create. But, more
-important it will provide you with experience at measuring and evaluating app
-performance.
+O objetivo do app Embaralhar Baralho de Cartas é encontrar a técnica mais rápida para embaralhar um baralho de cartas que você pode usar em apps de jogos que criar. Mas, mais importante, ele fornecerá a você experiência em medir e avaliar o desempenho do app.
 
-Your task is to implement the performance evaluation algorithm, the Xorshift
-pseudorandom number generator, as well as the WELL512a.c algorithm if you 
-choose to attempt the bonus feature.
+Sua tarefa é implementar o algoritmo de avaliação de desempenho, o gerador de números pseudoaleatórios Xorshift, bem como o algoritmo WELL512a.c se você escolher tentar a funcionalidade bônus.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see a panel containing a text box the user can enter the 
-number of rounds into, three output text boxes to contain the starting time,
-ending time, and total time of the test, and two buttons - 'JS Random',
-'Xorshift'.
--   [ ] User can enter a number from 1 to 10,000 to specify the number of
-times (or rounds) the selected random number is to be executed.
--   [ ] User can click one of the three buttons to start the evaluation of the
-selected random number algorithm. The random number algorithm will be executed
-for the number of rounds entered by the user above.
--   [ ] User can see a warning message if number of rounds has not been entered,
-if it is not within the range 1 to 10,000, or if it is not a valid integer.
--   [ ] User can see a tabular output area where the results of each algorithm
-are displayed - algorithm name, time started, time ended, and total time.
--   [ ] User can see a warning dialog with a 'Cancel' and a 'OK' button if the
-number of rounds is changed before all three tests have been run. 
--   [ ] User can click the 'Cancel' button in the warning dialog to dismiss
-the dialog with no changes.
--   [ ] User can click the 'OK' button in the warning dialog to clear the
-output area and close the warning dialog.
- 
-## Bonus features
+-   [ ] O usuário pode ver um painel contendo uma caixa de texto onde o usuário pode inserir o número de rodadas, três caixas de texto de saída para conter o tempo de início, tempo de fim, e tempo total do teste, e dois botões - 'JS Random', 'Xorshift'.
+-   [ ] O usuário pode inserir um número de 1 a 10.000 para especificar o número de vezes (ou rodadas) que o número aleatório selecionado deve ser executado.
+-   [ ] O usuário pode clicar em um dos três botões para iniciar a avaliação do algoritmo de número aleatório selecionado. O algoritmo de número aleatório será executado pelo número de rodadas inserido pelo usuário acima.
+-   [ ] O usuário pode ver uma mensagem de aviso se o número de rodadas não foi inserido, se não está dentro do intervalo 1 a 10.000, ou se não é um inteiro válido.
+-   [ ] O usuário pode ver uma área de saída tabular onde os resultados de cada algoritmo são exibidos - nome do algoritmo, tempo de início, tempo de fim, e tempo total.
+-   [ ] O usuário pode ver uma caixa de diálogo de aviso com botões 'Cancelar' e 'OK' se o número de rodadas for alterado antes que todos os três testes tenham sido executados.
+-   [ ] O usuário pode clicar no botão 'Cancelar' na caixa de diálogo de aviso para fechar a caixa de diálogo sem alterações.
+-   [ ] O usuário pode clicar no botão 'OK' na caixa de diálogo de aviso para limpar a área de saída e fechar a caixa de diálogo de aviso.
 
--   [ ] User can see a third algorithm button - 'WELL512a.c'.
--   [ ] Developer should review the output and determine why the fastest
-algorithm is faster than the slowest algorithm. 
+## Funcionalidades Bônus
 
-## Useful links and resources
+-   [ ] O usuário pode ver um terceiro botão de algoritmo - 'WELL512a.c'.
+-   [ ] O desenvolvedor deve revisar a saída e determinar por que o algoritmo mais rápido é mais rápido que o mais lento.
 
-- [Random Number Generation (Wikipedia)](https://en.wikipedia.org/wiki/Random_number_generation)
+## Links e Recursos Úteis
+
+- [Geração de Números Aleatórios (Wikipedia)](https://en.wikipedia.org/wiki/Random_number_generation)
 - [Math.random (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 - [Xorshift (Wikipedia)](https://en.wikipedia.org/wiki/Xorshift)
 - [WELL512a.c](http://www.iro.umontreal.ca/~panneton/well/WELL512a.c)
 - [console.time (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Console/time)
-- [Using the Chrome DevTools Audit Feature to Measure and Optimize Performance (Part 1)](https://medium.com/chingu/using-the-chrome-devtools-audit-feature-to-measure-and-optimize-performance-part-1-868a20bbfde8)
-- [Using the Chrome DevTools Audit Feature to Measure and Optimize Performance (Part 2)](https://medium.com/chingu/using-the-chrome-devtools-audit-feature-to-measure-and-optimize-performance-part-2-af4a78bc6cf0)
+- [Usando o Recurso de Auditoria do Chrome DevTools para Medir e Otimizar Desempenho (Parte 1)](https://medium.com/chingu/using-the-chrome-devtools-audit-feature-to-measure-and-optimize-performance-part-1-868a20bbfde8)
+- [Usando o Recurso de Auditoria do Chrome DevTools para Medir e Otimizar Desempenho (Parte 2)](https://medium.com/chingu/using-the-chrome-devtools-audit-feature-to-measure-and-optimize-performance-part-2-af4a78bc6cf0)
 
-## Example projects
+## Projetos de Exemplo
 
-Add one or more examples of projects that have similar functionalities to this application. This will act as a guide for the developer.
+Adicione um ou mais exemplos de projetos que tenham funcionalidades semelhantes a esta aplicação. Isso atuará como um guia para o desenvolvedor.

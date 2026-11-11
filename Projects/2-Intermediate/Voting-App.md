@@ -1,24 +1,24 @@
-# Voting App
+# App de Votação
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-Allow users to vote give multiple choices
+Permita que os usuários votem com múltiplas opções
 
-## User Stories
+## Histórias de Usuário
 
-- [ ] User can see a list of items he can vote on
-- [ ] These items must have a button that the user can click on to vote
-- [ ] After the user clicked a button, the user should see all the votes
+- [ ] O usuário pode ver uma lista de itens nos quais pode votar
+- [ ] Estes itens devem ter um botão no qual o usuário pode clicar para votar
+- [ ] Após o usuário clicar em um botão, o usuário deve ver todos os votos
 
-## Bonus features
+## Funcionalidades Bônus
 
-- [ ] Store items and votes in a database
-- [ ] Only allow authenticated users to vote
+- [ ] Armazenar itens e votos em um banco de dados
+- [ ] Permitir apenas usuários autenticados a votar
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-- [Firebase](https://firebase.google.com) for a realtime database
+- [Firebase](https://firebase.google.com) para um banco de dados em tempo real
 
-## Example projects
+## Projetos de Exemplo
 
-- [Voting App by Florin Pop on Codepen](https://codepen.io/FlorinPop17/full/NWKQWmq)
+- [App de Votação por Florin Pop no Codepen](https://codepen.io/FlorinPop17/full/NWKQWmq)

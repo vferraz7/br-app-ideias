@@ -1,39 +1,28 @@
-# Emoji Translator
+# Tradutor de Emoji
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-Emojis have become the _lingua franca_ of modern society. They are a fun and
-fast way to communicate, but an also extremely expressive mechanism for
-communicating emotions and reactions.
+Emojis se tornaram a _lingua franca_ da sociedade moderna. Eles são uma forma divertida e rápida de se comunicar, mas também um mecanismo extremamente expressivo para comunicar emoções e reações.
 
-The objective of the Emoji Translator app is to translate text entered by the
-user into an equivalent string of emojis, translated from one or more words in
-the original text, and words for which there is no corresponding emoji. 
+O objetivo do app Tradutor de Emoji é traduzir o texto inserido pelo usuário em uma string equivalente de emojis, traduzidos de uma ou mais palavras do texto original, e palavras para as quais não há emoji correspondente.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can enter a string of words, numbers, and punctuation into a text
-box
--   [ ] User can click a 'Translate' button to translate words in the entered
-text into their corresponding emojis.
--   [ ] User can see a warning message if 'Translate' was clicked, but the 
-input text box was empty or unchanged from the last translation.
--   [ ] User can see text elements in the entered text translated to their
-equivalent emojis in an output text box. Text elements for which there is no
-emoji will be left unchanged.
--   [ ] User can click a 'Clear' button to clear the input and output text boxes.
+-   [ ] O usuário pode inserir uma string de palavras, números e pontuação em uma caixa de texto
+-   [ ] O usuário pode clicar no botão 'Traduzir' para traduzir palavras no texto inserido em seus emojis correspondentes.
+-   [ ] O usuário pode ver uma mensagem de aviso se 'Traduzir' foi clicado, mas a caixa de texto de entrada estava vazia ou inalterada desde a última tradução.
+-   [ ] O usuário pode ver elementos de texto no texto inserido traduzidos para seus emojis equivalentes em uma caixa de texto de saída. Elementos de texto para os quais não há emoji permanecerão inalterados.
+-   [ ] O usuário pode clicar no botão 'Limpar' para limpar as caixas de texto de entrada e saída.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] Developer will implement an emoji synonym feature to allow the app to
-translate a wider variety of words to emoji.
--   [ ] User can select the language the input text is entered from a dropdown
-list of languages.
+-   [ ] O desenvolvedor implementará um recurso de sinônimos de emoji para permitir que o app traduza uma variedade maior de palavras para emoji.
+-   [ ] O usuário pode selecionar o idioma do texto de entrada em uma lista suspensa de idiomas.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-[Full Emoji List v12.0](https://unicode.org/emoji/charts/full-emoji-list.html)
+[Lista Completa de Emoji v12.0](https://unicode.org/emoji/charts/full-emoji-list.html)
 
-## Example projects
+## Projetos de Exemplo
 
 [Emoji Translate](https://emojitranslate.com/)

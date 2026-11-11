@@ -1,30 +1,30 @@
-# Movie Database App
+# App de Banco de Dados de Filmes
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-Find your next movie or create your watchlist with this App. It include reviews, rating, actors and anything you need to know about the movie.
+Encontre seu próximo filme ou crie sua lista de observação com este App. Ele inclui avaliações, classificações, atores e tudo o que você precisa saber sobre o filme.
 
--   This application will help users find their next movie to watch by showing helpful stats
--   Resource needed for the project is movie api, examples include Imdb, MovieDB etc.
+-   Este aplicativo ajudará os usuários a encontrar seu próximo filme para assistir mostrando estatísticas úteis
+-   Recurso necessário para o projeto é API de filmes, exemplos incluem IMDB, MovieDB etc.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see all the latest movie on the front page
--   [ ] User scroll down to see all other movies according to release date
--   [ ] User can click on any of the movie to go to their own separate page
--   [ ] User can then see all about the movie ratings, about, actors present on each separate movie page
+-   [ ] O usuário pode ver todos os filmes mais recentes na página inicial
+-   [ ] O usuário rola para baixo para ver todos os outros filmes de acordo com a data de lançamento
+-   [ ] O usuário pode clicar em qualquer filme para ir para sua própria página separada
+-   [ ] O usuário pode então ver tudo sobre o filme: avaliações, sobre, atores presentes em cada página separada do filme
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can create an account
--   [ ] User can create their own watch list
--   [ ] User can review movies
+-   [ ] O usuário pode criar uma conta
+-   [ ] O usuário pode criar sua própria lista de observação
+-   [ ] O usuário pode avaliar filmes
 
-## Useful links and resources
+## Links e Recursos Úteis
 
--   [MovieDB Api](https://developers.themoviedb.org/3)
+-   [API do MovieDB](https://developers.themoviedb.org/3)
 
-## Example projects
+## Projetos de Exemplo
 
-[Movie Database App w/ React by Oliver Gomes](http://phobic-heat.surge.sh/)  
-[Movie Browser App w/ React&Redux&Bootstrap by Nataliia Pylypenko](https://api-cinema-10d15.firebaseapp.com/)
+[App de Banco de Dados de Filmes w/ React por Oliver Gomes](http://phobic-heat.surge.sh/)  
+[Navegador de Filmes w/ React&Redux&Bootstrap por Nataliia Pylypenko](https://api-cinema-10d15.firebaseapp.com/)
