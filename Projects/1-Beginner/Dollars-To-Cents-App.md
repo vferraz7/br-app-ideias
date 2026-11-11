@@ -1,29 +1,29 @@
-# Dollars To Cents
+# Dollars to Cents
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-Converting dollars to cents would enable you to practice your fundamental knowledge of programming. Loops, if conditions and a simple algorithm will be used.
-Your task is to let the user input a dollar value (float), assuming that it can also accept extra cents (ex. $2.75), and convert it into an integer (in this case, if $2.75 = 275). After this, convert into coins with the sub-type of dollars: penny, nickel, dime and quarter. Use an algorithm that would divide the dollar value to the four coin types, and output few coins as possible.
+Converter dólares para centavos permite que você pratique seus conhecimentos fundamentais de programação. Loops, condições if e um algoritmo simples serão usados.
+Sua tarefa é permitir que o usuário insira um valor em dólares (ponto flutuante), assumindo que também pode aceitar centavos extras (ex: $2.75), e convertê-lo em um inteiro (neste caso, se $2.75 = 275). Depois disso, converta em moedas com os sub-tipos de dólar: centavo (penny), níquel (nickel), dime e quarter (25 centavos). Use um algoritmo que divida o valor em dólares nos quatro tipos de moedas, e produza o menor número possível de moedas.
 
-The challenge: Try this without using any frameworks.
+O desafio: Tente fazer isso sem usar nenhum framework.
 
-(EX. If you have $0.58, I would have 4 coins: 2 quarters, 0 dimes, 1 nickel and 3 pennies)
+(EX. Se você tem $0.58, seriam 4 moedas: 2 quarters, 0 dimes, 1 níquel e 3 centavos)
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can enter a dollar value
--   [ ] User can see the total cents from the converted dollar value
+-   [ ] O usuário pode inserir um valor em dólares
+-   [ ] O usuário pode ver o total de centavos do valor em dólares convertido
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see how many were pennies, nickels, quarters and dimes from the total cents
+-   [ ] O usuário pode ver quantos eram centavos, níqueis, quarters e dimes do total de centavos
 
-## Useful links and resources
+## Links e Recursos Úteis
 
--   [Math functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+-   [Funções Matemáticas](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 -   [Loops and iterations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
--   [Money values in JavaScript](https://timleland.com/money-in-javascript/)
+-   [Valores monetários em JavaScript](https://timleland.com/money-in-javascript/)
 
-## Example projects
+## Projetos de Exemplo
 
--   [Dollars to cents converter](https://github.com/LimonJuice322/Dollars-to-cents-converter)
+-   [Conversor Dollars to Cents](https://github.com/LimonJuice322/Dollars-to-cents-converter)

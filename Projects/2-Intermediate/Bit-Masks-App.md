@@ -1,27 +1,27 @@
 # Bit Masks
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-It's difficult to find an app that doesn't rely on some form of conditional
-logic to implement its functionality. This is almost always performed using 
-statements like:
+É difícil encontrar um app que não dependa de alguma forma de lógica
+condicional para implementar sua funcionalidade. Isso quase sempre é
+realizado usando instruções como:
 ```
 if (processAccount === true) { 
-  /* do something */
+  /* faça algo */
 }
 ```
-If and switch statements work well for a limited number of conditionals, but
-what if your app had 10's or 100's of conditionals to evaluate? Luckily, there's
-another way.
+Se as instruções if and switch funcionam bem para um número limitado de
+condicionais, mas e se seu app tivesse 10's ou 100's de condicionais
+para avaliar? Felizmente, existe outro caminho.
 
-The goal of the Bit Masks app is demonstrate how to use bit masks to evaluate
-longer sequences of switches without having to rely on long strings of 
-conditional statements.
+O objetivo do app Bit Masks é demonstrar como usar bit masks para
+avaliar sequências mais longas de interruptores sem precisar confiar em
+longas strings de instruções condicionais.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see a vertical list of checkboxes with the following cities
-and their timezones:
+-   [ ] O usuário pode ver uma lista vertical de caixas de seleção com as
+    seguintes cidades e seus fusos horários:
     - Moscow: GMT +3
     - Paris: GMT +2
     - Berlin: GMT +2
@@ -38,39 +38,40 @@ and their timezones:
     - Beijing: GMT +8
     - Ho Chi Mihn City: GMT +7
     - Mumbai: GMT +5
--   [ ] User can see a GMT search box where an integer representing a GMT offset
-can be entered into and a 'Find Cities' button.
--   [ ] User can click the 'Find Cities' button to display the names of the
-cities in that GMT offset in an output area.
+-   [ ] O usuário pode ver uma caixa de busca GMT onde um inteiro representando
+    um deslocamento GMT pode ser inserido and um botão 'Buscar Cidades'.
+-   [ ] O usuário pode clicar no botão 'Buscar Cidades' para exibir os
+    nomes das cidades naquele deslocamento GMT em uma área de saída.
 
-### Developer Notes
+### Notas do Desenvolvedor
 
-For this exercise the developer should use sequences of 24 
-binary bits, each corresponding a GMT time zone from +12 to -12 to map cities
-to their timezones. 
+Para este exercício o desenvolvedor deve usar sequências de 24 
+bits binários, cada um correspondendo a um fuso horário GMT de +12 a -12
+para mapear cidades para seus fusos horários. 
 
-Searches should be conducted by combining a bit mask for the desired time zone
-against the city-specific bit sequences to identify matches. Determining if a 
-city meets the search criteria shouldn't rely on a statement such as
+Buscas devem ser conduzidas combinando uma bit mask para o fuso horário
+desejado contra as sequências específicas das cidades para identificar
+correspondências. Determinar se uma cidade atende aos critérios de busca
+não deve confiar em uma instrução como
 ```
 if (city[i].gmtOffset === searchOffset ) {
   /* Found it! */
 }
 ```
-It should instead rely on a bitwise operation.
+Em vez disso, deve confiar em uma operação bit-a-bit.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can search for cities NOT in the GMT offset entered in the 
-search box.
--   [ ] User can see a summary count of the number of cities that met the
-search criteria.
+-   [ ] O usuário pode buscar cidades NÃO no deslocamento GMT inserido na
+    caixa de busca.
+-   [ ] O usuário pode ver uma contagem de resumo do número de cidades que
+    atenderam aos critérios de busca.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 - [World Time Zones](https://greenwichmeantime.com/time-zone/definition/)
 - [Bitwise Operators (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators)
 
-## Example projects
+## Projetos de Exemplo
 
 [Bitwise Operation](https://codepen.io/Lunoware/pen/VBZgQd)

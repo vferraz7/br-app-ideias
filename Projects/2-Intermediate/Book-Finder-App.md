@@ -1,26 +1,31 @@
 # Book Finder App
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-Create an application that will allow users to search for books by entering a query (Title, Author, etc). Display the resulting books in a list on the page with all the corresponding data.
+Crie uma aplicação que permitirá aos usuários buscar livros inserindo
+uma consulta (Título, Autor, etc). Exiba os livros resultantes em uma
+lista na página com todos os dados correspondentes.
 
-## User Stories
+## Histórias de Usuário
 
-- [ ] User can enter a search query into an `input` field
-- [ ] User can submit the query. This will call an API that will return an array of books with the corresponding data (**Title**, **Author**, **Published Date**, **Picture**, etc)
-- [ ] User can see the list of books appearing on the page
+- [ ] O usuário pode inserir uma consulta de busca em um campo de `entrada`
+- [ ] O usuário pode submeter a consulta. Isso chamará uma API que retornará
+    um array de livros com os dados correspondentes (**Título**, **Autor**,
+    **Data de Publicação**, **Imagem**, etc)
+- [ ] O usuário pode ver a lista de livros aparecendo na página
 
-## Bonus features
+## Funcionalidades Bônus
 
-- [ ] For each item in the list add a link that will send the User to an external site which has more information about the book
-- [ ] Implement a Responsive Design
-- [ ] Add loading animations
+- [ ] Para cada item na lista adicione um link que enviará o Usuário para
+    um site externo com mais informações sobre o livro
+- [ ] Implemente um Design Responsivo
+- [ ] Adicione animações de carregamento
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-You can use the [Google Books API](https://developers.google.com/books/docs/overview)
+Você pode usar a [Google Books API](https://developers.google.com/books/docs/overview)
 
-## Example projects
+## Projetos de Exemplo
 
 [Book Finder](https://book-finder-by-deyl.netlify.com/)
 [Search Books](https://booksure.netlify.app/)

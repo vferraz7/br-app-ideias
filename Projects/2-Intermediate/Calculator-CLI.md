@@ -1,25 +1,30 @@
 # Calculator CLI
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-Create a basic calculator with addition feature. 
+Crie uma calculadora básica com funcionalidade de adição. 
 
-## User Stories
+## Histórias de Usuário
 
-- [ ] User can add multiple numbers using `add` command.
-- [ ] User can add floating numbers using the `-f` flag.
-- [ ] User can add only even/odd numbers using `even`/`odd` sub-command.
-- [ ] User can use `--help` or `-h` flag to get all the available commands and flags.
-  
-> Note: The stories 1 and 2 are basically for static typed language, where passed arguments must be of same type.
+- [ ] O usuário pode somar múltiplos números usando o comando `add`.
+- [ ] O usuário pode somar números de ponto flutuante usando a flag `-f`.
+- [ ] O usuário pode somar apenas números pares/ímpares usando
+    sub-comando `even`/`odd`.
+- [ ] O usuário pode usar a flag `--help` ou `-h` para obter todos os
+    comandos and flags disponíveis.
+      
+> Nota: As histórias 1 and 2 são basicamente para linguagem com tipagem
+> estática, onde os argumentos passados devem ser do mesmo tipo.
 
-## Bonus Features
+## Funcionalidades Bônus
 
-- [ ] User can use all the basic arithmetic operations like (addition, subtraction, multiplication and divison).
-- [ ] User can use `--help` or `-h` flag to get the sub-commands of command.
-- [ ] **Power of** and **Square Root of** operation.
+- [ ] O usuário pode usar todas as operações aritméticas básicas como
+    (adição, subtração, multiplicação and divisão).
+- [ ] O usuário pode usar a flag `--help` ou `-h` para obter os
+    sub-comandos do comando.
+- [ ] Operação de **Potência** and **Raiz Quadrada**.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 - [5 keys to create a killer CLI in Go](https://blog.alexellis.io/5-keys-to-a-killer-go-cli/)
 - [How to build a CLI tool in NodeJS ?](https://www.freecodecamp.org/news/how-to-build-a-cli-tool-in-nodejs-bc4f67d898ec/)
@@ -28,6 +33,6 @@ Create a basic calculator with addition feature.
 - [How to create a CLI in golang with cobra](https://schadokar.dev/posts/how-to-create-a-cli-in-golang-with-cobra/)
 - [Building a Network Command Line Interface in Go](https://tutorialedge.net/golang/building-a-cli-in-go/)
 
-## Example projects
+## Projetos de Exemplo
 
 -   [my-calc](https://github.com/schadokar/my-calc)

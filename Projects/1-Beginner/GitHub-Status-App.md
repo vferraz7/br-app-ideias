@@ -1,45 +1,46 @@
 # GitHub Status
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-Web apps acquire data in many ways. Through user input in web pages, through
-API's to backend systems, from files and databases, and sometimes by "scraping"
-websites. The objective of the GitHub Status app is to introduce you to one
-way to scrape information from another web site.
+Apps Web adquirem dados de muitas formas. Através de entrada do usuário em páginas
+web, através de APIs para sistemas de backend, de arquivos e bancos de dados, e
+às vezes através de "scraping" de websites. O objetivo do app GitHub Status
+é introduzi-lo a uma forma de obter informações de outro website.
 
-GitHub Status uses the NPM Request package to retrieve the current GitHub site
-status from the [GitHub Status](https://www.githubstatus.com/) web site. The
-Request package allows websites to be retrieved not to a browser window, but
-as a JSON document that can be readily accessed by your code.
+O GitHub Status usa o pacote NPM Request para recuperar o status atual do
+site GitHub do website [GitHub Status](https://www.githubstatus.com/). O
+pacote Request permite que websites sejam recuperados não para uma janela de
+navegador, mas como um documento JSON que pode ser prontamente acessado pelo
+seu código.
 
-Although this application specification relies heavily on Javascript, feel free
-to develop it using your language of choice!
+Embora esta especificação de aplicação dependa fortemente de Javascript, sinta-se
+à vontade para desenvolvê-la usando sua linguagem de preferência!
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see the current status for GitHub Git operations, API Requests,
-Operational Issues, PRs, Dashboard, & Projects, Operational Notifications,
-Operational Gists, and Operational GitHub Pages as a list in the main app
-window.
--   [ ] User can retrieve the most recent status from the GitHub Status web
-site by clicking a 'Get Status' button.
+-   [ ] O usuário pode ver o status atual para Git Operations do GitHub, API Requests,
+Problemas Operacionais, PRs, Dashboard & Projects, Notificações Operacionais,
+Operational Gists, and Operational GitHub Pages como uma lista na
+janela principal do app.
+-   [ ] O usuário pode recuperar o status mais recente do website GitHub Status
+clicando no botão 'Obter Status'.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see any of the GitHub components that are not in 'Operational'
-status highlighted by a different color, background animation, or any other
-technique to make it stand out. Use your imagination!
+-   [ ] O usuário pode ver quaisquer componentes do GitHub que não estejam com status
+'Operacional' destacados com uma cor diferente, animação de fundo, ou
+qualquer outra técnica para torná-lo evidente. Use sua imaginação!
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 - [Web Scraping (Wikipedia)](https://en.wikipedia.org/wiki/Web_scraping)
 - [NPM Request](https://www.npmjs.com/package/request)
 - [Javascript JSON (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 - [Javascript Object Notation](https://json.org/)
-- Hint! You can use the following code to display the JSON for the GitHub Status
-web site page from the command line command `node ghstatus`. You can use this 
-output to determine which JSON element contain the status information you'll 
-need to develop this app.
+- Dica! Você pode usar o seguinte código para exibir o JSON do website
+GitHub Status a partir da linha de comando `node ghstatus`. Você pode usar essa
+saída para determinar quais elementos JSON contêm as informações de status
+que você precisará para desenvolver este app.
 ```
 ghstatus.js
 
@@ -49,7 +50,7 @@ request('https://www.githubstatus.com/',  { json: true }, (err, res, body) => {
 });
 ```
 
-## Example projects
+## Projetos de Exemplo
 
-- [Peter Luczynski's example](https://peterluczynski.github.io/github-status/)
-- [Diogo Moreira's example](https://diogomoreira.github.io/github-status/)
+- [Exemplo de Peter Luczynski](https://peterluczynski.github.io/github-status/)
+- [Exemplo de Diogo Moreira](https://diogomoreira.github.io/github-status/)

@@ -1,38 +1,46 @@
 # Product Landing Page
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-Whenever you have a product (or a service) that you want to sell, you'll want to have a website that will promote that product in the best way possible. You need to make sure that the information on the page is relevant, simple to understand and highlights all the awesome features of the product in order to higher the conversion rate.
+Sempre que você tiver um produto (ou serviço) que queira vender, vai querer
+ter um website que promova esse produto da melhor forma possível. Você
+precisa garantir que a informação na página seja relevante, simples de
+entender e destaque todas as incríveis funcionalidades do produto para
+aumentar a taxa de conversão.
 
-Conversion rate - the % of the visitors which purchase the product or service.
+Taxa de conversão - a % de visitantes que compram o produto ou serviço.
 
-When you have completed this app and the bonus features try leveling up your
-skills by expanding it to incorporate the features specified in the
-[Simple Online Store](../2-Intermediate/Simple-Online-Store.md).
+Quando você completar este app e as funcionalidades bônus tente elevar suas
+habilidades expandindo-o para incorporar as funcionalidades especificadas
+na [Simple Online Store](../2-Intermediate/Simple-Online-Store.md).
 
-## User Stories
+## Histórias de Usuário
 
-These will cover the visual part of the project.
+Estas cobrem a parte visual do projeto.
 
--   [ ] User can see on the page one or more images with the product
--   [ ] User can see a list with all the features of the product
--   [ ] User can see how this product will improve the buyers life. Why should he buy it?
--   [ ] User can see a contact section (a text with the email)
+-   [ ] O usuário pode ver na página uma ou mais imagens com o produto
+-   [ ] O usuário pode ver uma lista com todas as funcionalidades do produto
+-   [ ] O usuário pode ver como este produto vai melhorar a vida do
+    comprador. Por que ele deveria comprá-lo?
+-   [ ] O usuário pode ver uma seção de contato (um texto com o e-mail)
 
-## Bonus features
+## Funcionalidades Bônus
 
-These will cover the functional part of the project.
+Estas cobrem a parte funcional do projeto.
 
--   [ ] User can see a FAQ section
--   [ ] User can contact the staff members via a contact form
--   [ ] User can sign up to receive notifications about the product
--   [ ] User can purchase the product
+-   [ ] O usuário pode ver uma seção de FAQ
+-   [ ] O usuário pode contatar membros da equipe via formulário de
+    contato
+-   [ ] O usuário pode se inscrever para receber notificações sobre o
+    produto
+-   [ ] O usuário pode comprar o produto
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-There are plenty of Product Landing Pages out there. You can use [Dribbble](www.dribbble.com) and [Behance](www.behance.net) for inspiration.
+Existem muitas Product Landing Pages por aí. Você pode usar o
+[Dribbble](www.dribbble.com) and [Behance](www.behance.net) para inspiração.
 
-## Example projects
+## Projetos de Exemplo
 
 -   [Netlify](https://www.netlify.com/)
 -   [Product Landing Page - Codepen](https://codepen.io/l4ci/pen/LoGjk)

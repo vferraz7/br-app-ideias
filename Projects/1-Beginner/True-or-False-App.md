@@ -1,36 +1,41 @@
 # TrueOrFalse
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-Something every developer needs to clearly understand is the result of
-conditional expressions like `x === y`. This is a bit more involved for
-Javascript developers who must also understand the concept of _truthiness_.
+Algo que todo desenvolvedor precisa entender claramente é o resultado de
+expressões condicionais como `x === y`. Isso é um pouco mais envolvido
+para desenvolvedores Javascript que também devem entender o conceito de
+_veracidade_ (truthiness).
 
-TrueOrFalse helps by displaying the result when a conditional operator is
-applied to two values. Users can use this to test their knowledge and
-explore edge cases.
+TrueOrFalse ajuda exibindo o resultado quando um operador condicional é
+aplicado a dois valores. Os usuários podem usar isso para testar seus
+conhecimentos e explorar casos extremos.
 
-The two values and the conditional operator are entered by the user and the
-result to be displayed will be TRUE or FALSE. The implementation must not use
-the `eval()` function to generate the result of the conditional.
+Os dois valores and the conditional operator são inseridos pelo usuário
+and o resultado a ser exibido será TRUE ou FALSE. A implementação não
+deve usar a função `eval()` para gerar o resultado da condição.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can enter two strings to be compared
--   [ ] User can enter a valid Javascript conditional operator to be used to compare the two strings
--   [ ] User can see the result of the conditional as TRUE or FALSE
--   [ ] User can see a warning if the input strings or conditional operator that has been entered is not valid
+-   [ ] O usuário pode inserir duas strings para serem comparadas
+-   [ ] O usuário pode inserir um operador condicional Javascript válido para
+    ser usado para comparar as duas strings
+-   [ ] O usuário pode ver o resultado da condição como TRUE ou FALSE
+-   [ ] O usuário pode ver um aviso se as strings de entrada or conditional
+    operator inserido não for válido
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can specify the type of each of the two strings so numbers can be compared to strings, strings to booleans, etc
+-   [ ] O usuário pode especificar o tipo de cada uma das duas strings para
+    que números possam ser comparados com strings, strings com booleanos,
+    etc
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 -   [Comparison Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 -   [Conditional Javascript for Experts](https://hackernoon.com/conditional-javascript-for-experts-d2aa456ef67c)
 -   [Truthy and Falsy: When all is not equal in Javascript](https://www.sitepoint.com/javascript-truthy-falsy/)
 
-## Example projects
+## Projetos de Exemplo
 
 N/A

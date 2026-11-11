@@ -1,33 +1,39 @@
 # Quiz App
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-Practice and test your knowledge by answering questions in a quiz application.
+Pratique e teste seu conhecimento respondendo perguntas em um aplicativo
+de quiz.
 
-As a developer you can create a quiz application for testing coding skills of other developers. (HTML, CSS, JavaScript, Python, PHP, etc...)
+Como desenvolvedor você pode criar um aplicativo de quiz para testar
+habilidades de codificação de outros desenvolvedores. (HTML, CSS, JavaScript,
+Python, PHP, etc...)
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can start the quiz by pressing a `button`
--   [ ] User can see a question with 4 possible answers
--   [ ] After selecting an answer, display the next question to the User. Do this until the quiz is finished
--   [ ] At the end, the User can see the following statistics
-    -   Time it took to finish the quiz
-    -   How many correct answers did he get
-    -   A message showing if he `passed` or `failed` the quiz
+-   [ ] O usuário pode iniciar o quiz pressionando um `botão`
+-   [ ] O usuário pode ver uma pergunta com 4 possíveis respostas
+-   [ ] Após selecionar uma resposta, exiba a próxima pergunta para o
+    Usuário. Faça isso até o quiz terminar
+-   [ ] No final, o Usuário pode ver as seguintes estatísticas
+    -   Tempo que levou para terminar o quiz
+    -   Quantas respostas corretas ele conseguiu
+    -   Uma mensagem mostrando se ele `passou` ou `falhou` no quiz
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can share the result of a quiz on social media
--   [ ] Add multiple quizzes to the application. User can select which one to take
--   [ ] User can create an account and have all the scores saved in his dashboard. User can complete a quiz multiple times
+-   [ ] O usuário pode compartilhar o resultado de um quiz nas redes sociais
+-   [ ] Adicione múltiplos quizzes à aplicação. O usuário pode selecionar
+    qual fazer
+-   [ ] O usuário pode criar uma conta e ter todas as pontuações salvas em
+    seu painel. O usuário pode completar um quiz múltiplas vezes
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 -   [Open Trivia Database](https://opentdb.com/api_config.php)
 
-## Example projects
+## Projetos de Exemplo
 
--   [Quiz app built with React](http://tranquil-beyond-43849.herokuapp.com/) (wait for it to load as it is hosted on Heroku)
+-   [Quiz app built with React](http://tranquil-beyond-43849.herokuapp.com/) (espere carregar pois está hospedado no Heroku)
 -   [Quiz app interface](https://codepen.io/FlorinPop17/full/qqYNgW)
 -   [Quiz Progressive Web App built with React](https://github.com/SafdarJamal/quiz-app)

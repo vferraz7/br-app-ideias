@@ -1,32 +1,32 @@
-# Application Name
+# Nome da Aplicação
 
-**Tier:** Add corresponding tier (1-Beginner, 2-Intermediate, 3-Advanced)
+**Nível:** Adicione o nível correspondente (1-Iniciante, 2-Intermediário, 3-Avançado)
 
-Add a clear description of the application and its main features.
-Answer the following questions:
+Adicione uma descrição clara da aplicação e suas principais funcionalidades.
+Responda às seguintes perguntas:
 
--   "What is the purpose of this application?"
--   "Are there any resources needed in order to complete the project?" - If yes, be sure to add it.
+-   "Qual é o propósito desta aplicação?"
+-   "Existem recursos necessários para completar o projeto?" - Se sim, certifique-se de adicioná-los.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can ... first user story
--   [ ] User can ... second user story
--   [ ] User can ... third user story
--   [ ] User can ... fourth user story
--   [ ] User can ... fifth user story
+-   [ ] O usuário pode ... primeira história de usuário
+-   [ ] O usuário pode ... segunda história de usuário
+-   [ ] O usuário pode ... terceira história de usuário
+-   [ ] O usuário pode ... quarta história de usuário
+-   [ ] O usuário pode ... quinta história de usuário
 -   etc...
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can ... first bonus feature
--   [ ] User can ... second bonus feature
+-   [ ] O usuário pode ... primeira funcionalidade bônus
+-   [ ] O usuário pode ... segunda funcionalidade bônus
 -   etc...
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-Add useful links and resources corresponding to this project.
+Adicione links e recursos úteis correspondentes a este projeto.
 
-## Example projects
+## Projetos de Exemplo
 
-Add one or more examples of projects that have similar functionality to this application. This will act as a developer guide.
+Adicione um ou mais exemplos de projetos que tenham funcionalidade semelhante a esta aplicação. Isso servirá como guia para desenvolvedores.

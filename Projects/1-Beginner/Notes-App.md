@@ -1,28 +1,30 @@
 # Notes App
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-Create and store your notes for later purpose!
+Crie e armazene suas notas para uso posterior!
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can create a note
--   [ ] User can edit a note
--   [ ] User can delete a note
--   [ ] When closing the browser window the notes will be stored and when the User returns, the data will be retrieved
+-   [ ] O usuário pode criar uma nota
+-   [ ] O usuário pode editar uma nota
+-   [ ] O usuário pode excluir uma nota
+-   [ ] Ao fechar a janela do navegador as notas serão armazenadas e quando
+    o Usuário retornar, os dados serão recuperados
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can create and edit a note in Markdown format. On save it will convert Markdown to HTML
--   [ ] User can see the date when he created the note
+-   [ ] O usuário pode criar e editar uma nota em formato Markdown. Ao salvar
+    ele converterá Markdown para HTML
+-   [ ] O usuário pode ver a data em que criou a nota
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 -   [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 -   [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
 -   [Marked - A markdown parser](https://github.com/markedjs/marked)
 
-## Example projects
+## Projetos de Exemplo
 
 -   [Markdown Notes built with Angular on Codepen](https://codepen.io/nickmoreton/full/gbyygq)
 -   [Markdown Notes built with React](https://github.com/email2vimalraj/notes-app)

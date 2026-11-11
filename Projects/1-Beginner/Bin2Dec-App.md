@@ -1,47 +1,44 @@
 # Bin2Dec
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-Binary is the number system all digital computers are based on.
-Therefore it's important for developers to understand binary, or base 2,
-mathematics. The purpose of Bin2Dec is to provide practice and
-understanding of how binary calculations.
+O sistema binário é a base numérica em que todos os computadores digitais se fundamentam.
+Portanto, é importante que desenvolvedores entendam a matemática binária, ou base 2.
+O objetivo do Bin2Dec é proporcionar prática e compreensão de como funcionam os cálculos binários.
 
-Bin2Dec allows the user to enter strings of up to 8 binary digits, 0's
-and 1's, in any sequence and then displays its decimal equivalent.
+O Bin2Dec permite que o usuário insira sequências de até 8 dígitos binários, 0's
+e 1's, em qualquer ordem e então exibe seu equivalente decimal.
 
-This challenge requires that the developer implementing it follow these
-constraints:
+Este desafio requer que o desenvolvedor siga estas restrições:
 
--   Arrays may not be used to contain the binary digits entered by the user
--   Determining the decimal equivalent of a particular binary digit in the
-    sequence must be calculated using a single mathematical function, for
-    example the natural logarithm. It's up to you to figure out which function
-    to use.
+-   Arrays não podem ser usados para conter os dígitos binários inseridos pelo usuário
+-   Determinar o equivalente decimal de um determinado dígito binário na
+    sequência deve ser calculado usando uma única função matemática, por
+    exemplo, o logaritmo natural. Cabe a você descobrir qual função usar.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can enter up to 8 binary digits in one input field
--   [ ] User must be notified if anything other than a 0 or 1 was entered
--   [ ] User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered
+-   [ ] O usuário pode inserir até 8 dígitos binários em um campo de entrada
+-   [ ] O usuário deve ser notificado se algo diferente de 0 ou 1 for inserido
+-   [ ] O usuário visualiza o resultado em um único campo de saída contendo o equivalente decimal (base 10) do número binário inserido
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can enter a variable number of binary digits
+-   [ ] O usuário pode inserir uma quantidade variável de dígitos binários
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-[Binary number system](https://en.wikipedia.org/wiki/Binary_number)
+[Sistema de numeração binária](https://en.wikipedia.org/wiki/Binary_number)
 
-## Example projects
+## Projetos de Exemplo
 
-Try not to view this until you've developed your own solution:
+Tente não ver estes até desenvolver sua própria solução:
 
--   [Binary to decimal conversion program for beginners](https://www.youtube.com/watch?v=YMIALQE26KQ)
--   [Binary to Decimal converter using React](https://github.com/email2vimalraj/Bin2Dec)
--   [Binary to Decimal converter with plain html, js and css](https://grfreire.github.io/Bin2Dec/)
--   [Binary to Decimal converter using Flutter & Dart](https://github.com/israelss/AppIdeasCollection/tree/master/Tier1/Bin2Dec)
-    -   [Live preview built with Flutter for Web](https://bin2dec.web.app/#/)
--   [Binary to Decimal converter using React](https://github.com/geoffctn/Bin2Dec)
--   [Matrix-like Binary to Decimal converter using Angular](https://github.com/ZangiefWins/MatrixBin2Dec)
-    -   [Live preview on heroku](https://matrix-bin2dec.herokuapp.com/)
+-   [Programa de conversão binário para decimal para iniciantes](https://www.youtube.com/watch?v=YMIALQE26KQ)
+-   [Conversor Binário para Decimal usando React](https://github.com/email2vimalraj/Bin2Dec)
+-   [Conversor Binário para Decimal com html, js e css puros](https://grfreire.github.io/Bin2Dec/)
+-   [Conversor Binário para Decimal usando Flutter & Dart](https://github.com/israelss/AppIdeasCollection/tree/master/Tier1/Bin2Dec)
+    -   [Visualização ao vivo construída com Flutter para Web](https://bin2dec.web.app/#/)
+-   [Conversor Binário para Decimal usando React](https://github.com/geoffctn/Bin2Dec)
+-   [Conversor Binário para Decimal estilo Matrix usando Angular](https://github.com/ZangiefWins/MatrixBin2Dec)
+    -   [Visualização ao vivo no Heroku](https://matrix-bin2dec.herokuapp.com/)

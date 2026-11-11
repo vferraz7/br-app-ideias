@@ -1,25 +1,25 @@
 # Border-radius Previewer
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-The border-radius property can have multiple values changed. Preview how the shape looks while changing these values.
+A propriedade border-radius pode ter múltiplos valores alterados. Visualize como a forma fica enquanto altera esses valores.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see a box which has a `border-radius` property applied to it
--   [ ] User can change the 4 `border-radius` values that are applied to the box (top-left, top-right, bottom-left, bottom-right)
--   [ ] User can copy the resulting CSS to the clipboard
+-   [ ] O usuário pode ver uma caixa com a propriedade `border-radius` aplicada
+-   [ ] O usuário pode alterar os 4 valores de `border-radius` aplicados à caixa (topo-esquerdo, topo-direito, inferior-esquerdo, inferior-direito)
+-   [ ] O usuário pode copiar o CSS resultante para a área de transferência
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can change all 8 possible values of the border-radius in order to create a complex shape
+-   [ ] O usuário pode alterar todos os 8 valores possíveis do border-radius para criar uma forma complexa
 
-## Useful links and resources
+## Links e Recursos Úteis
 
--   [CSS3 Borders](https://www.w3schools.com/css/css3_borders.asp)
--   [Copy to Clipboard](https://www.w3schools.com/howto/howto_js_copy_clipboard.asp)
+-   [Bordas CSS3](https://www.w3schools.com/css/css3_borders.asp)
+-   [Copiar para Área de Transferência](https://www.w3schools.com/howto/howto_js_copy_clipboard.asp)
 
-## Example projects
+## Projetos de Exemplo
 
 -   [9elements Fancy Border Radius](https://9elements.github.io/fancy-border-radius/)
 -   [Border Radius](https://border-radius.com/)

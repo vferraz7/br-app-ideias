@@ -1,62 +1,72 @@
 # Charity Finder
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-With the Charity Finder app you'll not only get to refine your Web Developer
-skills, but you will also have an opportunity to see how you can do good. The
-objective of this app is to utilize the [Global Giving](https://www.globalgiving.org/) organizations API to provide your users with a list of global charities they
-can search to find a charity that matches their philanthropic interests.
+Com o app Charity Finder você não apenas vai aprimorar suas habilidades
+de Desenvolvedor Web, mas também terá a oportunidade de ver como pode
+fazer o bem. O objetivo deste app é utilizar a API da organização
+[Global Giving](https://www.globalgiving.org/) para fornecer aos seus
+usuários uma lista de ONGs globais que podem ser buscadas para encontrar
+uma organização que corresponda aos seus interesses filantrópicos.
 
-### Constraints
-- Since the app is asking the user to choose and contribute to a charitable
-cause it's important that the presentation of information be clear and concise.
-Just as important is the need for the UI/UX to be polished and engaging to use.
+### Restrições
 
-   Although this is true of all apps, its even more the case here since each
-user that abandons the site represents the loss of an opportunity to do good
-(see ['What is Web Site Conversion?](##useful-links-and-resources)) below.
+- Como o app pede ao usuário para escolher and contribuir para uma causa
+  beneficente é importante que a apresentação da informação seja clara
+  and concisa.
+  Igualmente importante é a necessidade de que a UI/UX seja polida and
+  envolvente para usar.
 
-## User Stories
+  Embora isso seja verdade para todos os apps, é ainda mais o caso
+  aqui já que cada usuário que abandona o site representa a perda de
+  uma oportunidade de fazer o bem (veja ['What is Web Site Conversion?](#useful-links-and-resources)) abaixo.
 
--   [ ] User can see a page heading containing the application name.
--   [ ] User can see an overview of what the app is intended for in 'splash'
-page format.
--   [ ] User can see a search area containing an set of drop down boxes that
-allow the user to specify search criteria for charitable organizations
-including:
-    - Organization name
-    - Organizations home country
-    - Countries the organization serves
--   [ ] User can see a 'Search' button
--   [ ] User can click on the 'Search' button to display information cards
-for the matching organizations in a search results area.
--   [ ] User can see organization information cards in the search results area
-containing:
+## Histórias de Usuário
+
+-   [ ] O usuário pode ver um cabeçalho da página contendo o nome da
+    aplicação.
+-   [ ] O usuário pode ver uma visão geral do propósito do app em formato
+    de 'página de apresentação'.
+-   [ ] O usuário pode ver uma área de busca contendo um conjunto de caixas
+    de seleção que permitem ao usuário especificar critérios de busca para
+    organizações beneficentes incluindo:
+    - Nome da organização
+    - País de origem da organização
+    - Países onde a organização atua
+-   [ ] O usuário pode ver um botão 'Buscar'
+-   [ ] O usuário pode clicar no botão 'Buscar' para exibir cartões de
+    informação para as organizações correspondentes em uma área de
+    resultados de busca.
+-   [ ] O usuário pode ver cartões de informação da organização na área
+    de resultados de busca contendo:
     - ID
-    - Name
-    - Address
+    - Nome
+    - Endereço
     - Logo
--   [ ] User can click the logo in the organizations information card to open a
-new window to that organizations home page.
--   [ ] User can see a page footer with links to your GitHub and social media
-accounts including social media icons (like the Twitter icon).
+-   [ ] O usuário pode clicar no logotipo no cartão de informação da
+    organização para abrir uma nova janela para a página inicial daquela
+    organização.
+-   [ ] O usuário pode ver um rodapé da página com links para seu GitHub
+    and contas de redes sociais incluindo ícones de redes sociais (como
+    o ícone do Twitter).
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see a search dropdown for themes the charity focuses on.
--   [ ] User can select multiple options in the search dropdowns.
--   [ ] User can see a project link (e.g. 'PROJECT') on the organization
-information card.
--   [ ] User can click on the project link to display a page with information
-describing the Global Giving project the organization is associated with.
-Hint: examine the structure of the JSON returned from the API to understand
-the relationship between projects and organizations.
+-   [ ] O usuário pode ver uma caixa de busca para temas que a ONG foca.
+-   [ ] O usuário pode selecionar múltiplas opções nas caixas de busca.
+-   [ ] O usuário pode ver um link de projeto (ex: 'PROJETO') no cartão
+    de informação da organização.
+-   [ ] O usuário pode clicar no link do projeto para exibir uma página
+    com informações descrevendo o projeto da Global Giving com o qual
+    a organização está associada.
+    Dica: examine a estrutura do JSON retornado pela API para entender
+    a relação entre projetos and organizações.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 - [What is Web Site Conversion?](https://www.marketing91.com/what-is-website-conversion/)
 - [Global Giving API](https://www.globalgiving.org/api/)
-- Sample XML for a project returned through the API:
+- Exemplo XML para um projeto retornado pela API:
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <projects numberFound="26842">
@@ -145,6 +155,6 @@ the relationship between projects and organizations.
 </projects>
 ```
 
-## Example projects
+## Projetos de Exemplo
 
 [Playing with card layout](https://codepen.io/bradjdouglas/pen/xOZJRz)

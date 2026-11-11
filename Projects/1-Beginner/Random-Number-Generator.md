@@ -1,28 +1,32 @@
 # Random-Number-Generator
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-Generate a random number between a range of defined minimun and maximun.
+Gere um número aleatório entre um intervalo de mínimo e máximo definidos.
 
-The generator allows the user to use the random property for purposes like games that contains some kind of lottary or for statistics.
+O gerador permite que o usuário use a propriedade aleatória para
+propósitos como jogos que contenham algum tipo de loteria ou para
+estatísticas.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can define maximun and minimun values for the random number.
--   [ ] User can press the generate button to generate random number.
+-   [ ] O usuário pode definir valores máximo e mínimo para o número
+    aleatório.
+-   [ ] O usuário pode pressionar o botão gerar para gerar número
+    aleatório.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can add option for negative values
--   [ ] User can add option for decimal numbers
+-   [ ] O usuário pode adicionar opção para valores negativos
+-   [ ] O usuário pode adicionar opção para números decimais
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 [What's this fuss about true randomness?](https://www.random.org/)
 
-## Example projects
+## Projetos de Exemplo
 
-Try not to view this until you've developed your own solution:
+Tente não ver isto até desenvolver sua própria solução:
 
 -   [Example](https://alonjoshua.github.io/random-number-generator/)
 -   [Project](https://github.com/AlonJoshua/random-number-generator/)

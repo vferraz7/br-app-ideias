@@ -1,31 +1,45 @@
-# Card-Memory-Game
+# Card Memory Game
 
-**Tier:** 2-Intermediate
+**Nível:** 2-Intermediário
 
-Card memory is a game where you have to click on a card to see what image is underneath it and try to find the matching image underneath the other cards.
+O jogo de memória de cartas é um jogo onde você precisa clicar em uma
+carta para ver qual imagem está embaixo dela and tentar encontrar a
+imagem correspondente embaixo das outras cartas.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see a grid with n x n cards (`n` is an integer). All the cards are faced down initially (`hidden` state)
--   [ ] User can click a button to start the game. When this button is clicked, a timer will start
--   [ ] User can click on any card to unveil the image that is underneath it (change it to `visible` state). The image will be displayed until the user clicks on a 2nd card
+-   [ ] O usuário pode ver uma grade com n x n cartas (`n` é um inteiro).
+    Todas as cartas estão viradas para baixo inicialmente (estado `hidden`)
+-   [ ] O usuário pode clicar em um botão para iniciar o jogo. Quando este
+    botão é clicado, um temporizador iniciará
+-   [ ] O usuário pode clicar em qualquer carta para revelar a imagem que
+    está embaixo dela (mude para estado `visible`). A imagem será exibida
+    até o usuário clicar em uma 2ª carta
 
-When the User clicks on the 2nd card:
+Quando o Usuário clica na 2ª carta:
 
--   [ ] If there is a match, the 2 cards will be eliminated from the game (either hide/remove them or leave them in the `visible` state)
--   [ ] If there isn't a match, the 2 cards will flip back to their original state (`hidden` state)
--   [ ] When all the matches have been found, the User can see a dialog box showing a Congratulations message with a counter displaying the time it took to finish the game
+-   [ ] Se houver correspondência, as 2 cartas serão eliminadas do jogo
+    (esconda/remova elas ou deixe-as no estado `visible`)
+-   [ ] Se não houver correspondência, as 2 cartas voltarão para seu
+    estado original (`hidden`)
+-   [ ] Quando todas as correspondências forem encontradas, O Usuário pode
+    ver uma caixa de diálogo com mensagem de Parabéns com um contador
+    exibindo o tempo que levou para terminar o jogo
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] Use can choose between multiple levels of difficulty (Easy, Medium, Hard). Increased difficulty means: decreasing the time available to complete and/or increasing the number of cards
--   [ ] User can see the game statistics (nr. of times he won / he lost, best time for each level)
+-   [ ] O usuário pode escolher entre múltiplos níveis de dificuldade
+    (Fácil, Médio, Difícil). Dificuldade aumentada significa:
+    diminuição do tempo disponível para completar and/ou aumento do
+    número de cartas
+-   [ ] O usuário pode ver as estatísticas do jogo (núm. de vezes que
+    ganhou / perdeu, melhor tempo para cada nível)
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 -   [Wikipedia](<https://en.wikipedia.org/wiki/Concentration_(game)>)
 
-## Example projects
+## Projetos de Exemplo
 
 -   [Flip - card memory game](https://codepen.io/zerospree/full/bNWbvW)
 -   [Memory Game](https://jdmedlock.github.io/memorygame/)

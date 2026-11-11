@@ -1,68 +1,73 @@
 # Vigenere Cipher
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-The rate and impact of security breaches in recent years makes it imperative
-that developers understand the methods bad actors use to compromise apps. 
-Understanding how an app can be compromised is the first step in coming up 
-with effective protection measures.
+A taxa e impacto de violações de segurança nos últimos anos torna
+imperativo que desenvolvedores entendam os métodos que atores mal-intencionados
+usam para comprometer apps. 
+Entender como um app pode ser comprometido é o primeiro passo para
+criar medidas de proteção eficazes.
 
-One of the easiest ways bad actors can compromise an app is to access
-data that's left unencrypted by the developer. There are a number of strong
-encryption algorithms available to ensure that data is not readable even if
-access is compromised. These include AES, Blowfish, and TripleDES to name a
-few. 
+Uma das formas mais fáceis de atores mal-intencionados comprometerem um app é
+acessando dados que são deixados sem criptografia pelo desenvolvedor. Existem
+vários algoritmos de criptografia fortes disponíveis para garantir que
+dados não sejam legíveis mesmo se o acesso for comprometido. Entre eles
+estão AES, Blowfish, and TripleDES para citar alguns. 
 
-However, these algorithms can be quite complex to implement so the objective
-of this app is to implement a classical encryption algorithm, the Vigenere
-Cipher to learn the basics of how ciphers work.
+No entanto, esses algoritmos podem ser bastante complexos de implementar então
+o objetivo deste app é implementar um algoritmo de criptografia clássico,
+a Cifra de Vigenère para aprender o básico de como cifras funcionam.
 
-### Requirements & Constraints
+### Requisitos & Restrições
 
-- Developers should use only native language features to implement the Vigenere
-Cipher. Libraries are not allowed.
-- Developers should design and implement their own solution using only the
-description of the steps in the Vigenere Cipher algorithm.
-- After successfully implementing this algorithm Developer should ask
-themselves these questions:
-    - Would you feel confident encrypting your financial information using the
-    Vigenere Cipher? Why?
-    - How would you detect that a message had been encrypted using the
-    Vigenere Cipher?
-    - How would you go about trying to crack this encryption?
+- Desenvolvedores devem usar apenas recursos nativos da linguagem para implementar
+  a Cifra de Vigenère. Bibliotecas não são permitidas.
+- Desenvolvedores devem projetar e implementar sua própria solução usando
+  apenas a descrição dos passos do algoritmo da Cifra de Vigenère.
+- Após implementar com sucesso este algoritmo, o desenvolvedor deve se
+  perguntar:
+    - Você se sentiria confiante criptografando suas informações financeiras
+      usando a Cifra de Vigenère? Por quê?
+    - Como você detectaria que uma mensagem foi criptografada usando a
+      Cifra de Vigenère?
+    - Como você iria tentar quebrar essa criptografia?
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see the app window with these components:
-    - Plain text message input field
-    - Encryption key input field
-    - Action buttons - 'Encrypt' and 'Decrypt'
-    - Resulting encrypted or decrypted message
--   [ ] User can enter the text to be encrypted in the plain text message input
-field
--   [ ] User can enter the Encryption key the Vigenere algorithm will use to
-encrypt the plain text message.
--   [ ] User can click see see the 'Decrypt' button disabled until the plain
-text has been encrypted.
--   [ ] User can click the 'Encrypt' button to encrypt the plain text message
--   [ ] User can see the encrypted message displayed in the result field.
--   [ ] User can see the 'Decrypt' button enabled after the encrypted message
-has been displayed.
--   [ ] User can click the 'Decrypt' button to decrypt the encrypted message
-and to display its contents in the result field.
+-   [ ] O usuário pode ver a janela do app com estes componentes:
+    - Campo de entrada de texto em claro
+    - Campo de entrada de chave de criptografia
+    - Botões de ação - 'Criptografar' and 'Decifrar'
+    - Resultado da mensagem criptografada or decifrada
+-   [ ] O usuário pode inserir o texto a ser criptografado no campo de
+    entrada de texto em claro
+-   [ ] O usuário pode inserir a Chave de Criptografia que o algoritmo de
+    Vigenère usará para criptografar o texto em claro.
+-   [ ] O usuário pode ver o botão 'Decifrar' desabilitado até que o texto
+    em claro tenha sido criptografado.
+-   [ ] O usuário pode clicar no botão 'Criptografar' para criptografar o
+    texto em claro
+-   [ ] O usuário pode ver a mensagem criptografada exibida no campo de
+    resultado.
+-   [ ] O usuário pode ver o botão 'Decifrar' habilitado após a mensagem
+    criptografada ser exibida.
+-   [ ] O usuário pode clicar no botão 'Decifrar' para decifrar a mensagem
+    criptografada and exibir seu conteúdo no campo de resultado.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see a 'Compare' button after decryption that compares the 
-original plain text message with the decrypted message
--   [ ] User can see an error message if the 'Compare' detects differences
-in the contents of these two fields.
+-   [ ] O usuário pode ver um botão 'Comparar' após a decifração que
+    compara a
+    mensagem original em claro com a mensagem decifrada
+-   [ ] O usuário pode ver uma mensagem de erro se o 'Comparar' detectar
+    diferenças
+    no conteúdo desses dois campos.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-- [Bad Actors](http://solutionsreservoir.com/resources/introduction-to-cybersecurity/part-1-cybersecurity-overview)
+- [Bad Actors](http://solenski.com/resources/introduction-to-cybersecurity/part-1-cybersecurity-overview)
 - [Vigenere Cypher](https://www.geeksforgeeks.org/vigenere-cipher/)
 
-## Example projects
+## Projetos de Exemplo
 
 [Vigenere Encryption](https://codepen.io/max1128/pen/VdyJmd)

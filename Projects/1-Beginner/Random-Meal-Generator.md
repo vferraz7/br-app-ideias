@@ -1,24 +1,26 @@
 # Random Meal Generator
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-Generate a random meal from an API.
+Gere uma refeição aleatória de uma API.
 
-## User Stories
+## Histórias de Usuário
 
-- [ ] User can click a button that will get a random meal from an external API (see below)
-- [ ] The app should display: **Recipe name**, **Ingredients**, **Instructions** and a **Picture** of the meal
-- [ ] By clicking the button again, another meal will be generated
+- [ ] O usuário pode clicar em um botão que obterá uma refeição aleatória de
+    uma API externa (veja abaixo)
+- [ ] O app deve exibir: **Nome da Receita**, **Ingredientes**,
+    **Instruções** and uma **Imagem** da refeição
+- [ ] Ao clicar no botão novamente, outra refeição será gerada
 
-## Bonus features
+## Funcionalidades Bônus
 
-- [ ] The app should display a **YouTube Video**
+- [ ] O app deve exibir um **Vídeo do YouTube**
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 - [TheMealDB API](https://www.themealdb.com)
 
-## Example projects
+## Projetos de Exemplo
 
 - [Random Meal Generator by Florin Pop on Codepen](https://codepen.io/FlorinPop17/full/WNeggor)
 - [Random Meal Generator by ShinSpiegel on github](https://github.com/shinspiegel/random-meal-generator)

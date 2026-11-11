@@ -1,63 +1,69 @@
 # Pearson Regression
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-There are few, if any, applications that don't require some form of 
-cross-disciplinary knowledge in order to implement useful functionality for
-a user. In the case of an app for the medical profession it might be domain
-expertise in biology or pharmacology. A paint manufacturer or a crop science
-business might rely on apps with an intimate knowledge of chemistry. And, a 
-payroll application will certainly incorporate HR and accounting concepts.
+Existem poucas, se alguma, aplicações que não requerem alguma forma de
+conhecimento transdisciplinar para implementar funcionalidade útil para
+um usuário. No caso de um app para a profissão médica pode ser
+conhecimento em biologia ou farmacologia. Um fabricante de tintas ou um
+negócio de ciências agrícolas pode confiar em apps com conhecimento íntimo
+de química. E um aplicativo de folha de pagamento certamente incorporará
+conceitos de RH e contabilidade.
 
-Regardless of the industry segment an app is developed for one cross domain
-expertise in common with them all is mathematics. As an application developer
-you don't have to be a mathematician, but it's useful to have an understanding
-of how to apply mathematical concepts to the problems you are trying to solve.
+Não importa o segmento industrial para o qual um app é desenvolvido, uma
+especialização transdominio comum a todos é a matemática. Como um
+desenvolvedor de aplicações você não precisa ser um matemático, mas é útil
+ter um entendimento de como aplicar conceitos matemáticos aos problemas
+que você está tentando resolver.
 
-The objective of this app is to apply the Pearson Correlation Coefficient
-against two sets of data to provide the user with the degree to which they
-may or may not be related. For example, given a set of temperatures and another
-set of car prices this would let the user test whether or not they are related
-(spoiler alert: they are unrelated!).
+O objetivo deste app é aplicar o Coeficiente de Correlação de Pearson
+contra dois conjuntos de dados para fornecer ao usuário o grau com o
+qual eles podem ou não ser relacionados. Por exemplo, dado um conjunto de
+temperaturas e outro conjunto de preços de carros isso permitiria ao
+usuário testar se eles são relacionados (alerta de spoiler: eles não
+são relacionados!).
 
-### Constraints
+### Restrições
 
-- The Developer must program all calculations without relying on a package.
+- O Desenvolvedor deve programar todos os cálculos sem confiar em um
+  pacote.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see an input panel with two input fields allowing entry of `x` 
-and `y` coordinates, and 'Add' and 'Calculate' buttons.
--   [ ] User can enter numbers into these boxes where `x` and `y` are observations
-from the two data sets.
--   [ ] User can click the 'Add' button to add the `x` and `y` to a tabular
-output area listing the pairs of observations.
--   [ ] User can see and error message if either of the two input fields are
-empty or do not contain valid real numbers.
--   [ ] User can see the 'Calculate' button is disabled until errors have been
-corrected.
--   [ ] User can click the 'Calculate' button to perform the regression analysis
-and to display its results.
--   [ ] User can see results of the calculation which include:
-    - Arithmetic means for both the `x` and `y` observations
-    - Standard deviations for both the `x` and `y` observations
-    - Pearson correlation coefficient with one of the following interpretations:
-      - No correlation
-      - Neutral
-      - Some correlation
+-   [ ] O usuário pode ver um painel de entrada com dois campos permitindo
+    entrada de coordenadas `x` e `y`, e botões 'Adicionar' and 'Calcular'.
+-   [ ] O usuário pode inserir números nestas caixas onde `x` and `y` são
+    observações dos dois conjuntos de dados.
+-   [ ] O usuário pode clicar no botão 'Adicionar' para adicionar `x` and `y`
+    a uma área de saída tabular listando os pares de observações.
+-   [ ] O usuário pode ver uma mensagem de erro se algum dos dois campos de
+    entrada estiver vazio ou não contiver números reais válidos.
+-   [ ] O usuário pode ver o botão 'Calcular' desabilitado até que os erros
+    sejam corrigidos.
+-   [ ] O usuário pode clicar no botão 'Calcular' para realizar a análise de
+    regressão e exibir seus resultados.
+-   [ ] O usuário pode ver os resultados do cálculo que incluem:
+    - Médias aritméticas para ambas as observações `x` and `y`
+    - Desvios padrão para ambas as observações `x` and `y`
+    - Coeficiente de correlação de Pearson com uma das seguintes
+      interpretações:
+      - Sem correlação
+      - Neutro
+      - Alguma correlação
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see a scatter plot of the observations
--   [ ] User can upload observations from a file on the local machine.
--   [ ] User can see a regression line overlaying the scatter plot
+-   [ ] O usuário pode ver um gráfico de dispersão das observações
+-   [ ] O usuário pode carregar observações de um arquivo da máquina local.
+-   [ ] O usuário pode ver uma linha de regressão sobreposta ao gráfico
+    de dispersão
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 - [Pearson Correlation Coefficient (Wikipedia)](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
 - [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression)
 - [Pearson's Correlation Coefficient](http://www.code-in-javascript.com/pearsons-correlation-coefficient-in-javascript/)
 
-## Example projects
+## Projetos de Exemplo
 
 [Correlation](https://memory.psych.mun.ca/tech/js/correlation.shtml)

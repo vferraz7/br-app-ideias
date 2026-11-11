@@ -1,67 +1,71 @@
 # Hello
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-It is a given that applications must provide users with the functionality
-necessary to accomplish some task or goal. The effectiveness of app functionality
-is the first determinate of how users perceive the apps they use. However, it
-is not the only thing that influences user satisfaction.
+É um fato que aplicações devem fornecer aos usuários a funcionalidade
+necessária para realizar alguma tarefa ou objetivo. A eficácia da
+funcionalidade do app é o primeiro determinante de como os usuários percebem
+os apps que usam. No entanto, não é a única coisa que influencia a
+satisfação do usuário.
 
-The User Interface and User Experience (UI/UX) features developers build into
-apps have at least an equal amount of influence on users perception of an app.
-It may be an oversimplification, but UI/UX is largely (but not wholly)
-concerned with an apps "form". Personalization is an aspect of UX that tailors
-characteristics and actions to
-the individual user. Personalizing app functionality in this manner works to
-make the app easier and more pleasing to use.
+Os recursos de Interface do Usuário e Experiência do Usuário (UI/UX) que os
+desenvolvedores incluem nos apps têm pelo menos uma influência igual na
+percepção dos usuários sobre um app. Pode ser uma simplificação, mas UI/UX é
+largamente (mas não exclusivamente) preocupado com a "forma" de um app. A
+personalização é um aspecto da UX que adapta características e ações ao
+usuário individual. Personalizar a funcionalidade do app dessa forma
+torna o app mais fácil e agradável de usar.
 
-The objective of the Hello app is to leverage geolocation to obtain the users
-country so it can then generate a customized greeting in the users native
-language.
+O objetivo do app Hello é aproveitar geolocalização para obter o país do
+usuário para que ele possa então gerar uma saudação personalizada no
+idioma nativo do usuário.
 
-### Constraints
+### Restrições
 
--   Developers should use the [IP-API](http://ip-api.com/docs/api:json) service
-    to obtain the users IP.
--   Developers should use the
-    [Fourtonfish](https://www.fourtonfish.com/hellosalut/hello/) service to
-    obtain the greeting in the users native language by passing the users IP.
--   Developers must use a HTML entities decoding to decode the hello message.
+-   Desenvolvedores devem usar o serviço [IP-API](http://ip-api.com/docs/api:json)
+    para obter o IP dos usuários.
+-   Desenvolvedores devem usar o
+    serviço [Fourtonfish](https://www.fourtonfish.com/hellosalut/hello/) para
+    obter a saudação no idioma nativo dos usuários passando o IP dos
+    usuários.
+-   Desenvolvedores devem usar uma decodificação de entidades HTML para
+    decodificar a mensagem de saudação.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see a mock login panel containing a user name text input field,
-        a password text input field, and 'Login' and 'Logout' buttons.
--   [ ] User can enter a mock login name into the User Name field.
--   [ ] User can enter a mock password into the Password field. Input should
-        be masked so the user see's asterisks (`*`) for each character that is entered
-        rather than the plaintext password.
--   [ ] User can click the 'Login' button to perform a mock login.
--   [ ] User can see a message if either or both of the input fields are empty
-        and the border color of the field(s) in error should be changed to red.
--   [ ] User can see a login acknowledgement message in the format:
-        `<hello-in-native-language> <user-name> you have successfully logged in!`
--   [ ] User can click the 'Logout' button to clear the text input fields and
-        any previous messages.
--   [ ] User can see a new message when successfully logged out in the format:
-        `Have a great day <user-name>!`
+-   [ ] O usuário pode ver um painel de login simulado contendo um campo de texto para
+        nome de usuário, um campo de texto para senha, e os botões 'Login' e 'Logout'.
+-   [ ] O usuário pode inserir um nome de usuário simulado no campo Nome de Usuário.
+-   [ ] O usuário pode inserir uma senha simulada no campo Senha. A entrada deve
+        ser mascarada para que o usuário veja asteriscos (`*`) para cada caractere
+        inserido em vez da senha em texto plano.
+-   [ ] O usuário pode clicar no botão 'Login' para realizar um login simulado.
+-   [ ] O usuário pode ver uma mensagem se algum ou ambos os campos de entrada estiverem
+        vazios e a cor da borda do(s) campo(s) com erro deve ser alterada para
+        vermelho.
+-   [ ] O usuário pode ver uma mensagem de confirmação de login no formato:
+        `<saudação-em-idioma-nativo> <nome-usuario> você logou com sucesso!`
+-   [ ] O usuário pode clicar no botão 'Logout' para limpar os campos de texto
+        e quaisquer mensagens anteriores.
+-   [ ] O usuário pode ver uma nova mensagem quando logado com sucesso no formato:
+        `Tenha um ótimo dia <nome-usuario>!`
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see an additional text input field for a language code which
-        will be used to override the IP obtained through geolocation. Hint:
-        this is a great feature for testing your app.
--   [ ] User can see additional geolocation information after logging on that
-        includes at least the local IP address, city, region, country name, zip code,
-        longitude, latitude, and timezone.
+-   [ ] O usuário pode ver um campo de texto adicional para um código de idioma que
+        será usado para substituir o IP obtido através de geolocalização. Dica:
+        isso é um ótimo recurso para testar seu app.
+-   [ ] O usuário pode ver informações adicionais de geolocalização após logar que
+        inclui pelo menos o endereço IP local, cidade, região, nome do país, CEP,
+        longitude, latitude, e fuso horário.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 -   [Form Follows Function (Wikipedia)](https://en.wikipedia.org/wiki/Form_follows_function)
--   [Personalization (Wikipedia)](https://en.wikipedia.org/wiki/Personalization)
+-   [Personalização (Wikipedia)](https://en.wikipedia.org/wiki/Personalization)
 -   [Fourtonfish](https://www.fourtonfish.com/hellosalut/hello/)
 -   [IP-API](http://ip-api.com/docs/api:json)
 
-## Example projects
+## Projetos de Exemplo
 
 [Fourtonfish Hello World](https://fourtonfish.com/hellosalut/helloworld/)

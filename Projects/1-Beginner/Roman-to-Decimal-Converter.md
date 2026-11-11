@@ -1,12 +1,14 @@
-# Roman to Decimal numbers Converter
+# Roman to Decimal Numbers Converter
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-The numeric system represented by Roman numerals originated in ancient Rome and remained the
-usual way of writing numbers throughout Europe well into the Late Middle Ages.
-Roman numerals, as used today, employ seven symbols, each with a fixed integer value.
+O sistema numérico representado por números romanos originou-se na Roma
+antiga e permaneceu a forma usual de escrever números em toda a Europa
+bem até o Final da Idade Média.
+Números romanos, como usados hoje, empregam sete símbolos, cada um com
+um valor inteiro fixo.
 
-See the below table the _Symbol - Value_ pairs:
+Veja abaixo a tabela de pares _Símbolo - Valor_:
 
 -   I - 1
 -   V - 5
@@ -16,23 +18,28 @@ See the below table the _Symbol - Value_ pairs:
 -   D - 500
 -   M - 1000
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User should be able to enter one Roman number in an input field
--   [ ] User could see the results in a single output field containing the decimal (base 10) equivalent of the roman number that was entered by pressing a button
--   [ ] If a wrong symbol is entered, the User should see an error
+-   [ ] O usuário deve poder inserir um número Romano em um campo de
+    entrada
+-   [ ] O usuário pode ver o resultado em um único campo de saída
+    contendo o equivalente decimal (base 10) do número romano que
+    foi inserido ao pressionar um botão
+-   [ ] Se um símbolo errado for inserido, O Usuário deve ver um erro
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User could see the conversion to be made automatically as I type
--   [ ] User should be able to convert from decimal to Roman (vice-versa)
+-   [ ] O usuário pode ver a conversão sendo feita automaticamente conforme
+    digita
+-   [ ] O usuário deve poder converter de decimal para Romano (e
+    vice-versa)
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 -   [An explanation of Roman Numbers](https://en.wikipedia.org/wiki/Roman_numerals)
 
-## Example projects
+## Projetos de Exemplo
 
-Try not to view this until you've developed your own solution:
+Tente não ver isto até desenvolver sua própria solução:
 
 -   [Roman Number Converter](https://www.calculatorsoup.com/calculators/conversions/roman-numeral-converter.php)

@@ -1,40 +1,43 @@
 # Key Value
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-Have you ever thought about what it means that the computer you are using is
-a digital device? Among other things it means that everything its capable of
-is achieved by translating a digital signal into a sequence of binary digits - 0's and 1's. These binary digits form codes used to represent data. 
+Você já pensou sobre o que significa que o computador que você está
+usando é um dispositivo digital? Entre outras coisas, significa que tudo o
+que ele é capaz de fazer é alcançado traduzindo um sinal digital em uma
+sequência de dígitos binários - 0's e 1's. Esses dígitos binários formam
+códigos usados para representar dados. 
 
-The keyboard you used to retrieve this project description is a great example
-of this. Pressing a key generates a digital signal that is translated by the
-computer into a code representing the key that was pressed.
+O teclado que você usou para recuperar esta descrição do projeto é um
+ótimo exemplo disso. Pressionar uma tecla gera um sinal digital que é
+traduzido pelo computador em um código representando a tecla que foi
+pressionada.
 
-The goal of the Key Value app is to display the encoded value on screen each
-time a key is pressed on the keyboard.
+O objetivo do app Key Value é exibir o valor codificado na tela cada
+vez que uma tecla é pressionada no teclado.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see a display panel containing a text area where the key value
-and key code will be displayed along with display areas for four other 
-indicators related to the keys on the keyboard - alt key, control key, 
-meta key, and shift key.
--   [ ] User can see the key code and key value displayed in the display panel
-corresponding to the key when it is pressed.
--   [ ] User can see the appropriate indicator change from 'False' to 'True' 
-when the alt, control, meta, or shift key is pressed.
+-   [ ] O usuário pode ver um painel de exibição contendo uma área de texto onde
+    o valor da tecla e o código da tecla serão exibidos junto com áreas
+    de exibição para outros quatro indicadores relacionados às teclas do
+    teclado - alt key, control key, meta key, and shift key.
+-   [ ] O usuário pode ver o código da tecla e o valor da tecla exibidos no
+    painel de exibição correspondentes à tecla quando pressionada.
+-   [ ] O usuário pode ver o indicador apropriado mudar de 'False' para 'True' 
+    quando a alt key, control key, meta key, or shift key for pressionada.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can hear a unique tone played when a key is pressed.
--   [ ] User can see the background color of the key code and value change when 
-a key is pressed.
+-   [ ] O usuário pode ouvir um tom único quando uma tecla é pressionada.
+-   [ ] O usuário pode ver a cor de fundo do código da tecla e valor mudar
+    quando uma tecla é pressionada.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 - [Digital Electronics](https://en.wikipedia.org/wiki/Digital_electronics)
 - [Keyboard Event](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent)
 
-## Example projects
+## Projetos de Exemplo
 
 [Javascript Keyevent Test Script](https://unixpapa.com/js/testkey.html)

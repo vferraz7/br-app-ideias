@@ -1,43 +1,55 @@
 # Word Frequency
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-Calculating the frequency of words in a block of text is a technique which has
-various uses in algorithms such as searching, sorting, and semantic analysis.
-The objective of the Word Frequency app is count the frequency of words in a
-block of text and create a tabular display of each unique word in the text
-along with its frequency, in descending order by frequency.
+Calcular a frequência de palavras em um bloco de texto é uma técnica
+que tem vários usos em algoritmos como busca, ordenação, and análise
+semântica.
+O objetivo do app Word Frequency é contar a frequência de palavras em
+um bloco de texto and criar uma exibição tabular de cada palavra
+única no texto junto com sua frequência, em ordem decrescente por
+frequência.
 
-## User Stories
+## Histórias de Usuário
 
--   [ ] User can see a text input box, a 'Translate' button, and a word
-        frequency table.
--   [ ] User can enter text (or cut and paste) into the input box. This input
-        box must allow the entry of large blocks of text (maximum of 2048 characters).
--   [ ] User can click the 'Translate' button to analyze the word frequency in
-        the text that has been input.
--   [ ] User can see an error message if the text input box is empty.
--   [ ] User can see the word frequency table populated when the 'Translate'
-        button is clicked. Each row in the table contains a word and the number of times
-        it occurs in the input text.
--   [ ] User can see the word frequency table ordered in descending sequence
-        by word frequency.
+-   [ ] O usuário pode ver uma caixa de entrada de texto, um botão
+    'Traduzir', and uma tabela de frequência de palavras.
+-   [ ] O usuário pode inserir texto (ou copiar and colar) na caixa de
+    entrada. Esta caixa de entrada deve permitir a entrada de grandes
+    blocos de texto (máximo de 2048 caracteres).
+-   [ ] O usuário pode clicar no botão 'Traduzir' para analisar a
+    frequência de palavras no
+    texto que foi inserido.
+-   [ ] O usuário pode ver uma mensagem de erro se a caixa de entrada
+    de texto estiver vazia.
+-   [ ] O usuário pode ver a tabela de frequência de palavras
+    preenchida quando o botão 'Traduzir'
+    for clicado. Cada linha na tabela contém uma palavra and o número
+    de vezes
+    que ela ocorre no texto inserido.
+-   [ ] O usuário pode ver a tabela de frequência de palavras ordenada
+    em sequência
+    decrescente por frequência da palavra.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see a graphical representation of the word frequency in a
-        bubble chart, column chart, or any other form of graphical representation the
-        developer chooses.
--   [ ] User may choose to enter the URL of a web page whose content is to be
-        analyzed instead of manually entering text. (Hint: See the
-        [Podcast Directory](../2-Intermediate/Podcast-Directory-App.md) application for ideas).
+-   [ ] O usuário pode ver uma representação gráfica da frequência de
+    palavras em um
+    gráfico de bolhas, gráfico de colunas, or qualquer outra forma de
+    representação gráfica
+    que o desenvolvedor escolher.
+-   [ ] O usuário pode optar por inserir a URL de uma página web cujo
+    conteúdo deve
+    ser analisado em vez de inserir texto manualmente. (Dica: veja o
+    aplicativo [Podcast Directory](../2-Intermediate/Podcast-Directory-App.md)
+    para ideias).
 
-## Useful links and resources
+## Links e Recursos Úteis
 
 -   [Bag of Words Model (Wikipedia)](https://en.wikipedia.org/wiki/Bag-of-words_model)
 -   [Semantic Analysis (Wikipedia)](https://en.wikipedia.org/wiki/Sentiment_analysis)
 
-## Example projects
+## Projetos de Exemplo
 
 - [Word Frequency Counter](https://codepen.io/maxotar/pen/aLrwJM)
 - [Bubble Chart](https://codepen.io/Quendoline/pen/pjELpM)

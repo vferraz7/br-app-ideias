@@ -1,178 +1,177 @@
-[![CodeRabbit](./coderabbit.jpg)](https://www.coderabbit.ai/?ref=app-ideas)
-Thank you [CodeRabbit](https://www.coderabbit.ai/?ref=app-ideas) for sponsoring this repository! 🙏
+[![CodeRabbit](./coderabbit.jpg)](https://www.coderabbit.ai/?ref=app-ideias)
+Obrigado [CodeRabbit](https://www.coderabbit.ai/?ref=app-ideias) por patrocinar este repositório! 🙏
 
-# :ledger: App Ideas Collection
+# :ledger: Coleção de Ideias de Apps
 
-Have you ever wanted to build something but you had no idea what to do? Just as
-authors sometimes have "writers block" it's also true for developers. This list is intended to solve this issue once and for all! 👍
+Você já quis construir algo mas não tinha ideia do que fazer? Assim como autores às vezes têm "bloqueio criativo", o mesmo acontece com desenvolvedores. Esta lista tem como objetivo resolver esse problema de vez! 👍
 
-These applications are:
+Estas aplicações são:
 
--   great for improving your coding skills :muscle:;
--   great for experimenting with new technologies 🆕;
--   great for adding to your portfolio to impress your next employer/client :file_folder:;
--   great for using as examples in tutorials (articles or videos) :page_with_curl:;
--   easy to complete and also easily extendable with new features :ok_hand:;
+-   ótimas para melhorar suas habilidades de programação :muscle:;
+-   ótimas para experimentar novas tecnologias 🆕;
+-   ótimas para adicionar ao seu portfólio e impressionar seu próximo empregador/cliente :file_folder:;
+-   ótimas para usar como exemplos em tutoriais (artigos ou vídeos) :page_with_curl:;
+-   fáceis de completar e também facilmente extensíveis com novas funcionalidades :ok_hand:;
 
-This is not just a simple list of projects, but a collection that describes each project in enough detail so that you can develop it from the ground up!
+Esta não é apenas uma simples lista de projetos, mas uma coleção que descreve cada projeto com detalhes suficientes para que você possa desenvolvê-lo do zero!
 
-Each project has the following **features**:
+Cada projeto possui as seguintes **características**:
 
-1. A clear and descriptive objective;
-2. A list of _User Stories_ which should be implemented (these stories act more as a guideline than a forced list of _To-Do's_. Feel free to add your own stories if you want);
-3. A list of bonus features that not only improve the base project, but also your skills at the same time (these are optional and should be attempted only after you have completed the required user stories)
-4. All the resources and links to help you find what you need to complete the project
+1. Um objetivo claro e descritivo;
+2. Uma lista de _Histórias de Usuário_ que devem ser implementadas (estas histórias servem mais como uma diretriz do que uma lista forçada de _tarefas_. Sinta-se à vontade para adicionar suas próprias histórias se quiser);
+3. Uma lista de funcionalidades bônus que não apenas melhoram o projeto base, mas também suas habilidades ao mesmo tempo (são opcionais e devem ser tentadas apenas após completar as histórias de usuário obrigatórias)
+4. Todos os recursos e links para ajudá-lo a encontrar o que precisa para completar o projeto
 
-Here you can [watch a video about this repository](https://www.youtube.com/watch?v=TNzCfgwIDCY).
+Aqui você pode [assistir a um vídeo sobre este repositório](https://www.youtube.com/watch?v=TNzCfgwIDCY).
 
-## Projects
+## Projetos
 
-Projects are divided into three tiers based on the knowledge and experience
-required to complete them.
+Os projetos estão divididos em três níveis com base no conhecimento e experiência
+necessários para completá-los.
 
-| Tier | Developer Profile                                                                                                                                                |
+| Nível | Perfil do Desenvolvedor                                                                                                                                                |
 | :--: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  1   | Developers in the early stages of their learning journey. Those who are typically focused on creating user-facing applications.                                  |
-|  2   | Developers at an intermediate stage of learning and experience. They are comfortable in UI/UX, using development tools, and building apps that use API services. |
-|  3   | Developers who have all of the above, and are learning more advanced techniques like implementing backend applications and database services.                    |
+|  1   | Desenvolvedores no início de sua jornada de aprendizado. Aqueles que tipicamente focam em criar aplicações voltadas ao usuário.                                  |
+|  2   | Desenvolvedores em estágio intermediário de aprendizado e experiência. Estão confortáveis com UI/UX, uso de ferramentas de desenvolvimento e construção de apps que consomem serviços de API. |
+|  3   | Desenvolvedores que têm todo o acima, e estão aprendendo técnicas mais avançadas como implementação de aplicações backend e serviços de banco de dados.                    |
 
-🌟 - New Project
+🌟 - Novo Projeto
 
-### Tier-1: Beginner Projects
+### Nível 1: Projetos Iniciante
 
-| Name                                                                              | Short Description                                          | Tier       |
+| Nome                                                                              | Descrição Breve                                          | Nível       |
 | --------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |
-| [Bin2Dec](./Projects/1-Beginner/Bin2Dec-App.md)                                   | Binary-to-Decimal number converter                         | 1-Beginner |
-| [Border Radius Previewer](./Projects/1-Beginner/Border-Radius-Previewer.md)       | Preview how CSS3 border-radius values affect an element    | 1-Beginner |
-| [Calculator](./Projects/1-Beginner/Calculator-App.md)                             | Calculator                                                 | 1-Beginner |
-| [Christmas Lights](./Projects/1-Beginner/Christmas-Lights-App.md)                 | Simulate a string of Christmas lights                      | 1-Beginner |
-| [Cause Effect App](./Projects/1-Beginner/Cause-Effect-App.md)                     | Click list item to display item details                    | 1-Beginner |
-| [Color Cycle](./Projects/1-Beginner/Color-Cycle-App.md)                           | Cycle a color value through incremental changes            | 1-Beginner |
-| [Countdown Timer](./Projects/1-Beginner/Countdown-Timer-App.md)                   | Event Countdown timer                                      | 1-Beginner |
-| [CSV2JSON App](./Projects/1-Beginner/CSV2JSON-App.md)                             | CSV to JSON converter                                      | 1-Beginner |
-| [Dollars to Cents](./Projects/1-Beginner/Dollars-To-Cents-App.md)                 | Convert dollars to cents                                   | 1-Beginner |
-| [Dynamic CSS Variables](./Projects/1-Beginner/Dynamic-CSSVar-app.md)              | Dynamically change CSS variable settings                   | 1-Beginner |
-| [First DB App](./Projects/1-Beginner/First-DB-App.md)                             | Your first Database app!                                   | 1-Beginner |
-| [Flip Image](./Projects/1-Beginner/Flip-Image-App.md)                             | Change the orientation of images across two axes           | 1-Beginner |
-| [GitHub Status](./Projects/1-Beginner/GitHub-Status-App.md)                       | Display Current GitHub Status                              | 1-Beginner |
-| [Hello](./Projects/1-Beginner/Hello-App.md)                                       | User native language greeting                              | 1-Beginner |
-| [IOT Mailbox Simulator](./Projects/1-Beginner/IOT-Mailbox-App.md)                 | Use callbacks to check your snail mail                     | 1-Beginner |
-| [JS Input Validation](./Projects/1-Beginner/Javascript-Validation-With-Regex.md)  | Script to validate inputs entered by a user using RegEx    | 1-Beginner |
-| [JSON2CSV App](./Projects/1-Beginner/JSON2CSV-App.md)                             | JSON to CSV converter                                      | 1-Beginner |
-| [Key Value](./Projects/1-Beginner/Key-Value-App.md)                               | Keyboard Event Values                                      | 1-Beginner |
-| [Lorem Ipsum Generator](./Projects/1-Beginner/Lorem-Ipsum-Generator.md)           | Generate lorem ipsum placeholder text                      | 1-Beginner |
-| [Notes App](./Projects/1-Beginner/Notes-App.md)                                   | Create an online note pad                                  | 1-Beginner |
-| [Pearson Regression](./Projects/1-Beginner/Pearson-Regression-App.md)             | Calculate the correlation coefficient for two sets of data | 1-Beginner |
-| [Pomodoro Clock](./Projects/1-Beginner/Pomodoro-Clock.md)                         | Task timer to aid personal productivity                    | 1-Beginner |
-| [Product Landing Page](./Projects/1-Beginner/Product-Landing-Page.md)             | Showcase product details for possible buyers               | 1-Beginner |
-| [Quiz App](./Projects/1-Beginner/Quiz-App.md)                                     | Test your knowledge by answering questions                 | 1-Beginner |
-| [Recipe App](./Projects/1-Beginner/Recipe-App.md)                                 | Recipe                                                     | 1-Beginner |
-| [Random Meal Generator](./Projects/1-Beginner/Random-Meal-Generator.md)           | Generate random meals                                      | 1-Beginner |
-| [Random Number Generator](./Projects/1-Beginner/Random-Number-Generator.md)       | Generate random number between range.                      | 1-Beginner |
-| [Roman to Decimal Converter](./Projects/1-Beginner/Roman-to-Decimal-Converter.md) | Convert Roman to Decimal numbers                           | 1-Beginner |
-| [Slider Design](./Projects/1-Beginner/Slider-Design.md)                           | Display images using a slider control                      | 1-Beginner |
-| [Stopwatch App](./Projects/1-Beginner/Stopwatch-App.md)                           | Count time spent on activities                             | 1-Beginner |
-| [TrueOrFalse](./Projects/1-Beginner/True-or-False-App.md)                         | Identify the result of a conditional comparison            | 1-Beginner |
-| [Vigenere Cipher](./Projects/1-Beginner/Vigenere-Cipher.md)                       | Encrypt text using the Vigenere Cypher                     | 1-Beginner |
-| [Wind Chill](./Projects/1-Beginner/Windchill-App.md)                              | Calculate the windchill factor from an actual temperature  | 1-Beginner |
-| [Word Frequency](./Projects/1-Beginner/Word-Frequency-App.md)                     | Calculate word frequency in a block of text                | 1-Beginner |
-| [Weather App](./Projects/1-Beginner/Weather-App.md)                               | Get the temperature, weather condition of a city.          | 1-Beginner |
+| [Bin2Dec](./Projects/1-Beginner/Bin2Dec-App.md)                                   | Conversor de números Binário para Decimal                  | 1-Iniciante |
+| [Border Radius Previewer](./Projects/1-Beginner/Border-Radius-Previewer.md)       | Visualize como valores CSS3 border-radius afetam um elemento | 1-Iniciante |
+| [Calculator](./Projects/1-Beginner/Calculator-App.md)                             | Calculadora                                                 | 1-Iniciante |
+| [Christmas Lights](./Projects/1-Beginner/Christmas-Lights-App.md)                 | Simule uma string de luzes de Natal                      | 1-Iniciante |
+| [Cause Effect App](./Projects/1-Beginner/Cause-Effect-App.md)                     | Clique no item da lista para exibir detalhes do item                    | 1-Iniciante |
+| [Color Cycle](./Projects/1-Beginner/Color-Cycle-App.md)                           | Varie um valor de cor através de mudanças incrementais            | 1-Iniciante |
+| [Countdown Timer](./Projects/1-Beginner/Countdown-Timer-App.md)                   | Temporizador de contagem regressiva para eventos                                      | 1-Iniciante |
+| [CSV2JSON App](./Projects/1-Beginner/CSV2JSON-App.md)                             | Conversor de CSV para JSON                                      | 1-Iniciante |
+| [Dollars to Cents](./Projects/1-Beginner/Dollars-To-Cents-App.md)                 | Converta dólares para centavos                                   | 1-Iniciante |
+| [Dynamic CSS Variables](./Projects/1-Beginner/Dynamic-CSSVar-app.md)              | Altere dinamicamente configurações de variáveis CSS                   | 1-Iniciante |
+| [First DB App](./Projects/1-Beginner/First-DB-App.md)                             | Seu primeiro app com Banco de Dados!                                   | 1-Iniciante |
+| [Flip Image](./Projects/1-Beginner/Flip-Image-App.md)                             | Altere a orientação de imagens em dois eixos           | 1-Iniciante |
+| [GitHub Status](./Projects/1-Beginner/GitHub-Status-App.md)                       | Exiba o Status Atual do GitHub                              | 1-Iniciante |
+| [Hello](./Projects/1-Beginner/Hello-App.md)                                       | Saudação no idioma nativo do usuário                              | 1-Iniciante |
+| [IOT Mailbox Simulator](./Projects/1-Beginner/IOT-Mailbox-App.md)                 | Use callbacks para verificar sua correspondência                     | 1-Iniciante |
+| [JS Input Validation](./Projects/1-Beginner/Javascript-Validation-With-Regex.md)  | Script para validar entradas do usuário usando RegEx    | 1-Iniciante |
+| [JSON2CSV App](./Projects/1-Beginner/JSON2CSV-App.md)                             | Conversor de JSON para CSV                                      | 1-Iniciante |
+| [Key Value](./Projects/1-Beginner/Key-Value-App.md)                               | Valores de Eventos de Teclado                                      | 1-Iniciante |
+| [Lorem Ipsum Generator](./Projects/1-Beginner/Lorem-Ipsum-Generator.md)           | Gere texto placeholder lorem ipsum                      | 1-Iniciante |
+| [Notes App](./Projects/1-Beginner/Notes-App.md)                                   | Crie um bloco de notas online                                  | 1-Iniciante |
+| [Pearson Regression](./Projects/1-Beginner/Pearson-Regression-App.md)             | Calcule o coeficiente de correlação para dois conjuntos de dados | 1-Iniciante |
+| [Pomodoro Clock](./Projects/1-Beginner/Pomodoro-Clock.md)                         | Temporizador de tarefas para auxiliar produtividade pessoal                    | 1-Iniciante |
+| [Product Landing Page](./Projects/1-Beginner/Product-Landing-Page.md)             | Apresente detalhes do produto para possíveis compradores               | 1-Iniciante |
+| [Quiz App](./Projects/1-Beginner/Quiz-App.md)                                     | Teste seu conhecimento respondendo perguntas                 | 1-Iniciante |
+| [Recipe App](./Projects/1-Beginner/Recipe-App.md)                                 | Receita                                                     | 1-Iniciante |
+| [Random Meal Generator](./Projects/1-Beginner/Random-Meal-Generator.md)           | Gere refeições aleatórias                                      | 1-Iniciante |
+| [Random Number Generator](./Projects/1-Beginner/Random-Number-Generator.md)       | Gere número aleatório dentro de um intervalo.                      | 1-Iniciante |
+| [Roman to Decimal Converter](./Projects/1-Beginner/Roman-to-Decimal-Converter.md) | Converta números Romanos para Decimais                           | 1-Iniciante |
+| [Slider Design](./Projects/1-Beginner/Slider-Design.md)                           | Exiba imagens usando controle de slider                      | 1-Iniciante |
+| [Stopwatch App](./Projects/1-Beginner/Stopwatch-App.md)                           | Conte tempo gasto em atividades                             | 1-Iniciante |
+| [TrueOrFalse](./Projects/1-Beginner/True-or-False-App.md)                         | Identifique o resultado de uma comparação condicional            | 1-Iniciante |
+| [Vigenere Cipher](./Projects/1-Beginner/Vigenere-Cipher.md)                       | Criptografe texto usando o Cifra de Vigenère                     | 1-Iniciante |
+| [Wind Chill](./Projects/1-Beginner/Windchill-App.md)                              | Calcule o fator de sensação térmica a partir de uma temperatura real  | 1-Iniciante |
+| [Word Frequency](./Projects/1-Beginner/Word-Frequency-App.md)                     | Calcule frequência de palavras em um bloco de texto                | 1-Iniciante |
+| [Weather App](./Projects/1-Beginner/Weather-App.md)                               | Obtenha temperatura e condição do tempo de uma cidade.          | 1-Iniciante |
 
-### Tier-2: Intermediate Projects
+### Nível 2: Projetos Intermediário
 
-| Name                                                                              | Short Description                                  | Tier           |
+| Nome                                                                              | Descrição Breve                                  | Nível           |
 | --------------------------------------------------------------------------------- | -------------------------------------------------- | -------------- |
-| [Bit Masks](./Projects/2-Intermediate/Bit-Masks-App.md)                           | Using Bit Masks for Conditions                     | 2-Intermediate |
-| [Book Finder App](./Projects/2-Intermediate/Book-Finder-App.md)                   | Search for books by multiple criteria              | 2-Intermediate |
-| [Calculator CLI](./Projects/2-Intermediate/Calculator-CLI.md)                     | Create a basic calculator cli.                     | 2-Intermediate |
-| [Card Memory Game](./Projects/2-Intermediate/Card-Memory-Game.md)                 | Memorize and match hidden images                   | 2-Intermediate |
-| [Charity Finder App](./Projects/2-Intermediate/Charity-Finder-App.md)             | Find a Global Charity to donate to                 | 2-Intermediate |
-| [Chrome Theme Extension](./Projects/2-Intermediate/Chrome-Theme-Extension.md)     | Build your own chrome theme extention.             | 2-Intermediate |
-| [Currency Converter](./Projects/2-Intermediate/Currency-Converter.md)             | Convert one currency to another.                   | 2-Intermediate |
-| [Drawing App](./Projects/2-Intermediate/Drawing-App.md)                           | Create digital artwork on the web                  | 2-Intermediate |
-| [Emoji Translator App](./Projects/2-Intermediate/Emoji-Translator-App.md)         | Translate sentences into Emoji                     | 2-Intermediate |
-| [Flashcards App](./Projects/2-Intermediate/FlashCards-App.md)                     | Review and test your knowledge through Flash Cards | 2-Intermediate |
-| [Flip Art App](./Projects/2-Intermediate/Flip-Art-App.md)                         | Animate a set of images                            | 2-Intermediate |
-| [Game Suggestion App](./Projects/2-Intermediate/Game-Suggestion-App.md)           | Create polls to decide what games to play          | 2-Intermediate |
-| [GitHub Profiles](./Projects/2-Intermediate/GitHub-Profiles.md)                   | A GitHub user search App                           | 2-Intermediate |
-| [HighStriker Game](./Projects/2-Intermediate/HighStriker-Game.md)                 | Highstriker strongman carnival game                | 2-Intermediate |
-| [Image Scanner](./Projects/2-Intermediate/Image-Scaner.md)                        | Image Scanner App                                  | 2-Intermediate |
-| [Markdown Previewer](./Projects/2-Intermediate/Markdown-Previewer.md)             | Preview text formatted in GitHub flavored markdown | 2-Intermediate |
-| [Markdown Table Generator](./Projects/2-Intermediate/Markdown-Table-Generator.md) | Convert a table into Markdown-formatted text       | 2-Intermediate |
-| [Math Editor](./Projects/2-Intermediate/math-editor.md)                           | A math editor for students to use                  | 2-Intermediate |
-| [Meme Generator App](./Projects/2-Intermediate/Meme-Generator-App.md)             | Create custom memes                                | 2-Intermediate |
-| [Name Generation using RNNs](./Projects/2-Intermediate/Name-Generator.md)         | Generate names using names dataset                 | 2-Intermediate |
-| [Password Generator](./Projects/2-Intermediate/Password-Generator.md)             | Generate random passwords                          | 2-Intermediate |
-| [Podcast Directory](./Projects/2-Intermediate/Podcast-Directory-App.md)           | Directory of favorite podcasts                     | 2-Intermediate |
-| [QR Code Badge Generator](./Projects/2-Intermediate/QRCode-Badge-App.md)          | Encode badge info in a QRcode                      | 2-Intermediate |
-| [Regular Expression Helper](./Projects/2-Intermediate/RegExp-Helper-App.md)       | Test Regular Expressions                           | 2-Intermediate |
-| [Sales Reciepts App](./Projects/2-Intermediate/Sales-DB-App.md)                   | Record Sales Receipts in a DB                      | 2-Intermediate |
-| [Simple Online Store](./Projects/2-Intermediate/Simple-Online-Store.md)           | Simple Online Store                                | 2-Intermediate |
-| [Sports Bracket Generator](./Projects/2-Intermediate/Sports-Bracket-Generator.md) | Generate a sports bracket diagram                  | 2-Intermediate |
-| [String Art](./Projects/2-Intermediate/String-Art.md)                             | An animation of moving, colored strings            | 2-Intermediate |
-| [This or That Game](./Projects/2-Intermediate/This-or-That-Game.md)               | This or That Game                                  | 2-Intermediate |
-| [Timezone Slackbot](./Projects/2-Intermediate/Timezone-Slackbot.md)               | Display Team Timezones                             | 2-Intermediate |
-| [To-Do App](./Projects/2-Intermediate/To-Do-App.md)                               | Manage personal to-do tasks                        | 2-Intermediate |
-| [Typing Practice](./Projects/2-Intermediate/Typing-Practice-App.md)               | Typing Practice                                    | 2-Intermediate |
-| [Voting App](./Projects/2-Intermediate/Voting-App.md)                             | Voting App                                         | 2-Intermediate |
+| [Bit Masks](./Projects/2-Intermediate/Bit-Masks-App.md)                           | Usando Bit Masks para Condições                     | 2-Intermediário |
+| [Book Finder App](./Projects/2-Intermediate/Book-Finder-App.md)                   | Busque livros por múltiplos critérios              | 2-Intermediário |
+| [Calculator CLI](./Projects/2-Intermediate/Calculator-CLI.md)                     | Crie uma calculadora CLI básica.                     | 2-Intermediário |
+| [Card Memory Game](./Projects/2-Intermediate/Card-Memory-Game.md)                 | Memorize e combine imagens ocultas                   | 2-Intermediário |
+| [Charity Finder App](./Projects/2-Intermediate/Charity-Finder-App.md)             | Encontre uma ONG global para doar                  | 2-Intermediário |
+| [Chrome Theme Extension](./Projects/2-Intermediate/Chrome-Theme-Extension.md)     | Construa sua própria extensão de tema do Chrome.             | 2-Intermediário |
+| [Currency Converter](./Projects/2-Intermediate/Currency-Converter.md)             | Converta uma moeda para outra.                   | 2-Intermediário |
+| [Drawing App](./Projects/2-Intermediate/Drawing-App.md)                           | Crie arte digital na web                  | 2-Intermediário |
+| [Emoji Translator App](./Projects/2-Intermediate/Emoji-Translator-App.md)         | Traduza frases para Emoji                     | 2-Intermediário |
+| [Flashcards App](./Projects/2-Intermediate/FlashCards-App.md)                     | Revise e teste seu conhecimento através de Flash Cards | 2-Intermediário |
+| [Flip Art App](./Projects/2-Intermediate/Flip-Art-App.md)                         | Anime um conjunto de imagens                            | 2-Intermediário |
+| [Game Suggestion App](./Projects/2-Intermediate/Game-Suggestion-App.md)           | Crie enquetes para decidir quais jogos jogar          | 2-Intermediário |
+| [GitHub Profiles](./Projects/2-Intermediate/GitHub-Profiles.md)                   | Um app de busca de usuários do GitHub                           | 2-Intermediário |
+| [HighStriker Game](./Projects/2-Intermediate/HighStriker-Game.md)                 | Jogo de martelo de força de parque de diversões                | 2-Intermediário |
+| [Image Scanner](./Projects/2-Intermediate/Image-Scaner.md)                        | App de Escâner de Imagem                                  | 2-Intermediário |
+| [Markdown Previewer](./Projects/2-Intermediate/Markdown-Previewer.md)             | Visualize texto formatado em GitHub flavored markdown | 2-Intermediário |
+| [Markdown Table Generator](./Projects/2-Intermediate/Markdown-Table-Generator.md) | Converta uma tabela em texto formatado em Markdown       | 2-Intermediário |
+| [Math Editor](./Projects/2-Intermediate/math-editor.md)                           | Um editor de matemática para estudantes                  | 2-Intermediário |
+| [Meme Generator App](./Projects/2-Intermediate/Meme-Generator-App.md)             | Crie memes personalizados                                | 2-Intermediário |
+| [Name Generation using RNNs](./Projects/2-Intermediate/Name-Generator.md)         | Gere nomes usando dataset de nomes                 | 2-Intermediário |
+| [Password Generator](./Projects/2-Intermediate/Password-Generator.md)             | Gere senhas aleatóneas                          | 2-Intermediário |
+| [Podcast Directory](./Projects/2-Intermediate/Podcast-Directory-App.md)           | Diretório de podcasts favoritos                     | 2-Intermediário |
+| [QR Code Badge Generator](./Projects/2-Intermediate/QRCode-Badge-App.md)          | Codifique informações do badge em um QRcode                      | 2-Intermediário |
+| [Regular Expression Helper](./Projects/2-Intermediate/RegExp-Helper-App.md)       | Teste Expressões Regulares                           | 2-Intermediário |
+| [Sales Receipts App](./Projects/2-Intermediate/Sales-DB-App.md)                   | Registre Comprovantes de Venda em um BD                      | 2-Intermediário |
+| [Simple Online Store](./Projects/2-Intermediate/Simple-Online-Store.md)           | Loja Online Simples                                | 2-Intermediário |
+| [Sports Bracket Generator](./Projects/2-Intermediate/Sports-Bracket-Generator.md) | Gere um diagrama de chaveamento esportivo                  | 2-Intermediário |
+| [String Art](./Projects/2-Intermediate/String-Art.md)                             | Uma animação de cordas coloridas em movimento            | 2-Intermediário |
+| [This or That Game](./Projects/2-Intermediate/This-or-That-Game.md)               | Jogo This or That                                  | 2-Intermediário |
+| [Timezone Slackbot](./Projects/2-Intermediate/Timezone-Slackbot.md)               | Exiba Fusos Horários da Equipe                             | 2-Intermediário |
+| [To-Do App](./Projects/2-Intermediate/To-Do-App.md)                               | Gerencie tarefas pessoais                        | 2-Intermediário |
+| [Typing Practice](./Projects/2-Intermediate/Typing-Practice-App.md)               | Prática de Digitação                                    | 2-Intermediário |
+| [Voting App](./Projects/2-Intermediate/Voting-App.md)                             | App de Votação                                         | 2-Intermediário |
 
-### Tier-3: Advanced Projects
+### Nível 3: Projetos Avançado
 
-| Name                                                                          | Short Description                                                   | Tier       |
+| Nome                                                                          | Descrição Breve                                                   | Nível       |
 | ----------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------- |
-| [Battleship Bot](./Projects/3-Advanced/Battleship-Bot.md)                     | Create a Discord bot that plays Battleship                          | 3-Advanced |
-| [Battleship Game Engine](./Projects/3-Advanced/Battleship-Game-Engine.md)     | Create a callable engine to play the Battleship game                | 3-Advanced |
-| [Boole Bots Game](./Projects/3-Advanced/Boole-Bot-Game.md)                    | Battling Bots driven by Boolean algebra                             | 3-Advanced |
-| [Calendar](./Projects/1-Beginner/Calendar-App.md)                             | Create your own Calendar                                            | 3-Advanced |
-| [Calorie Counter](./Projects/3-Advanced/Calorie-Counter-App.md)               | Calorie Counter Nutrition App                                       | 3-Advanced |
-| [Chat App](./Projects/3-Advanced/Chat-App.md)                                 | Real-time chat interface                                            | 3-Advanced |
-| [Contribution Tracker App](./Projects/3-Advanced/Contribution-Tracker-App.md) | Track funds donated to charity                                      | 3-Advanced |
-| [Elevator](./Projects/3-Advanced/Elevator-App.md)                             | Elevator simulator                                                  | 3-Advanced |
-| [Fast Food Simulator](./Projects/3-Advanced/FastFood-App.md)                  | Fast Food Restaurant Simulator                                      | 3-Advanced |
-| [Instagram Clone](./Projects/3-Advanced/Instagram-Clone-App.md)               | A clone of Facebook's Instagram app                                 | 3-Advanced |
-| [GitHub Timeline](./Projects/3-Advanced/GitHub-Timeline-App.md)               | Generate a timeline of a users GitHub Repos                         | 3-Advanced |
-| [Kudos Slackbot](./Projects/3-Advanced/Kudos-Slackbot.md)                     | Give recognition to a deserving peer                                | 3-Advanced |
-| [Movie App](./Projects/3-Advanced/Movie-App.md)                               | Browse, Find Ratings, Check Actors and Find you next movie to watch | 3-Advanced |
-| [MyPodcast Library](./Projects/3-Advanced/MyPodcast-Library-app.md)           | Create a library of favorite podcasts                               | 3-Advanced |
-| [NASA Exoplanet Query](./Projects/3-Advanced/NASA-Exoplanet-Query.md)         | Query NASA's Exoplanet Archive                                      | 3-Advanced |
-| [Shell Game](./Projects/3-Advanced/Shell-Game.md)                             | Animated shell game                                                 | 3-Advanced |
-| [Shuffle Deck](./Projects/3-Advanced/Shuffle-Deck-App.md)                     | Evaluate different algorithms for shuffling a card deck             | 3-Advanced |
-| [Slack Archiver](./Projects/3-Advanced/Slack-Archiver.md)                     | Archive Slack Messages                                              | 3-Advanced |
-| [Spell-It App](./Projects/3-Advanced/SpellIt-App.md)                          | A twist on the classic Speak N Spell game                           | 3-Advanced |
-| [Survey App](./Projects/3-Advanced/Survey-App.md)                             | Define, conduct, and view a survey                                  | 3-Advanced |
+| [Battleship Bot](./Projects/3-Advanced/Battleship-Bot.md)                     | Crie um bot de Discord que jogue Batalha Naval                          | 3-Avançado |
+| [Battleship Game Engine](./Projects/3-Advanced/Battleship-Game-Engine.md)     | Crie um engine chamável para jogar o jogo Batalha Naval                | 3-Avançado |
+| [Boole Bots Game](./Projects/3-Advanced/Boole-Bot-Game.md)                    | Bots de Batalha impulsionados por álgebra booleana                             | 3-Avançado |
+| [Calendar](./Projects/1-Beginner/Calendar-App.md)                             | Crie seu próprio Calendário                                            | 3-Avançado |
+| [Calorie Counter](./Projects/3-Advanced/Calorie-Counter-App.md)               | App de Contagem de Calorias / Nutrição                                       | 3-Avançado |
+| [Chat App](./Projects/3-Advanced/Chat-App.md)                                 | Interface de chat em tempo real                                            | 3-Avançado |
+| [Contribution Tracker App](./Projects/3-Advanced/Contribution-Tracker-App.md) | Acompanhe doações para caridade                                      | 3-Avançado |
+| [Elevator](./Projects/3-Advanced/Elevator-App.md)                             | Simulador de Elevador                                                  | 3-Avançado |
+| [Fast Food Simulator](./Projects/3-Advanced/FastFood-App.md)                  | Simulador de Restaurante de Fast Food                                      | 3-Avançado |
+| [Instagram Clone](./Projects/3-Advanced/Instagram-Clone-App.md)               | Um clone do app Instagram do Facebook                                 | 3-Avançado |
+| [GitHub Timeline](./Projects/3-Advanced/GitHub-Timeline-App.md)               | Gere uma linha do tempo dos Repos de um usuário do GitHub                         | 3-Avançado |
+| [Kudos Slackbot](./Projects/3-Advanced/Kudos-Slackbot.md)                     | Dê reconhecimento a um colega merecedor                                | 3-Avançado |
+| [Movie App](./Projects/3-Advanced/Movie-App.md)                               | Navegue, Encontre Avaliações, Confira Atores e Descubra seu próximo filme para assistir | 3-Avançado |
+| [MyPodcast Library](./Projects/3-Advanced/MyPodcast-Library-app.md)           | Crie uma biblioteca de podcasts favoritos                               | 3-Avançado |
+| [NASA Exoplanet Query](./Projects/3-Advanced/NASA-Exoplanet-Query.md)         | Consulte o Arquivo de Exoplanetas da NASA                                      | 3-Avançado |
+| [Shell Game](./Projects/3-Advanced/Shell-Game.md)                             | Jogo de copos animado                                                 | 3-Avançado |
+| [Shuffle Deck](./Projects/3-Advanced/Shuffle-Deck-App.md)                     | Avalie diferentes algoritmos para embaralhar um baralho             | 3-Avançado |
+| [Slack Archiver](./Projects/3-Advanced/Slack-Archiver.md)                     | Arquive Mensagens do Slack                                              | 3-Avançado |
+| [Spell-It App](./Projects/3-Advanced/SpellIt-App.md)                          | Uma releitura do clássico jogo Speak N Spell                           | 3-Avançado |
+| [Survey App](./Projects/3-Advanced/Survey-App.md)                             | Defina, conduza e visualize uma pesquisa                                  | 3-Avançado |
 
-## Plans for the future
+## Planos para o Futuro
 
-We are planning to add more and more projects to this repository. For this, we need your help! Find out how to contribute below. 👇
+Planejamos adicionar cada vez mais projetos a este repositório. Para isso, precisamos da sua ajuda! Saiba como contribuir abaixo. 👇
 
-We are also planning to create a website where you can easily browse through all of the projects.
+Também planejamos criar um site onde você possa navegar facilmente por todos os projetos.
 
-## Contribution
+## Contribuição
 
-Any contributions are highly appreciated. :pray: You can contribute in two ways:
+Todas as contribuições são muito bem-vindas. :pray: Você pode contribuir de duas formas:
 
-1. create an issue and tell us your idea :bulb:. Make sure that you use the **new idea** label in this case;
-2. fork the project and submit a PR with your new idea. Before doing that, please make sure that you read and follow the [Contribution Guide](./CONTRIBUTING.md);
+1. crie uma issue e conte sua ideia :bulb:. Certifique-se de usar o rótulo **nova ideia** neste caso;
+2. faça um fork do projeto e envie um PR com sua nova ideia. Antes disso, por favor, leia e siga o [Guia de Contribuição](./CONTRIBUTING.md);
 
-### Examples
+### Exemplos
 
-You can also add your own examples to the projects after you have completed them. I highly encourage you to do this as it will show others what amazing things were built! 👍
+Você também pode adicionar seus próprios exemplos aos projetos após completá-los. Eu encorajo fortemente isso pois mostrará aos outros o que foi construído! 👍
 
-## Spread the word!
+## Divulgue!
 
-If the information from this repo was useful to you in any way, make sure you give it a star 🌟, this way others can find it and benefit too! Together we can grow and make our community better! :smiley:
+Se a informação deste repositório foi útil de alguma forma, dê uma estrela 🌟, assim outros podem encontrá-lo e também se beneficiar! Juntos podemos crescer e melhorar nossa comunidade! :smiley:
 
-Do you have any suggestions on how we could improve this project overall? Let us know! We'd love to hear your feedback!
+Tem sugestões de como poderíamos melhorar este projeto? Deixe-nos saber! Adoraríamos seu feedback!
 
-### Main Contributors 🙂🙂
+### Principais Contribuidores 🙂🙂
 
--   **Florin Pop**: [Twitter](https://twitter.com/florinpop1705) - [YouTube Channel](https://youtube.com/florinpop) - [website](https://florin-pop.com).
--   **Jim Medlock**: [Twitter](https://twitter.com/jd_medlock) - [articles](https://medium.com/@jdmedlock)
+-   **Florin Pop**: [Twitter](https://twitter.com/florinpop1705) - [Canal YouTube](https://youtube.com/florinpop) - [site](https://florin-pop.com).
+-   **Jim Medlock**: [Twitter](https://twitter.com/jd_medlock) - [artigos](https://medium.com/@jdmedlock)
 
 ## 100Days100Projects 🚀
 
-As a bonus, I created the [#100Days100Projects challenge](https://www.florin-pop.com/blog/2019/09/100-days-100-projects). You can find in there 100 more ideas of smaller projects. Enjoy! 😄
+Como bônus, criei o [desafio #100Days100Projects](https://www.florin-pop.com/blog/2019/09/100-days-100-projects). Lá você encontra 100 ideias de projetos menores. Aproveite! 😄
 
-## Stars history
+## Histórico de Estrelas
 
 [![Stargazers over time](https://starchart.cc/florinpop17/app-ideas.svg)](https://starchart.cc/florinpop17/app-ideas)
